@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "historical_environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0",
+    "transformers": "5.15.0",
+    "timm": "1.0.28",
+    "numpy": "2.3.5",
+    "device": "mps"
+  },
+  "two_image_feature_regression": {
+    "qwen_max_abs_error": 7.450580596923828e-09,
+    "siglip2_exact": true,
+    "dinov2_exact": true,
+    "eva02_exact": true,
+    "convnextv2_exact": true,
+    "expq_ft_max_abs_error": 2.3365020751953125e-05
+  },
+  "initial_test_300": {
+    "raw_images_processed": 300,
+    "xbase_shape": [300, 8832],
+    "expq_ft_shape": [300, 1152],
+    "prediction_match": "300/300",
+    "manual_test_edits": 0
+  },
+  "cloud_training_smoke": {
+    "rows": 2,
+    "epochs": 1,
+    "delta_saved": true,
+    "delta_reloaded": true,
+    "portable_lr_trained": true,
+    "result_validation": true,
+    "run_train_sh": "PASS",
+    "run_infer_sh_with_cloud_models": "PASS"
+  },
+  "official_qwen_live_endpoint": "PENDING_FINAL_CLOUD_INTERFACE"
+}

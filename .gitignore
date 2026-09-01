@@ -1,0 +1,30 @@
+# macOS and filesystem metadata
+.DS_Store
+._*
+__MACOSX/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*credentials*.json
+
+# Runtime outputs and cloud datasets
+data/
+dataset/
+datasets/
+outputs/
+work/
+logs/
+*.log
+
+# Editor settings
+.idea/
+.vscode/

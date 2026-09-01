@@ -1,0 +1,10 @@
+{
+  "status": "INITIAL_EXPQ_CLASSIFIER_EXPORT_PASS",
+  "matched_reference": 300,
+  "feature_dim": 9984,
+  "classes": 22,
+  "iterations": [
+    64
+  ],
+  "sha256": "2a8365c39d57ed9f187576817f56dd75bf0e41828f8eb18991bc828a6a656d29"
+}

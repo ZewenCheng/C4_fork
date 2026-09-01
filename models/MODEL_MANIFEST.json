@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "models/backbones/eva02/MODEL_CARD.md",
+      "bytes": 5533,
+      "sha256": "3bb0a1acec4a1a708ff0702d2e55f1ca71909b0db070702fad51e5d85201ff95"
+    },
+    {
+      "path": "models/backbones/eva02/model.safetensors",
+      "bytes": 1220365908,
+      "sha256": "1b54182f1f92613b96bc9e325f3795bde38bd1708233bb77a07d5c52eed2d638"
+    },
+    {
+      "path": "models/classifier/class_names.json",
+      "bytes": 736,
+      "sha256": "21c10e8af87c4ec5b6f4634e69830368d77257f6d7499210f2f290cb88d9957c"
+    },
+    {
+      "path": "models/classifier/expq_lr.npz",
+      "bytes": 994209,
+      "sha256": "2a8365c39d57ed9f187576817f56dd75bf0e41828f8eb18991bc828a6a656d29"
+    },
+    {
+      "path": "models/classifier/expq_lr.report.json",
+      "bytes": 232,
+      "sha256": "5d58d4c94c300ed0cf2d7481a952bd2aaeddcb4e6d37f23d45891a1eb9085001"
+    },
+    {
+      "path": "models/eva_folds/fold_0.pt",
+      "bytes": 100872883,
+      "sha256": "1a00642073d64c410056e9afbc9377c3e525326e9dd443cd128032eddaf6aabf"
+    },
+    {
+      "path": "models/eva_folds/fold_1.pt",
+      "bytes": 100872883,
+      "sha256": "edb8d15e92ce805070227dd2db3aaa0d03766d4f34f9a2d0f7e90c440b4915aa"
+    },
+    {
+      "path": "models/eva_folds/fold_2.pt",
+      "bytes": 100872883,
+      "sha256": "ec2a8dae8f4cc37372ef38e0c6b4a7a045c4e9df1f19f2160172b84cecca99e1"
+    },
+    {
+      "path": "models/eva_folds/fold_3.pt",
+      "bytes": 100872883,
+      "sha256": "7d2d1c446f6bde02e2961f020fda8848601af40dec888d0be8c4a324c5844154"
+    },
+    {
+      "path": "models/eva_folds/fold_4.pt",
+      "bytes": 100872883,
+      "sha256": "7f2d6fa7965d572eb9a83e02b0af2880d7dcf448a4d40254cf36f5e7c030e1e7"
+    },
+    {
+      "path": "models/expq/BASE_MODEL_CARD.md",
+      "bytes": 290,
+      "sha256": "60a3053b040558ff3c481d6184fe2edd0c7d76526afbb4f66a3db4671723c801"
+    },
+    {
+      "path": "models/expq/ft_siglip2_final.pt",
+      "bytes": 1713135645,
+      "sha256": "e8e0ce5d06a84e1c5a16e1caccc5f9e0b348146e17492bdf07ee16ecfc8e43e2"
+    },
+    {
+      "path": "models/transformers/convnextv2_large/README.md",
+      "bytes": 3379,
+      "sha256": "fe4fb25fc94b66c1c6a575dcc3ce2a69bf694367284cac1a45780ec1a56a6e1d"
+    },
+    {
+      "path": "models/transformers/convnextv2_large/config.json",
+      "bytes": 69727,
+      "sha256": "befd4da5fe7bfbd9858b8441cbb12ac681c19856910b6e4edbac3fa9a863facf"
+    },
+    {
+      "path": "models/transformers/convnextv2_large/model.safetensors",
+      "bytes": 791873696,
+      "sha256": "5d797e01f9710e8c088137ceba47c9d634d129278f570c608e7f22d3a2d36521"
+    },
+    {
+      "path": "models/transformers/convnextv2_large/preprocessor_config.json",
+      "bytes": 352,
+      "sha256": "9ef34d18dbf7909143a91f05ad23457180fcfed05034bf94843f300e32a9b968"
+    },
+    {
+      "path": "models/transformers/dinov2_large/README.md",
+      "bytes": 3033,
+      "sha256": "0be39948cdb4f4c364c505c039cffe26ba8097b7300bf55f361952c8b17a5fee"
+    },
+    {
+      "path": "models/transformers/dinov2_large/config.json",
+      "bytes": 549,
+      "sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+    },
+    {
+      "path": "models/transformers/dinov2_large/model.safetensors",
+      "bytes": 1217522888,
+      "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23"
+    },
+    {
+      "path": "models/transformers/dinov2_large/preprocessor_config.json",
+      "bytes": 436,
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    },
+    {
+      "path": "models/transformers/siglip2_vision/README.md",
+      "bytes": 3381,
+      "sha256": "5c02af3cafc849e2acbc03630b4ef9de4cc3c29f8bbef613bf7484fe4be9a897"
+    },
+    {
+      "path": "models/transformers/siglip2_vision/config.json",
+      "bytes": 412,
+      "sha256": "89535c6b5017c47665d5a792f3228edd24ed66b91212ff2d5b7ea1f076ce1ceb"
+    },
+    {
+      "path": "models/transformers/siglip2_vision/model.safetensors",
+      "bytes": 1712951472,
+      "sha256": "ec05b4455a03a18fec42bcd3d3ff8daec46cf8f3a7e867f5317191ed1a546bab"
+    },
+    {
+      "path": "models/transformers/siglip2_vision/preprocessor_config.json",
+      "bytes": 354,
+      "sha256": "53ee5b8bb1221af386d9d2eff56cef2ef000ea2fe0147a3ef6b54b428605a4e0"
+    }
+  ],
+  "logical_bytes": 7161296647
+}
