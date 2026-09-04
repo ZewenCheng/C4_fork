@@ -14,7 +14,8 @@ if [ -n "${EXPQ_DELTA:-}" ]; then
 else
   "$PYTHON_BIN" "$ROOT/src/extract_features.py" --manifest "$MANIFEST" --output "$OUTPUT_DIR/test_features.npz"
 fi
-CLASSIFIER=${CLASSIFIER:-$ROOT/models/classifier/expq_lr.npz}
+MODEL_ROOT=${CQAIP_MODELS_DIR:-$ROOT/models}
+CLASSIFIER=${CLASSIFIER:-$MODEL_ROOT/classifier/expq_lr.npz}
 if [ -n "$TEMPLATE" ]; then
   "$PYTHON_BIN" "$ROOT/src/infer_cloud.py" --manifest "$MANIFEST" --features "$OUTPUT_DIR/test_features.npz" --classifier "$CLASSIFIER" --template-json "$TEMPLATE" --output "$OUTPUT_DIR/result.json"
 else

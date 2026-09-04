@@ -1,0 +1,13 @@
+# 本地适配环境；CUDA torch/torchvision 先按 docs/08_Qwen本地部署.md 安装。
+# 不用于覆盖赛事 PPU 环境。
+torch==2.9.0
+torchvision==0.24.0
+transformers==5.2.0
+qwen-vl-utils==0.0.14
+accelerate>=1.11,<2
+numpy==2.3.5
+Pillow==12.2.0
+requests>=2.32.5,<3
+psutil>=6,<8
+safetensors>=0.5,<1
+PyYAML>=6,<7

@@ -1,8 +1,8 @@
 """决赛官方Qwen3-VL Embedding适配层。
 
 默认调用OpenAI兼容的官方 ``/embeddings`` 接口，但不提供任何外部默认URL，
-避免在决赛环境中把图片误发到非官方服务。若官方提供本地Python接口，可通过
-``QWEN_PROVIDER_MODULE`` 指定一个实现 ``embed_items(items, model)`` 的模块。
+避免在决赛环境中把图片误发到非官方服务。通过 ``QWEN_PROVIDER_MODULE`` 可指定
+官方 SDK 或用户授权的本地原始权重实现；本地权重不会将图片发送至外部服务。
 """
 
 from __future__ import annotations
@@ -79,6 +79,14 @@ class OfficialQwenClient:
             if attempt + 1 < retries:
                 time.sleep(3 * (attempt + 1))
         raise RuntimeError(f"Official Qwen embedding failed after {retries} attempts: {message}")
+
+    def close(self) -> None:
+        """可选本地 provider 生命周期；远程接口和旧 SDK 保持原行为。"""
+        if self.provider_module:
+            module = importlib.import_module(self.provider_module)
+            release = getattr(module, "release_model", None)
+            if callable(release):
+                release()
 
     def embed_images(self, paths: list[Path]) -> np.ndarray:
         """返回N×3×D矩阵，第二维顺序固定为orig/flip/crop。"""

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""在不查看图片内容的情况下验证决赛result.json结构和文件覆盖。"""
+"""验证决赛 result.json 结构、文件覆盖和七字段完整性。"""
 
 from __future__ import annotations
 
@@ -28,6 +28,11 @@ def main() -> None:
             raise RuntimeError(f"Non-string result value: {row}")
         if row["questionCategory"] not in ("桥梁", "轨道"):
             raise RuntimeError(f"Invalid category: {row}")
+        empty_fields = [key for key, value in row.items() if not value.strip()]
+        if empty_fields:
+            raise RuntimeError(f"Empty result fields {empty_fields}: {row['filename']}")
+        if row["ratingScale(1-5)"] not in {"1", "2", "3", "4", "5"}:
+            raise RuntimeError(f"Invalid ratingScale(1-5): {row}")
         filenames.append(row["filename"])
     expected = {row["filename"] for row in manifest}
     if len(filenames) != len(set(filenames)) or set(filenames) != expected:
@@ -37,6 +42,7 @@ def main() -> None:
         "rows": len(rows),
         "bridge_rows": sum(row["questionCategory"] == "桥梁" for row in rows),
         "rail_rows": sum(row["questionCategory"] == "轨道" for row in rows),
+        "empty_values": 0,
     }, ensure_ascii=False))
 
 

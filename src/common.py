@@ -28,7 +28,16 @@ def load_config(path: Path | None = None) -> dict[str, Any]:
 
 def resolve_package_path(value: str | Path) -> Path:
     path = Path(value)
-    return path if path.is_absolute() else PACKAGE_ROOT / path
+    if path.is_absolute():
+        return path
+    if path.parts and path.parts[0] == "models":
+        external_root = os.environ.get("CQAIP_MODELS_DIR", "").strip()
+        if external_root:
+            relative = Path(*path.parts[1:])
+            if ".." in relative.parts:
+                raise ValueError("模型相对路径不能越界。")
+            return Path(external_root).resolve() / relative
+    return PACKAGE_ROOT / path
 
 
 def sha256_file(path: Path) -> str:

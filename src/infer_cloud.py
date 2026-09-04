@@ -10,6 +10,7 @@ from pathlib import Path
 import numpy as np
 
 from common import FIELDS, PACKAGE_ROOT, l2, load_manifest, load_portable_lr, portable_lr_predict
+from result_fields import complete_rows
 
 
 def validate_rows(rows: list[dict]) -> None:
@@ -64,6 +65,7 @@ def main() -> None:
                 "ratingScale(1-5)": "",
             })
 
+    completion = complete_rows(output_rows, manifest, args.manifest.resolve())
     validate_rows(output_rows)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output_rows, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -79,6 +81,7 @@ def main() -> None:
         "rows": len(output_rows),
         "rail_rows": len(prediction),
         "output": str(args.output),
+        "field_completion": completion,
     }, ensure_ascii=False, indent=2))
 
 

@@ -132,7 +132,10 @@ def main() -> None:
     stems = np.asarray([Path(row["filename"]).stem for row in rail_rows], dtype=str)
 
     qwen_client = OfficialQwenClient(config["qwen"])
-    qwen_views = qwen_client.embed_images(paths)
+    try:
+        qwen_views = qwen_client.embed_images(paths)
+    finally:
+        qwen_client.close()
     if qwen_views.shape[2] != int(config["feature_contract"]["qwen_dim"]):
         raise RuntimeError(f"Unexpected Qwen dimension: {qwen_views.shape}")
     qwen = three_view(qwen_views[:, 0], qwen_views[:, 1], qwen_views[:, 2])

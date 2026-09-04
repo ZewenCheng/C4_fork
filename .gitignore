@@ -15,6 +15,9 @@ venv/
 *.pem
 *.key
 *credentials*.json
+config/*.local.*
+.runtime/
+*.download.part
 
 # Runtime outputs and cloud datasets
 data/
