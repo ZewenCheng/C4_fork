@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "version": "v2-field-complete",
+  "title": "v2：仅补齐结果字段",
+  "created_on": "2026-09-05",
+  "git_tag": "c4-v2-fields-60.85",
+  "maintenance_source_commit": "39a8b9c4d5291fd319a205356da2f235389782a0",
+  "code_snapshot": "submissions/v2-field-complete/code",
+  "score": {
+    "value": 60.85,
+    "source": "用户确认",
+    "previous_version": "v1",
+    "previous_value": 55.15,
+    "difference": 5.7,
+    "agent_jitter_estimate": "约±1，非验证硬界",
+    "changes": "仅补齐结果字段，两版权重均未丢失",
+    "formal_receipt": null,
+    "artifact_binding": "纯补全结果与用户描述一致且现场SHA已核验；缺少评分回执对摘要的独立绑定。"
+  },
+  "cloud_snapshot": {
+    "path": "/workspace/work/c4-submission-versions/v2-field-complete",
+    "snapshot_sha256": "a7c9ceb3c27c0b1e45496addb8c18b7e0148f9af79e55ffd3c904f005dac678b",
+    "files": {
+      "package/code/adapters/qwen_local_provider.py": {
+        "sha256": "e6d1471ade926713a5c309c45ad2c3410f79c87030caf8eca842754f6f2a758b",
+        "bytes": 13875
+      },
+      "package/code/adapters/qwen_provider_example.py": {
+        "sha256": "b459bdebe429f63d3b2bdd68307fd6ce0902bb734780d177caff4ba521102b5d",
+        "bytes": 428
+      },
+      "package/code/config/deploy_config.json": {
+        "sha256": "6fbddff267b22304f0bf990893e052b55642484f1544f48a9ad5bf39fefc10aa",
+        "bytes": 2049
+      },
+      "package/code/run": {
+        "sha256": "9862adbbb3a8c2d02419c1cd63d5184629b64775d514a5237e35d6189493cf5f",
+        "bytes": 3542
+      },
+      "package/code/scripts/run_cqaip.sh": {
+        "sha256": "a6d7e8fdf11ed0b319bb975c2bfa71708a10c4ef40703faba1a10b22d3d4a829",
+        "bytes": 3402
+      },
+      "package/code/scripts/run_infer.sh": {
+        "sha256": "41ece0866336f1e78d4712127bfa3eb0b3a7e503b7457741e1425df06b03cd2c",
+        "bytes": 1264
+      },
+      "package/code/scripts/run_train.sh": {
+        "sha256": "8d8dfac5ce8bd5ecf9d3fef03510ad3741fd39126df1ef4d6cd07bfab69de457",
+        "bytes": 741
+      },
+      "package/code/src/build_cqaip_manifest.py": {
+        "sha256": "bed4dba122786d02d2741dae36ee68b3a17ed06fcc1bcbe12e90e9450c9563fa",
+        "bytes": 2765
+      },
+      "package/code/src/build_manifest.py": {
+        "sha256": "dbb066e6ad9ec7ee6ba7added7b20126f9f92240b234e3ddef61e966c5b2cfba",
+        "bytes": 2513
+      },
+      "package/code/src/common.py": {
+        "sha256": "8949380a465dcd19270906376d95f3412fae6fcecb5d7e91b77ff3cdc6bd726f",
+        "bytes": 8065
+      },
+      "package/code/src/extract_features.py": {
+        "sha256": "ca225e32d24acc465bd4dc3b3b0788b2a7ab3b38ffe13d3faa5601929d2f5c1a",
+        "bytes": 7768
+      },
+      "package/code/src/finetune_expq.py": {
+        "sha256": "bba70bef02df9c0fe1400a166777d75182942a8af154e1e5c097e25a8c486264",
+        "bytes": 5735
+      },
+      "package/code/src/infer_cloud.py": {
+        "sha256": "caa3f91a592969a9b1852d1951b202138ee75d4c4c640bed9b29390fdee9dc97",
+        "bytes": 3685
+      },
+      "package/code/src/package_cqaip.py": {
+        "sha256": "67e0212f30e1827322eb86ac7347b203cd70c8f237a931727f616170173d414a",
+        "bytes": 9601
+      },
+      "package/code/src/preflight.py": {
+        "sha256": "90db9287f7077e48ada5003c9b2c986c1bf4884dbb784ea1636211d281385fb1",
+        "bytes": 2194
+      },
+      "package/code/src/qwen_adapter.py": {
+        "sha256": "7ef8559adeffcae61e328bcff15dc5d56cdaeef07829b0a9837f37008d8ae7f7",
+        "bytes": 4645
+      },
+      "package/code/src/qwen_local_cli.py": {
+        "sha256": "a997deb85724ba941044da17166fc2de74e117a215877d38f562ba0f16327b37",
+        "bytes": 11001
+      },
+      "package/code/src/record_cqaip_run.py": {
+        "sha256": "850272586f313d14c3c5c7ef2fa271d3f95596ebd1ec3336bddb9c99c842a0cd",
+        "bytes": 3698
+      },
+      "package/code/src/result_fields.py": {
+        "sha256": "2df0017c08bb0f5d676d4d51e758d760bef8ecb3e28deb545f36da0df721eb08",
+        "bytes": 9409
+      },
+      "package/code/src/train_classifier.py": {
+        "sha256": "62495f8049b34c9339662b264f0a553a09b7d119136135b531ee20f382872a22",
+        "bytes": 3167
+      },
+      "package/code/src/validate_package.py": {
+        "sha256": "ff4c7280f1876da5f3de9943877b8aa2d4d9abb697079ac3bb20660954f60c83",
+        "bytes": 972
+      },
+      "package/code/src/validate_result.py": {
+        "sha256": "cabae950158f0384bdf751799ded63f73f4fb98afd2efddfac4610c48cdb4f1b",
+        "bytes": 1984
+      },
+      "package/code/MANIFEST.sha256": {
+        "sha256": "9fa54a847322f1e7806766b0822d5e41562e3380abda795265405207a17f8002",
+        "bytes": 1935
+      },
+      "package/design/智能体设计方案_已核验.pdf": {
+        "sha256": "8ba927a5939a4fe393f85746f340582c8e3fc38c81f514903c1c09559c1a1eb2",
+        "bytes": 1977424
+      },
+      "package/result/result.json": {
+        "sha256": "a319a9fc1b36d0028c63832ebd0bb46500f5d00f8d6ceaa92fea860a56e378ef",
+        "bytes": 91252
+      },
+      "package/result/infer_time.json": {
+        "sha256": "dff03aa825e822963e98a08034caaff19e671cd6fa4181ae9d3f8d8bc6fccfdb",
+        "bytes": 29
+      },
+      "model-manifests/visual.json": {
+        "sha256": "ed6f6e0922eb0bd08474205e8c0e41533de0e84dce30b7be2e2e0b22b7ae7513",
+        "bytes": 4333
+      },
+      "model-manifests/qwen.json": {
+        "sha256": "8303b5b4312ef22da3ea27eeef7eb95953c121244cdb76556d476575596fdf26",
+        "bytes": 4354
+      }
+    }
+  },
+  "design": {
+    "repository_path": "reference/initial_best/智能体设计方案_已核验.pdf",
+    "sha256": "8ba927a5939a4fe393f85746f340582c8e3fc38c81f514903c1c09559c1a1eb2",
+    "bytes": 1977424
+  },
+  "models": {
+    "cloud_root": "/workspace/work/road-infrastructure-finals-cloud/models",
+    "visual_manifest": "submissions/v2-field-complete/model-manifests/visual.json",
+    "qwen_manifest": "submissions/v2-field-complete/model-manifests/qwen.json",
+    "qwen_model": "Qwen/Qwen3-VL-Embedding-8B",
+    "qwen_revision": "2c4565515e0f265c6511776e7193b22c0968ddc7",
+    "new_weight_uploads": false
+  },
+  "result": {
+    "rows": 330,
+    "sha256": "a319a9fc1b36d0028c63832ebd0bb46500f5d00f8d6ceaa92fea860a56e378ef",
+    "bytes": 91252,
+    "infer_time": 291346,
+    "infer_time_sha256": "dff03aa825e822963e98a08034caaff19e671cd6fa4181ae9d3f8d8bc6fccfdb",
+    "time_unit": "推断为毫秒，尚待官方确认"
+  },
+  "later_rerun": {
+    "cloud_path": "/workspace/work/c4-submission-versions/field-complete-rerun-20260904-v3",
+    "snapshot_sha256": "8022ed4c5186ae34133ec6e4a8aa274a41f2414b76d6ca1cf1c28c0b084aff04",
+    "result_sha256": "0e8dc6faf004dc73bd66d2b5b7f88ba5fa81fef21642f387e8088ae07e77e69c",
+    "infer_time": 306742,
+    "defect_type_changes": 2,
+    "score": null
+  },
+  "restrictions": {
+    "raw_results_on_github": false,
+    "code_snapshot_keeps_historical_cache_behavior": true,
+    "rerun_byte_determinism_verified": false
+  }
+}

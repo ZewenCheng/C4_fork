@@ -1,0 +1,138 @@
+{
+  "状态": "全部下载并核验通过",
+  "来源": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B",
+  "实际下载来源": "ModelScope 官方 Qwen 发布；全部内容必须匹配 HuggingFace 固定提交摘要",
+  "model_id": "Qwen/Qwen3-VL-Embedding-8B",
+  "revision": "2c4565515e0f265c6511776e7193b22c0968ddc7",
+  "files": [
+    {
+      "path": "1_Pooling/config.json",
+      "bytes": 97,
+      "sha256": "90f99f1cb9607637007f20d035d3b69ac9860123557d6bdedd297fdf6dd88495",
+      "verified": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 24166,
+      "sha256": "b8a3ff43064283b7d164df4e7bfb3d82ee8487e6f54d653ba57973d36bfc5f86",
+      "verified": true
+    },
+    {
+      "path": "added_tokens.json",
+      "bytes": 707,
+      "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+      "verified": true
+    },
+    {
+      "path": "chat_template.jinja",
+      "bytes": 5519,
+      "sha256": "a47e6afb389f86f45be7810f17d2686fd42b2bec7ba6e6958abf85845af258c5",
+      "verified": true
+    },
+    {
+      "path": "config.json",
+      "bytes": 1539,
+      "sha256": "1eaa88d8d8824a47304e864c14101fe9efe3286607a7573f27eb723637f0d73d",
+      "verified": true
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "bytes": 238,
+      "sha256": "ab0d95430e4a88750bf613c7bea69cf878818a77c4047150599e1b586a7e8ab0",
+      "verified": true
+    },
+    {
+      "path": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "verified": true
+    },
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "bytes": 4998056552,
+      "sha256": "79ef275ec5f751d5fb59357c00d473268f9fd74abf5e38aa30137d268e7733c4",
+      "verified": true
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "bytes": 4915962464,
+      "sha256": "a4da61f512e84fc0f0b80bcb7bcc5137eb3bf25b658a7d55f84f4056078545f0",
+      "verified": true
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "bytes": 4915962496,
+      "sha256": "7fb17cf8f06d6fe5aaacf114e85c4e6d8318799f24b517f50d1ec154a8d47007",
+      "verified": true
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "bytes": 1459698112,
+      "sha256": "000213b6d1d03ed9023fac23716da51ec4c5be221a04526c2f732d31d8fed1f5",
+      "verified": true
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "bytes": 67737,
+      "sha256": "f8656aa4a0a666568f6f6befe980a2ba02d9702eb909bd4c211d6f5db1f980ea",
+      "verified": true
+    },
+    {
+      "path": "modules.json",
+      "bytes": 430,
+      "sha256": "e8a7a1593c7bf0f34022abf341a434f7e6cc32f99bad7a031f36b20cdddf1576",
+      "verified": true
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 784,
+      "sha256": "d6ccdc0fe0f6b49aaeb3c10d2687289a057233ed685b30155202898a0e5e470f",
+      "verified": true
+    },
+    {
+      "path": "scripts/qwen3_vl_embedding.py",
+      "bytes": 13258,
+      "sha256": "8ffa74a1a6bb759610c57865ea416fd4daf9936cb787520e1112a3e1d547f36a",
+      "verified": true
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "bytes": 771,
+      "sha256": "34fa8b72309d23362db7c6a619f63987daa41143c4092ad91e4bcfc247d45666",
+      "verified": true
+    },
+    {
+      "path": "special_tokens_map.json",
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "verified": true
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 11423705,
+      "sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a",
+      "verified": true
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 5404,
+      "sha256": "355f2b4e5bad7b01f11ef6cb68ebc176f61b95c3276092ea225b1bea0e01e95c",
+      "verified": true
+    },
+    {
+      "path": "video_preprocessor_config.json",
+      "bytes": 817,
+      "sha256": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+      "verified": true
+    },
+    {
+      "path": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "verified": true
+    }
+  ],
+  "bytes": 16305674095,
+  "elapsed_seconds": 813.2,
+  "校验方法": "大文件匹配官方 LFS SHA-256；其他文件匹配官方 Git blob SHA-1，并补算本地 SHA-256。"
+}

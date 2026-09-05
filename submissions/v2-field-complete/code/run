@@ -1,0 +1,87 @@
+#!/bin/sh
+# 赛题 4 作品推理入口。代码位于 result/code，模型留在官方 /workspace/work。
+set -eu
+
+CODE_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PYTHON_BIN=${PYTHON_BIN:-python}
+RUNTIME_ROOT=${CQAIP_RUNTIME_ROOT:-/workspace/work/road-infrastructure-finals-cloud}
+MODEL_ROOT=${CQAIP_MODELS_DIR:-$RUNTIME_ROOT/models}
+QWEN_DEPS_DIR=${QWEN_DEPS_DIR:-$RUNTIME_ROOT/.runtime/qwen_deps}
+
+case "$CODE_ROOT" in
+    /workspace/*) ;;
+    *) echo "run 只能在官方 /workspace 中执行。" >&2; exit 2 ;;
+esac
+case "$RUNTIME_ROOT" in
+    /workspace/*) ;;
+    *) echo "CQAIP_RUNTIME_ROOT 必须位于 /workspace。" >&2; exit 2 ;;
+esac
+case "$MODEL_ROOT" in
+    /workspace/*) ;;
+    *) echo "CQAIP_MODELS_DIR 必须位于 /workspace。" >&2; exit 2 ;;
+esac
+
+export CQAIP_MODELS_DIR="$MODEL_ROOT"
+export QWEN_PROVIDER_MODULE=${QWEN_PROVIDER_MODULE:-qwen_local_provider}
+export QWEN_MODEL=${QWEN_MODEL:-Qwen3-VL-Embedding-8B}
+export QWEN_LOCAL_MODEL_DIR=${QWEN_LOCAL_MODEL_DIR:-$MODEL_ROOT/transformers/qwen3_vl_embedding}
+export QWEN_LOCAL_OFFLOAD_DIR=${QWEN_LOCAL_OFFLOAD_DIR:-$RUNTIME_ROOT/.runtime/qwen_offload}
+export QWEN_LOCAL_GPU_GIB=${QWEN_LOCAL_GPU_GIB:-80}
+export QWEN_LOCAL_CPU_GIB=${QWEN_LOCAL_CPU_GIB:-8}
+export QWEN_LOCAL_BATCH_SIZE=${QWEN_LOCAL_BATCH_SIZE:-1}
+export PYTHONPATH="$QWEN_DEPS_DIR:$CODE_ROOT/adapters${PYTHONPATH:+:$PYTHONPATH}"
+
+check_layout() {
+    test -f "$CODE_ROOT/scripts/run_cqaip.sh"
+    test -f "$CODE_ROOT/src/build_cqaip_manifest.py"
+    test -f "$MODEL_ROOT/MODEL_MANIFEST.json"
+    test -f "$MODEL_ROOT/classifier/expq_lr.npz"
+    test -f "$QWEN_LOCAL_MODEL_DIR/LOCAL_MODEL_MANIFEST.json"
+    test ! -e "$CODE_ROOT/models"
+}
+
+if [ "${1:-}" = "--check" ]; then
+    check_layout
+    "$PYTHON_BIN" -B -c "from pathlib import Path; compile(Path('$CODE_ROOT/src/common.py').read_bytes(), 'common.py', 'exec')"
+    printf '%s\n' '{"status":"RUN_ENTRY_PASS","models_in_code":false,"full_inference_started":false}'
+    exit 0
+fi
+
+check_layout
+COPY_RESULT=0
+if [ "$#" -eq 0 ]; then
+    RUN_ROOT=${CQAIP_RUN_ROOT:-/workspace/work/c4-submission-run}
+    MANIFEST=${CQAIP_MANIFEST:-$RUN_ROOT/test_manifest.jsonl}
+    OUTPUT_DIR=${CQAIP_OUTPUT_DIR:-$RUN_ROOT/inference-$(date -u +%Y%m%dT%H%M%SZ)-$$}
+    RESULT_PATH=${CQAIP_RESULT_PATH:-/workspace/result/result/result.json}
+    "$PYTHON_BIN" -B "$CODE_ROOT/src/build_cqaip_manifest.py" --output "$MANIFEST"
+    COPY_RESULT=1
+elif [ "$#" -eq 2 ] || [ "$#" -eq 3 ]; then
+    MANIFEST=$1
+    OUTPUT_DIR=$2
+    RESULT_PATH=${CQAIP_RESULT_PATH:-}
+else
+    echo "用法：run [MANIFEST_JSONL OUTPUT_DIR [TEMPLATE_JSON]]；无参数时使用官方赛题 4 默认路径。" >&2
+    exit 2
+fi
+
+if [ "$#" -eq 3 ]; then
+    sh "$CODE_ROOT/scripts/run_cqaip.sh" infer "$MANIFEST" "$OUTPUT_DIR" "$3"
+elif [ -n "${CQAIP_TEMPLATE_JSON:-}" ]; then
+    sh "$CODE_ROOT/scripts/run_cqaip.sh" infer "$MANIFEST" "$OUTPUT_DIR" "$CQAIP_TEMPLATE_JSON"
+else
+    sh "$CODE_ROOT/scripts/run_cqaip.sh" infer "$MANIFEST" "$OUTPUT_DIR"
+fi
+
+if [ "$COPY_RESULT" -eq 1 ] || [ -n "$RESULT_PATH" ]; then
+    RESULT_PARENT=$(dirname -- "$RESULT_PATH")
+    mkdir -p "$RESULT_PARENT"
+    TEMP_RESULT="$RESULT_PARENT/.result.json.$$.tmp"
+    TEMP_TIME="$RESULT_PARENT/.infer_time.json.$$.tmp"
+    cp "$OUTPUT_DIR/result.json" "$TEMP_RESULT"
+    cp "$OUTPUT_DIR/infer_time.json" "$TEMP_TIME"
+    mv -f "$TEMP_RESULT" "$RESULT_PATH"
+    mv -f "$TEMP_TIME" "$RESULT_PARENT/infer_time.json"
+fi
+
+printf '%s\n' "推理完成：$OUTPUT_DIR/result.json；计时：$OUTPUT_DIR/infer_time.json"

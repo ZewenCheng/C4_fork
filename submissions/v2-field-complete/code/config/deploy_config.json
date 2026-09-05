@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "feature_contract": {
+    "qwen_dim": 4096,
+    "siglip2_dim": 1152,
+    "dinov2_dim": 1024,
+    "eva02_dim": 1024,
+    "convnextv2_dim": 1536,
+    "xbase_dim": 8832,
+    "expq_ft_dim": 1152,
+    "classifier_dim": 9984,
+    "local_views": ["orig", "flip", "center_square_crop"],
+    "qwen_views": ["orig", "flip", "center_80pct_crop"]
+  },
+  "local_image_preprocess": {
+    "max_side": 1024,
+    "jpeg_quality": 92,
+    "resize": "lanczos",
+    "always_reencode": true
+  },
+  "models": {
+    "siglip2": {
+      "provider": "transformers",
+      "model_dir": "models/transformers/siglip2_vision",
+      "expected_dim": 1152
+    },
+    "dinov2": {
+      "provider": "transformers",
+      "model_dir": "models/transformers/dinov2_large",
+      "expected_dim": 1024
+    },
+    "eva02": {
+      "provider": "timm",
+      "timm_name": "eva02_large_patch14_448.mim_m38m_ft_in22k_in1k",
+      "checkpoint": "models/backbones/eva02/model.safetensors",
+      "expected_dim": 1024
+    },
+    "convnextv2": {
+      "provider": "transformers",
+      "model_dir": "models/transformers/convnextv2_large",
+      "expected_dim": 1536
+    },
+    "expq": {
+      "timm_name": "vit_so400m_patch14_siglip_378.webli",
+      "full_checkpoint": "models/expq/ft_siglip2_final.pt",
+      "img_size": 378,
+      "num_classes": 22,
+      "expected_dim": 1152
+    }
+  },
+  "classifier": {
+    "checkpoint": "models/classifier/expq_lr.npz",
+    "labels": "models/classifier/class_names.json",
+    "c": 20.0
+  },
+  "qwen": {
+    "provider": "openai_compatible",
+    "model_env": "QWEN_MODEL",
+    "base_url_env": "QWEN_BASE_URL",
+    "api_key_env": "QWEN_API_KEY",
+    "provider_module_env": "QWEN_PROVIDER_MODULE",
+    "default_model": "Qwen3-VL-Embedding-8B",
+    "timeout_seconds": 180,
+    "retries": 4,
+    "batch_images": 4,
+    "jpeg_quality": 85,
+    "max_side": 768
+  },
+  "output_fields": [
+    "questionCategory",
+    "bridgeName",
+    "defectLocation",
+    "filename",
+    "defectType",
+    "defectDescription",
+    "ratingScale(1-5)"
+  ]
+}

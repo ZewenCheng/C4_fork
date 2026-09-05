@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "current_highest_reported_version": "v2-field-complete",
+  "best_selection_note": "用户报告分数中的当前最高值；不是消除评分抖动后的统计结论。",
+  "versions": [
+    {
+      "version": "v2-field-complete",
+      "tag": "c4-v2-fields-60.85",
+      "score": 60.85,
+      "score_source": "用户确认",
+      "record": "submissions/v2-field-complete/version.json"
+    }
+  ]
+}
