@@ -1,0 +1,252 @@
+{
+  "version": "contract-v1-parallel2-20260909",
+  "files": [
+    {
+      "path": "code/MANIFEST.sha256",
+      "sha256": "89095550a67bbbaacc6e2420c9e55470d6fbfd9942ec0d881dada134b3386a8d",
+      "bytes": 2327,
+      "mode": "0644"
+    },
+    {
+      "path": "code/build_online_packets.py",
+      "sha256": "59a6dea85a9800fc3699bb4acf1308795d22e5018772dbbd6c0070b9344fd0e6",
+      "bytes": 12197,
+      "mode": "0644"
+    },
+    {
+      "path": "code/download_assets.py",
+      "sha256": "7d11f746702f45d927a2e011d3eae9fced836cdd3d9c94ac7f36fe7b23b43bfb",
+      "bytes": 4409,
+      "mode": "0644"
+    },
+    {
+      "path": "code/extract_distilled_hplus.py",
+      "sha256": "e0862d315c5af6e02559141a62074bf198b95cd095f06e2893bb13c64c87c4ab",
+      "bytes": 4455,
+      "mode": "0644"
+    },
+    {
+      "path": "code/extract_wemm_features.py",
+      "sha256": "830778738246c247884ea5af715550895005217c69d20809244a16c0b6481f1f",
+      "bytes": 4716,
+      "mode": "0644"
+    },
+    {
+      "path": "code/infer_anomaly_holdout.py",
+      "sha256": "f7458a7d4a937c8e92a4ad1c09f423f3963c5e6eb66b72815e64ea2aacc4f9ac",
+      "bytes": 4036,
+      "mode": "0644"
+    },
+    {
+      "path": "code/infer_grounding_holdout.py",
+      "sha256": "e5355419cdfebf2803e9068dabd140a545c679645a7a09f0c8d8df941c967973",
+      "bytes": 5821,
+      "mode": "0644"
+    },
+    {
+      "path": "code/infer_rtdetr_holdout.py",
+      "sha256": "cb2851883633cea56345a3cf6dd00c87810afe8ac3d4a235b04f4d46a57435c0",
+      "bytes": 4961,
+      "mode": "0644"
+    },
+    {
+      "path": "code/infer_sam_holdout.py",
+      "sha256": "1fb26cacb371099b7888aa806f46cb4dce3f23e462b5a1cb59935136f8fd8f10",
+      "bytes": 7105,
+      "mode": "0644"
+    },
+    {
+      "path": "code/model_manifest.json",
+      "sha256": "e61fff32a2c6c228b7bd0b31aa748f7ca2eb4309fe03b85917e4edb2ccb0d277",
+      "bytes": 22511,
+      "mode": "0644"
+    },
+    {
+      "path": "code/online_full_pipeline.py",
+      "sha256": "8ee8c95dd521da8fa3493cb47a9a643d304722b77c16c452b7a12260e4d5deeb",
+      "bytes": 8866,
+      "mode": "0644"
+    },
+    {
+      "path": "code/parallel_reports.py",
+      "sha256": "3c97be55d0ba3e528c6d075459a1a381641b38dfdf0f0321b0a2d48ddea30f60",
+      "bytes": 10578,
+      "mode": "0644"
+    },
+    {
+      "path": "code/prepare_regions.py",
+      "sha256": "4fbdcbf665395bc205116ee8eab3844240bb2a764bfdd339b815f37fdc67b84f",
+      "bytes": 5763,
+      "mode": "0644"
+    },
+    {
+      "path": "code/query_standard.py",
+      "sha256": "b0c1670fac17e7014bee97f17da31042fe19c00235a43542ed2e4def632b1814",
+      "bytes": 1355,
+      "mode": "0644"
+    },
+    {
+      "path": "code/qwen_tool_router.py",
+      "sha256": "7e5fe8a27e937fc1fdb76ad2ea7ff3b92518f8357b4cd6eb22b8a0599e1a1e6f",
+      "bytes": 5607,
+      "mode": "0644"
+    },
+    {
+      "path": "code/report_contract.py",
+      "sha256": "8962a235ffb69dfbd7afd4ca79fac5814048174ebd4546bb9be24ef990c0f1fc",
+      "bytes": 16532,
+      "mode": "0644"
+    },
+    {
+      "path": "code/run",
+      "sha256": "a8f4e512feb3d51351a4ac83a1bf4a2c68b16e05ca93595a9db4908d0db2f176",
+      "bytes": 258,
+      "mode": "0755"
+    },
+    {
+      "path": "code/run_contract_reports.py",
+      "sha256": "8bdb924ac6d888775f0a0726493911818ed4a7ec08d24036ef2bc12f3a448c27",
+      "bytes": 15876,
+      "mode": "0644"
+    },
+    {
+      "path": "code/source_manifest.json",
+      "sha256": "c5c73d8f045fe1b26ecf0c757c0eb1c26f7e2b4d3868d9765cc900ef98dd1c82",
+      "bytes": 3063,
+      "mode": "0644"
+    },
+    {
+      "path": "code/start_online_candidate.py",
+      "sha256": "386bf8929b78037316e199ae725ccaad5ccac7ac38ff613da3b44d4b6d5f3532",
+      "bytes": 3283,
+      "mode": "0644"
+    },
+    {
+      "path": "code/submission_entry.py",
+      "sha256": "8691c36b4708a37675fec231529a1616f4ecc1192f0d00a4ea32ec09289a2705",
+      "bytes": 11722,
+      "mode": "0644"
+    },
+    {
+      "path": "code/train_dino.py",
+      "sha256": "0d5c65ecaf0127b593e10eba2801f3b14bfce52def1f0e06e16236d714309b11",
+      "bytes": 10310,
+      "mode": "0644"
+    },
+    {
+      "path": "code/train_fusion.py",
+      "sha256": "ecffffc48fac1592698e02dc03da02601cc856cc9f0e39cb1ea0d7c9d7807024",
+      "bytes": 6288,
+      "mode": "0644"
+    },
+    {
+      "path": "code/train_legacy_head.py",
+      "sha256": "67f3271887f809cf66554dcb59ca92a61f176b661f761461ffa7730d386cc7e7",
+      "bytes": 6388,
+      "mode": "0644"
+    },
+    {
+      "path": "code/train_ordinal.py",
+      "sha256": "9778222fb717960f7efad5fd7408758ae37f44febfa5c2455f8b5ff2e48ff330",
+      "bytes": 5413,
+      "mode": "0644"
+    },
+    {
+      "path": "code/train_tabular.py",
+      "sha256": "92b24351b950e0b66cba532da6ee936d7275625d7a0da01b86c119300c590927",
+      "bytes": 3412,
+      "mode": "0644"
+    },
+    {
+      "path": "code/train_wemm.py",
+      "sha256": "db708f9d2d89b7d834da546596c4f07a21cc835ef199a9339b78a2fe0f693e1e",
+      "bytes": 7815,
+      "mode": "0644"
+    },
+    {
+      "path": "code/unpad_attention.py",
+      "sha256": "5ed71e7abe2929258c118665b689bf6cf179fa50c3fd2f2c15866c8ccdc07c2b",
+      "bytes": 2981,
+      "mode": "0644"
+    },
+    {
+      "path": "design/智能体设计方案_已核验.pdf",
+      "sha256": "2615eaffc64870fa55ec03ac03f0bbe8a8537f56fd2a4b378985b1d63e793e4f",
+      "bytes": 258645,
+      "mode": "0644"
+    },
+    {
+      "path": "result/infer_time.json",
+      "sha256": "de49c91f6dc294f670d23ab4c94bc9b053d060cbf4982a84b68c070658c7702a",
+      "bytes": 38,
+      "mode": "0644"
+    },
+    {
+      "path": "result/result.json",
+      "sha256": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+      "bytes": 163284,
+      "mode": "0644"
+    }
+  ],
+  "archive": "/workspace/work/c4-submission-versions/contract-v1-parallel2-20260909/c4-contract-v1-parallel2-20260909.tar.gz",
+  "archive_sha256": "70f195fcca68d7eed24f092407d319c83aaa3aeb160799cab0790e84ecc50048",
+  "archive_bytes": 316792,
+  "source_result": "/workspace/work/c4-parallel2-release-20260909/paired_result",
+  "source_result_sha256": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+  "submitted_infer_time_sha256": "de49c91f6dc294f670d23ab4c94bc9b053d060cbf4982a84b68c070658c7702a",
+  "infer_time": 6568.275286197662,
+  "infer_time_unit": "seconds",
+  "timing_transformation": "不转换；本次发布入口脚本开头至结果准备结束的time.time秒差。全新线上目录重算视觉证据和评级，冻结模型及训练资产复用。",
+  "transfer_bundle_sha256": "4fc13dd7822b91c6d32903814b7f9d9d5e0f20d046795dca277dd92b0ede7b29",
+  "source_entry": "/workspace/work/c4-parallel2-entry-v1-20260909",
+  "source_manifest_sha256": "c5c73d8f045fe1b26ecf0c757c0eb1c26f7e2b4d3868d9765cc900ef98dd1c82",
+  "model_manifest_sha256": "e61fff32a2c6c228b7bd0b31aa748f7ca2eb4309fe03b85917e4edb2ccb0d277",
+  "full_entry_audit_sha256": "41bac36c26d253de8d14e04a1c0982f916202372d70dd94255d903df7251fb20",
+  "batch_comparison_sha256": "39fafc7e0368ec8fa3598131ba97f6443198778a179ca672b980ed059bae59b5",
+  "region_reuse_comparison_sha256": "e4d8d7962824193160e677c43255feed17eaaeea7b97aa045c02760f12d02195",
+  "raw_records": "/workspace/work/c4-parallel2-entry-v1-20260909/candidate_online_20260908/contract_reports/records",
+  "verified_images": 330,
+  "field_summary": {
+    "bridgeName": 0,
+    "defectType": 0,
+    "questionCategory": 0,
+    "filename": 0,
+    "defectLocation": 224,
+    "ratingScale(1-5)": 223,
+    "defectDescription": 0
+  },
+  "grade_summary": {
+    "完好": 223,
+    "桥梁": 250,
+    "等级空": 223,
+    "病害": 107,
+    "等级2": 106,
+    "等级1": 1,
+    "轨道": 80
+  },
+  "execution": {
+    "report_batch_size": 3,
+    "cpu_workers": 4,
+    "attention_backend": "c4_unpadded_sdpa"
+  },
+  "entry_validation": {
+    "check": {
+      "状态": "提交入口自检通过",
+      "源码文件数": 23,
+      "模型执行": false,
+      "说明": "资产大小及Qwen元数据核验；完整资产SHA在封装时独立核验"
+    },
+    "actual_work_resume_check": true,
+    "changed_batch_rejected": true,
+    "full_cold_rerun": true,
+    "model_manifest_files_sha256_checked": 26,
+    "model_backup_files_sha256_checked": 25,
+    "qwen_metadata_sha256_checked": true
+  },
+  "github_tag": "c4-contract-v1-parallel2-20260909",
+  "github_backup_gate": "发布前独立读取固定标签及源码清单，验收凭证见同目录publication_receipt.json",
+  "official_score": null,
+  "score_source": "本版未正式评测",
+  "competition_submitted": false,
+  "created_at": 1788903295.262378
+}

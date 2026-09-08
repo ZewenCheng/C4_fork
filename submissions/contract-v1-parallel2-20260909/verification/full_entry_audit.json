@@ -1,0 +1,338 @@
+{
+  "状态": "全新330图入口与七字段及秒计时全部核验通过",
+  "图数": 330,
+  "输入SHA256": "37e8e9d51b82ca5718881c2af8ad3b017aca87db6d0ff26e7aa5b222dfac6192",
+  "result_sha256": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+  "infer_time_sha256": "de49c91f6dc294f670d23ab4c94bc9b053d060cbf4982a84b68c070658c7702a",
+  "infer_time": 6568.275286197662,
+  "time_unit": "seconds",
+  "缓存范围": "全新线上目录，无预先存在的视觉或评级缓存；冻结模型与训练资产复用",
+  "执行配置": {
+    "report_batch_size": 3,
+    "cpu_workers": 4,
+    "attention_backend": "c4_unpadded_sdpa"
+  },
+  "计数": {
+    "完好": 223,
+    "桥梁": 250,
+    "等级空": 223,
+    "病害": 107,
+    "等级2": 106,
+    "等级1": 1,
+    "轨道": 80
+  },
+  "各字段空值数": {
+    "bridgeName": 0,
+    "defectType": 0,
+    "questionCategory": 0,
+    "filename": 0,
+    "defectLocation": 224,
+    "ratingScale(1-5)": 223,
+    "defectDescription": 0
+  },
+  "逐图尝试次数分布": {
+    "0": 223,
+    "1": 107
+  },
+  "平台合成回归": {
+    "状态": "通过",
+    "exit_code": 0,
+    "tests": 48,
+    "verification_bundle_sha256": "ce6a092366a77fc833fc4e51b07c721b14fbba42f7dca2c8abd8c72c22ba1260",
+    "log_sha256": "99893accf00dffd7fd024532c48e5b001b6b85c762c80bc892ae3580d9e75571",
+    "python": "3.12.3 (main, Jan 30 2026, 14:20:45) [GCC 13.3.0]",
+    "time": 1788896282.8360784
+  },
+  "专家证据状态计数": {
+    "inspect_semantics:ok": 330,
+    "inspect_local:ok": 330,
+    "inspect_hplus:ok": 330,
+    "inspect_regions:ok": 330,
+    "inspect_masks:ok": 330,
+    "inspect_grounding:ok": 330,
+    "inspect_anomaly:ok": 330,
+    "query_standard:ok": 330,
+    "assess_history:ok": 330
+  },
+  "相对历史结果变化": {
+    "改变行数": 2,
+    "逐字段变化数": {
+      "bridgeName": 0,
+      "defectType": 0,
+      "questionCategory": 0,
+      "filename": 0,
+      "defectLocation": 1,
+      "ratingScale(1-5)": 1,
+      "defectDescription": 2
+    },
+    "证据包变化数": 330,
+    "锁定诊断变化数": 0
+  },
+  "区域全量对照": {
+    "已核验记录数": {
+      "rtdetr_holdout/adamw": 330,
+      "rtdetr_holdout/sgd_momentum": 330,
+      "sam_holdout/adamw": 330,
+      "sam_holdout/sgd_momentum": 330,
+      "grounding_holdout/adamw": 330,
+      "grounding_holdout/sgd_momentum": 330
+    },
+    "候选变化记录数": {
+      "rtdetr_holdout/adamw": 0,
+      "rtdetr_holdout/sgd_momentum": 0,
+      "sam_holdout/adamw": 0,
+      "sam_holdout/sgd_momentum": 0,
+      "grounding_holdout/adamw": 330,
+      "grounding_holdout/sgd_momentum": 330
+    },
+    "SAM掩码内容变化记录数": {
+      "sam_holdout/adamw": 0,
+      "sam_holdout/sgd_momentum": 0
+    },
+    "说明": "掩码比较解压后的数组内容，归档文件时间戳及SHA不同不冒充预测变化"
+  },
+  "分阶段计时": [
+    {
+      "phase": "区域专家等待",
+      "started_at": 1788896300.575742,
+      "ended_at": 1788898531.6291747,
+      "seconds": 2231.053432703018,
+      "complete": true
+    },
+    {
+      "phase": "特征并行第一组",
+      "started_at": 1788898531.697731,
+      "ended_at": 1788899164.0863497,
+      "seconds": 632.3886187076569,
+      "complete": true
+    },
+    {
+      "phase": "特征并行第二组",
+      "started_at": 1788899164.1467109,
+      "ended_at": 1788899633.7755342,
+      "seconds": 469.6288232803345,
+      "complete": true
+    },
+    {
+      "phase": "全部专家装配",
+      "started_at": 1788899633.8291235,
+      "ended_at": 1788899732.191537,
+      "seconds": 98.36241340637207,
+      "complete": true
+    },
+    {
+      "phase": "批量报告与评级",
+      "started_at": 1788899732.2528424,
+      "ended_at": 1788902846.8481119,
+      "seconds": 3114.5952694416046,
+      "complete": true
+    }
+  ],
+  "报告阶段": {
+    "status": "complete",
+    "protocol": "report-contract-v1",
+    "started_at": 1788899742.8864658,
+    "updated_at": 1788902843.659708,
+    "images": 330,
+    "valid_reused": 0,
+    "valid_generated": 330,
+    "failed": 0,
+    "intact": 223,
+    "disease": 107,
+    "result_sha256": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+    "configuration_sha256": "5ec62abb8943eafe92e561b6ec96bfa5af692f03291aca75ab0a618a0b3bc18f",
+    "elapsed_wall_seconds": 3100.8296854496,
+    "timing_scope": "批量报告阶段含当前模型加载及CPU读写，完整入口另记秒数",
+    "execution": {
+      "batch_size": 3,
+      "cpu_workers": 4,
+      "schedule": "shared-model-batch-cpu-io-v1"
+    },
+    "batches": 36,
+    "model_load_seconds": 245.40756048820913,
+    "batch_metrics_summary": {
+      "完成批次数": 36,
+      "实际批量分布": {
+        "3": 35,
+        "2": 1
+      },
+      "OOM拆分次数": 0,
+      "模型生成合计秒": 2832.2074862532318,
+      "峰值分配字节": 80427137536,
+      "峰值保留字节": 92668952576,
+      "最长补齐输入词元数": 21436
+    }
+  },
+  "资源聚合": {
+    "入口准备": {
+      "samples": 1,
+      "ppu_used_mib": {
+        "mean": 2,
+        "max": 2
+      },
+      "ppu_utilization_percent": {
+        "mean": 0,
+        "max": 0
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 55493742592,
+        "max": 55493742592
+      }
+    },
+    "waiting_online_region_experts": {
+      "samples": 111,
+      "ppu_used_mib": {
+        "mean": 10168.792792792792,
+        "max": 11788
+      },
+      "ppu_utilization_percent": {
+        "mean": 65.96396396396396,
+        "max": 100
+      },
+      "container_cpu_percent": {
+        "mean": 185.1570266281584,
+        "max": 265.4107351383948
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 63471857258.09009,
+        "max": 65783144448
+      }
+    },
+    "extracting_online_features_group1": {
+      "samples": 30,
+      "ppu_used_mib": {
+        "mean": 18141.933333333334,
+        "max": 22713
+      },
+      "ppu_utilization_percent": {
+        "mean": 24.2,
+        "max": 90
+      },
+      "container_cpu_percent": {
+        "mean": 163.9435585876417,
+        "max": 299.863028604881
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 63750745019.73333,
+        "max": 68717936640
+      }
+    },
+    "extracting_online_features_group2": {
+      "samples": 23,
+      "ppu_used_mib": {
+        "mean": 9036.130434782608,
+        "max": 16503
+      },
+      "ppu_utilization_percent": {
+        "mean": 26.347826086956523,
+        "max": 100
+      },
+      "container_cpu_percent": {
+        "mean": 113.88987660338039,
+        "max": 165.248363046375
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 66464630516.86957,
+        "max": 68719427584
+      }
+    },
+    "assembling_all_experts": {
+      "samples": 5,
+      "ppu_used_mib": {
+        "mean": 8.4,
+        "max": 10
+      },
+      "ppu_utilization_percent": {
+        "mean": 0,
+        "max": 0
+      },
+      "container_cpu_percent": {
+        "mean": 91.61096113039622,
+        "max": 239.674681072034
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 62848346521.6,
+        "max": 63720534016
+      }
+    },
+    "generating_contract_reports_and_ratings": {
+      "samples": 17,
+      "ppu_used_mib": {
+        "mean": 24018.882352941175,
+        "max": 80941
+      },
+      "ppu_utilization_percent": {
+        "mean": 20.58823529411765,
+        "max": 100
+      },
+      "container_cpu_percent": {
+        "mean": 34.744338454624916,
+        "max": 100.40213095180167
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 54446427196.23529,
+        "max": 68719435776
+      }
+    },
+    "running": {
+      "samples": 137,
+      "ppu_used_mib": {
+        "mean": 81410.78102189781,
+        "max": 86897
+      },
+      "ppu_utilization_percent": {
+        "mean": 72.97810218978103,
+        "max": 100
+      },
+      "container_cpu_percent": {
+        "mean": 99.47245462987003,
+        "max": 100.83897885330812
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 68702681013.25548,
+        "max": 68719316992
+      }
+    },
+    "complete": {
+      "samples": 1,
+      "ppu_used_mib": {
+        "mean": 2,
+        "max": 2
+      },
+      "ppu_utilization_percent": {
+        "mean": 0,
+        "max": 0
+      },
+      "container_cpu_percent": {
+        "mean": 75.46245313941483,
+        "max": 75.46245313941483
+      },
+      "container_memory_and_cache_bytes": {
+        "mean": 66478477312,
+        "max": 66478477312
+      }
+    }
+  },
+  "全部报告凭证列表SHA256": "45466849127a30d86a87eb865ae998a51c384ef96da4809b47637ddb2b09d7f7",
+  "报告阶段同输入对照": {
+    "已比较首轮病害提示词数": 107,
+    "改变提示词数": 107,
+    "旧报告阶段秒数": 5395.750378608704,
+    "新报告阶段秒数": 3100.8296854496,
+    "同输入完整报告阶段可比": false,
+    "报告阶段加速比": null,
+    "边界": "只比较完整报告阶段，均包含各自模型加载及读写；不是全新视觉流水线与历史缓存入口的总耗时之比。精确重复性另见冻结8条对照。"
+  },
+  "source_manifest_sha256": "c5c73d8f045fe1b26ecf0c757c0eb1c26f7e2b4d3868d9765cc900ef98dd1c82",
+  "model_manifest_sha256": "e61fff32a2c6c228b7bd0b31aa748f7ca2eb4309fe03b85917e4edb2ccb0d277",
+  "运行入口": "/workspace/work/c4-parallel2-entry-v1-20260909",
+  "原始资源证据": "/workspace/work/c4-parallel2-release-20260909/full_entry_resource_samples.json",
+  "正式提交": false,
+  "正式分数": null,
+  "边界": [
+    "空字符串语义按既有输出合同保留；七字段结构通过不代表定位或评级准确率提高",
+    "历史6194.54秒为缓存复用运行，不能直接与本轮全新目录总时间计算公平加速比",
+    "同输入批量加速以单独固定8样本对照为准，未读取测试标签"
+  ],
+  "核验时间": 1788903043.1345203
+}

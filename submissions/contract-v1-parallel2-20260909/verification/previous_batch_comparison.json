@@ -1,0 +1,119 @@
+{
+  "状态": "同输入串行批量对照通过",
+  "配置": {
+    "source_input_sha256": "37e8e9d51b82ca5718881c2af8ad3b017aca87db6d0ff26e7aa5b222dfac6192",
+    "selection_sha256": "6c74f98ce278d3a163e2f93a169a38ccbb2714c9bb460be4c5d30f3118c92773",
+    "samples": 8,
+    "candidates": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "precision": "bfloat16",
+    "attention": "c4_unpadded_sdpa",
+    "max_new_tokens": 512,
+    "unpad_attention_sha256": "5ed71e7abe2929258c118665b689bf6cf179fa50c3fd2f2c15866c8ccdc07c2b",
+    "runner_sha256": "99c89b1083809ffa83114877c2f7c964baaffee973276f70db7a381193f3148c",
+    "parallel_sha256": "3c97be55d0ba3e528c6d075459a1a381641b38dfdf0f0321b0a2d48ddea30f60",
+    "baseline_configuration_sha256": "94b2993d069d26831bb9221bb831d0db34aa7295812827d21ba2d3c9b2421043",
+    "baseline_responses_sha256": "0b60dadab715a226072fb76b6360f965d21630725f9b2dccf0d2eb5defd16c34"
+  },
+  "模型加载秒": 239.84019698388875,
+  "选定批量": 2,
+  "选定注意力后端": "c4_unpadded_sdpa",
+  "对照": [
+    {
+      "batch_size": 1,
+      "seconds": 408.0464426614344,
+      "images_per_second": 0.019605611429475898,
+      "protocol_failures": 0,
+      "final_differences_vs_serial": 0,
+      "peak_allocated_bytes": 63031567872,
+      "oom_splits": 0,
+      "actual_batches": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "phase": "measure_batch_1",
+      "attention_backend": "sdpa"
+    },
+    {
+      "batch_size": 1,
+      "attention_backend": "c4_unpadded_sdpa",
+      "seconds": 410.22872949019074,
+      "images_per_second": 0.019501315790198193,
+      "protocol_failures": 0,
+      "final_differences_vs_serial": 0,
+      "peak_allocated_bytes": 63031567872,
+      "oom_splits": 0,
+      "actual_batches": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "phase": "measure_unpad_batch_1"
+    },
+    {
+      "batch_size": 2,
+      "attention_backend": "c4_unpadded_sdpa",
+      "seconds": 302.1514658946544,
+      "images_per_second": 0.02647678698599865,
+      "protocol_failures": 0,
+      "final_differences_vs_serial": 0,
+      "peak_allocated_bytes": 71700599296,
+      "oom_splits": 0,
+      "actual_batches": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "phase": "measure_unpad_batch_2"
+    },
+    {
+      "batch_size": 4,
+      "attention_backend": "c4_unpadded_sdpa",
+      "skipped": "超出本轮显存预算，不作为可用批量",
+      "phase": "warmup_unpad_batch_4"
+    },
+    {
+      "batch_size": 8,
+      "attention_backend": "c4_unpadded_sdpa",
+      "skipped": "超出本轮显存预算，不作为可用批量",
+      "phase": "warmup_unpad_batch_8"
+    },
+    {
+      "batch_size": 2,
+      "attention_backend": "c4_unpadded_sdpa",
+      "seconds": 296.8550816476345,
+      "images_per_second": 0.026949176532864477,
+      "protocol_failures": 0,
+      "final_differences_vs_serial": 0,
+      "peak_allocated_bytes": 71699459072,
+      "oom_splits": 0,
+      "actual_batches": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "phase": "confirm_selected_batch"
+    }
+  ],
+  "确认批次相对串行加速比": 1.3745644521112947,
+  "总墙钟秒": 1409.310660123825,
+  "精度边界": "保持模型、提示词及bfloat16，仅比较同输入七字段；未读取测试标签，不衡量准确率",
+  "原SDPA批量负面证据": "/workspace/work/c4-parallel-inference-20260909/interruption_receipt.json"
+}

@@ -1,0 +1,51 @@
+{
+  "状态": "提交压缩包与固定目录独立核验通过",
+  "版本": "contract-v1-parallel2-20260909",
+  "总文件数": 31,
+  "代码文件数": 28,
+  "设计书文件数": 1,
+  "结果文件数": 2,
+  "图片数": 330,
+  "七字段空值数": {
+    "bridgeName": 0,
+    "defectDescription": 0,
+    "defectLocation": 224,
+    "defectType": 0,
+    "filename": 0,
+    "questionCategory": 0,
+    "ratingScale(1-5)": 223
+  },
+  "评级分布": {
+    "": 223,
+    "2": 106,
+    "1": 1
+  },
+  "infer_time": {
+    "infer_time": 6568.275286197662
+  },
+  "计时范围": "不转换；本次发布入口脚本开头至结果准备结束的time.time秒差。全新线上目录重算视觉证据和评级，冻结模型及训练资产复用。",
+  "压缩包": "/workspace/work/c4-submission-versions/contract-v1-parallel2-20260909/c4-contract-v1-parallel2-20260909.tar.gz",
+  "压缩包SHA": "70f195fcca68d7eed24f092407d319c83aaa3aeb160799cab0790e84ecc50048",
+  "压缩包字节": 316792,
+  "结果SHA": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+  "计时SHA": "de49c91f6dc294f670d23ab4c94bc9b053d060cbf4982a84b68c070658c7702a",
+  "设计书SHA": "2615eaffc64870fa55ec03ac03f0bbe8a8537f56fd2a4b378985b1d63e793e4f",
+  "清单SHA": "ba28337495e7d405e51697370de8a1b991b6d001c7837e7482ebe28440337501",
+  "run可执行": true,
+  "代码无模型及缓存": true,
+  "入口检查": {
+    "check": {
+      "状态": "提交入口自检通过",
+      "源码文件数": 23,
+      "模型执行": false,
+      "说明": "资产大小及Qwen元数据核验；完整资产SHA在封装时独立核验"
+    },
+    "actual_work_resume_check": true,
+    "changed_batch_rejected": true,
+    "full_cold_rerun": true,
+    "model_manifest_files_sha256_checked": 26,
+    "model_backup_files_sha256_checked": 25,
+    "qwen_metadata_sha256_checked": true
+  },
+  "正式评测": false
+}

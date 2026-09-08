@@ -1,0 +1,40 @@
+{
+  "version": "contract-v1-parallel2-20260909",
+  "files": {
+    "build_online_packets.py": "59a6dea85a9800fc3699bb4acf1308795d22e5018772dbbd6c0070b9344fd0e6",
+    "download_assets.py": "7d11f746702f45d927a2e011d3eae9fced836cdd3d9c94ac7f36fe7b23b43bfb",
+    "extract_distilled_hplus.py": "e0862d315c5af6e02559141a62074bf198b95cd095f06e2893bb13c64c87c4ab",
+    "extract_wemm_features.py": "830778738246c247884ea5af715550895005217c69d20809244a16c0b6481f1f",
+    "infer_anomaly_holdout.py": "f7458a7d4a937c8e92a4ad1c09f423f3963c5e6eb66b72815e64ea2aacc4f9ac",
+    "infer_grounding_holdout.py": "e5355419cdfebf2803e9068dabd140a545c679645a7a09f0c8d8df941c967973",
+    "infer_rtdetr_holdout.py": "cb2851883633cea56345a3cf6dd00c87810afe8ac3d4a235b04f4d46a57435c0",
+    "infer_sam_holdout.py": "1fb26cacb371099b7888aa806f46cb4dce3f23e462b5a1cb59935136f8fd8f10",
+    "online_full_pipeline.py": "8ee8c95dd521da8fa3493cb47a9a643d304722b77c16c452b7a12260e4d5deeb",
+    "parallel_reports.py": "3c97be55d0ba3e528c6d075459a1a381641b38dfdf0f0321b0a2d48ddea30f60",
+    "prepare_regions.py": "4fbdcbf665395bc205116ee8eab3844240bb2a764bfdd339b815f37fdc67b84f",
+    "query_standard.py": "b0c1670fac17e7014bee97f17da31042fe19c00235a43542ed2e4def632b1814",
+    "qwen_tool_router.py": "7e5fe8a27e937fc1fdb76ad2ea7ff3b92518f8357b4cd6eb22b8a0599e1a1e6f",
+    "report_contract.py": "8962a235ffb69dfbd7afd4ca79fac5814048174ebd4546bb9be24ef990c0f1fc",
+    "run_contract_reports.py": "8bdb924ac6d888775f0a0726493911818ed4a7ec08d24036ef2bc12f3a448c27",
+    "start_online_candidate.py": "386bf8929b78037316e199ae725ccaad5ccac7ac38ff613da3b44d4b6d5f3532",
+    "train_dino.py": "0d5c65ecaf0127b593e10eba2801f3b14bfce52def1f0e06e16236d714309b11",
+    "train_fusion.py": "ecffffc48fac1592698e02dc03da02601cc856cc9f0e39cb1ea0d7c9d7807024",
+    "train_legacy_head.py": "67f3271887f809cf66554dcb59ca92a61f176b661f761461ffa7730d386cc7e7",
+    "train_ordinal.py": "9778222fb717960f7efad5fd7408758ae37f44febfa5c2455f8b5ff2e48ff330",
+    "train_tabular.py": "92b24351b950e0b66cba532da6ee936d7275625d7a0da01b86c119300c590927",
+    "train_wemm.py": "db708f9d2d89b7d834da546596c4f07a21cc835ef199a9339b78a2fe0f693e1e",
+    "unpad_attention.py": "5ed71e7abe2929258c118665b689bf6cf179fa50c3fd2f2c15866c8ccdc07c2b"
+  },
+  "execution": {
+    "report_batch_size": 3,
+    "cpu_workers": 4,
+    "attention_backend": "c4_unpadded_sdpa",
+    "model_instances": 1,
+    "fallback": "显存不足逐次减半，最小为1；每个样本协议尝试至多2次"
+  },
+  "benchmark_comparison_sha256": "39fafc7e0368ec8fa3598131ba97f6443198778a179ca672b980ed059bae59b5",
+  "region_reuse_comparison_sha256": "e4d8d7962824193160e677c43255feed17eaaeea7b97aa045c02760f12d02195",
+  "baseline_version": "contract-v1-seconds-20260909",
+  "baseline_source_manifest_sha256": "146938983cf8aa6fcb86769d49d720928e694aa1101f178bf8a244ae0a09d095",
+  "selection": "原21个推理依赖加共享批量调度及去补齐注意力，共23个核心文件；不调用训练入口。模型生成及注意力源码与实测对照摘要一致。"
+}
