@@ -4,6 +4,7 @@
 
 | 版本 | 用户报告分数 | 相对变化 | 固定 GitHub 标签 | 版本说明 |
 | --- | --- | --- | --- | --- |
+| 修复版专家合同 v1 秒单位修正 | 未评分 | 原330条结果保留，计时依用户公式改为秒；新入口计时边界已改，未完整重跑 | [c4-contract-v1-seconds-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-seconds-20260909) | [单位修正与恢复](contract-v1-seconds-20260909/README.md) |
 | 修复版专家合同 v1 | 未评分 | 330图七字段与条件评级全量通过，附真实结果及缓存运行计时 | [c4-contract-v1-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-20260909) | [提交包与恢复](contract-v1-20260909/README.md) |
 | v2：字段补全 | 60.85 | 相对 v1 的 55.15，仅补齐结果字段；两版权重均未丢失 | [c4-v2-fields-60.85](https://github.com/ZewenCheng/C4_fork/tree/c4-v2-fields-60.85) | [恢复与证据](v2-field-complete/README.md) |
 

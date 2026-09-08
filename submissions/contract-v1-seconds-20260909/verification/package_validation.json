@@ -1,0 +1,49 @@
+{
+  "状态": "提交压缩包与固定目录独立核验通过",
+  "版本": "contract-v1-seconds-20260909",
+  "总文件数": 29,
+  "代码文件数": 26,
+  "设计书文件数": 1,
+  "结果文件数": 2,
+  "图片数": 330,
+  "七字段空值数": {
+    "bridgeName": 0,
+    "defectDescription": 0,
+    "defectLocation": 224,
+    "defectType": 0,
+    "filename": 0,
+    "questionCategory": 0,
+    "ratingScale(1-5)": 223
+  },
+  "评级分布": {
+    "": 223,
+    "2": 105,
+    "1": 2
+  },
+  "infer_time": {
+    "infer_time": 6194.539663076401
+  },
+  "计时范围": "用户明确秒单位；从原始entry_timing读取6194.539663076401秒重新封装。沿用旧缓存运行结果，新入口未全量重跑，不作为新入口或冷启动测时。",
+  "压缩包": "/workspace/work/c4-submission-versions/contract-v1-seconds-20260909/c4-contract-v1-seconds-20260909.tar.gz",
+  "压缩包SHA": "8099c7a0d3755d22439ec21cbd1cbca1e0d489e2839475daf0cb2758a339721e",
+  "压缩包字节": 313506,
+  "结果SHA": "854ff00d40f2dc7234dc9d5aa64a9388b212ab4ac4a4905529e921bb5d0ded37",
+  "计时SHA": "583a53d3a3b3ffbbb3962f337edc580e1cff4cda998ece4057dbd2e5ed8e1c14",
+  "设计书SHA": "1ad719c0e60ccf3798283973d8206e7b59a4e3ff1b7fb272001cb07f95ff40fc",
+  "清单SHA": "f44a95db3d3c978e14cb082183dfe0c5c164bf00fb7c336b07a2b8fee6e420ab",
+  "run可执行": true,
+  "代码无模型及缓存": true,
+  "入口检查": {
+    "check": {
+      "状态": "提交入口自检通过",
+      "源码文件数": 21,
+      "模型执行": false,
+      "说明": "资产大小及Qwen元数据核验；完整资产SHA在封装时独立核验"
+    },
+    "new_work_prepared": true,
+    "resume_check": true,
+    "outside_work_rejected": true,
+    "full_cold_rerun": false
+  },
+  "正式评测": false
+}
