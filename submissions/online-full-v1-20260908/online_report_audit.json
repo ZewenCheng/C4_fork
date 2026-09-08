@@ -1,0 +1,25 @@
+{
+  "计数": {
+    "已保存": 330,
+    "字段合格": 330
+  },
+  "空字段": {
+    "bridgeName": 330,
+    "defectLocation": 292,
+    "ratingScale(1-5)": 330
+  },
+  "成功工具覆盖": {
+    "inspect_hplus": 330,
+    "inspect_grounding": 330,
+    "inspect_semantics": 330,
+    "inspect_anomaly": 330,
+    "inspect_masks": 330,
+    "assess_history": 330,
+    "inspect_regions": 330,
+    "inspect_local": 330,
+    "query_standard": 330
+  },
+  "记录资产数": 26,
+  "规范模型状态": "已加载，因无实测与构件范围暂不输出等级",
+  "time": 1788859476.01253
+}
