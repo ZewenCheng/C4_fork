@@ -1,0 +1,49 @@
+{
+  "状态": "提交压缩包与固定目录独立核验通过",
+  "版本": "contract-v1-20260909",
+  "总文件数": 29,
+  "代码文件数": 26,
+  "设计书文件数": 1,
+  "结果文件数": 2,
+  "图片数": 330,
+  "七字段空值数": {
+    "bridgeName": 0,
+    "defectDescription": 0,
+    "defectLocation": 224,
+    "defectType": 0,
+    "filename": 0,
+    "questionCategory": 0,
+    "ratingScale(1-5)": 223
+  },
+  "评级分布": {
+    "": 223,
+    "2": 105,
+    "1": 2
+  },
+  "infer_time": {
+    "infer_time": 6194540
+  },
+  "计时范围": "原始整数封装为单键infer_time对象，数值不变；复用已核验专家缓存，不作冷启动速度。",
+  "压缩包": "/workspace/work/c4-submission-versions/contract-v1-20260909/c4-contract-v1-20260909.tar.gz",
+  "压缩包SHA": "49cc635e3ed7d674e2b229c5f2664cc62c95bbbdf4e4a80a50f14a2c76aff264",
+  "压缩包字节": 313596,
+  "结果SHA": "854ff00d40f2dc7234dc9d5aa64a9388b212ab4ac4a4905529e921bb5d0ded37",
+  "计时SHA": "3d4c22d1790f5cf9aa046d39d46e29d931890f15c77845d1bc4f76da0d0e1254",
+  "设计书SHA": "b0dfe8ea7ca766d42c261c9f5156a3498114fa6a053734a99ee562233fb94db8",
+  "清单SHA": "0cd7c66bb4b2ebda34d94f643344a46b7afee160732f7b2a0dfe8b7dca81b6c5",
+  "run可执行": true,
+  "代码无模型及缓存": true,
+  "入口检查": {
+    "check": {
+      "状态": "提交入口自检通过",
+      "源码文件数": 21,
+      "模型执行": false,
+      "说明": "资产大小及Qwen元数据核验；完整资产SHA在封装时独立核验"
+    },
+    "new_work_prepared": true,
+    "resume_check": true,
+    "outside_work_rejected": true,
+    "full_cold_rerun": false
+  },
+  "正式评测": false
+}

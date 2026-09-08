@@ -4,6 +4,7 @@
 
 | 版本 | 用户报告分数 | 相对变化 | 固定 GitHub 标签 | 版本说明 |
 | --- | --- | --- | --- | --- |
+| 修复版专家合同 v1 | 未评分 | 330图七字段与条件评级全量通过，附真实结果及缓存运行计时 | [c4-contract-v1-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-20260909) | [提交包与恢复](contract-v1-20260909/README.md) |
 | v2：字段补全 | 60.85 | 相对 v1 的 55.15，仅补齐结果字段；两版权重均未丢失 | [c4-v2-fields-60.85](https://github.com/ZewenCheng/C4_fork/tree/c4-v2-fields-60.85) | [恢复与证据](v2-field-complete/README.md) |
 
 当前已报告最高分版本为 v2，评分可能约 ±1 抖动，分数来源为用户确认。正式分项、评测回执编号和重复评分仍未取得；后续保留所有评分记录，不用一次最高分代替稳定表现。
