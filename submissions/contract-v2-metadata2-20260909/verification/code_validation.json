@@ -1,0 +1,18 @@
+{
+  "状态": "修复源码部署与回归通过",
+  "测试数": 53,
+  "退出码": 0,
+  "测试日志SHA256": "c151200c24c963dfe41690f6b170a5c09af99d9671b3e5f492fd9a9ea5d6ce71",
+  "源码清单SHA256": "bd7b3ca508aff7e402231f0f0b7d0685f9fff82a6a9afeb6e83fa71a714c3d7d",
+  "独立入口准备与恢复通过": true,
+  "旧入口恢复拒绝": true,
+  "run检查通过": true,
+  "模型启动次数": 0,
+  "执行参数": {
+    "report_batch_size": 3,
+    "cpu_workers": 4,
+    "attention_backend": "c4_unpadded_sdpa"
+  },
+  "传输包SHA256": "6803d3060c0ae5d9b1bbd07278cac027c5422e530140fb647c5551f468d00652",
+  "时间": 1788936215.270411
+}

@@ -1,0 +1,32 @@
+{
+  "version": "contract-v2-metadata2-20260909",
+  "status": "提交包固定及独立验包通过；发布验收以官方publication_receipt.json与live_validation.json为准",
+  "github_tag": "c4-contract-v2-metadata2-20260909",
+  "package_manifest_sha256": "572b8f1e867d5f0c40d24e286fb36d8547e000944d766592b0ba54512b5b192a",
+  "package_validation_sha256": "6ce59010c601f3516c1d98cdd00a71c80da487b3ea2d3e3de8e429c2508d4852",
+  "archive": "/workspace/work/c4-submission-versions/contract-v2-metadata2-20260909/c4-contract-v2-metadata2-20260909.tar.gz",
+  "archive_sha256": "0060fa4404eae330c35df9a498d924f48a9a7efb13747eebc8dcfc7b59376297",
+  "archive_bytes": 340772,
+  "result_sha256": "ecc86813d9d5c9eeccb1a7942a98e07b717f7e77d9ac5102acd5009e4d7bc1d0",
+  "infer_time_json_sha256": "de49c91f6dc294f670d23ab4c94bc9b053d060cbf4982a84b68c070658c7702a",
+  "timing": {
+    "repair_time_seconds": 154.12058997154236,
+    "source_infer_time_seconds": 6568.275286197662,
+    "new_full_inference_time_seconds": null,
+    "说明": "本次仅核验原始输入和旧专家凭证、重放既有评级并重装配两个元数据字段，含恢复核验；没有新的模型推理，不作为完整冷启动耗时。"
+  },
+  "timing_choice": "直接封装现有修复结果",
+  "source_manifest_sha256": "bd7b3ca508aff7e402231f0f0b7d0685f9fff82a6a9afeb6e83fa71a714c3d7d",
+  "model_manifest_sha256": "e61fff32a2c6c228b7bd0b31aa748f7ca2eb4309fe03b85917e4edb2ccb0d277",
+  "design_sha256": "673b3adbf5051695435e8c400e3817f1ea9508d27d84999d9700568785743728",
+  "prior_candidate_record_sha256": "87dfff819542fb86549addf31908ab1704e4c756fde1971803410bc6407d5e15",
+  "verified_files": 32,
+  "verified_images": 330,
+  "new_full_inference": false,
+  "official_score": null,
+  "score_source": "本版未评分，不沿用基线反馈53.36或旧v2的60.85",
+  "competition_submitted": false,
+  "recovery_snapshot": "/workspace/work/c4-submission-versions/contract-v2-metadata2-20260909/submit",
+  "cloud_publication_receipt": "/workspace/work/c4-submission-versions/contract-v2-metadata2-20260909/publication_receipt.json",
+  "cloud_live_validation": "/workspace/work/c4-submission-versions/contract-v2-metadata2-20260909/live_validation.json"
+}

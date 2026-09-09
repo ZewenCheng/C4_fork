@@ -1,0 +1,42 @@
+{
+  "version": "contract-v2-metadata2-20260909",
+  "status": "已验证的源码与JSON修复候选，尚非正式提交包",
+  "baseline": "contract-v1-parallel2-20260909",
+  "source_result_sha256": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+  "result_sha256": "ecc86813d9d5c9eeccb1a7942a98e07b717f7e77d9ac5102acd5009e4d7bc1d0",
+  "cloud_code": "/workspace/work/c4-metadata-semantics2-20260909/code",
+  "cloud_result": "/workspace/work/c4-metadata-semantics2-20260909/assembled/result.json",
+  "cloud_records": "/workspace/work/c4-metadata-semantics2-20260909/assembled/reports/records",
+  "source_manifest_sha256": "bd7b3ca508aff7e402231f0f0b7d0685f9fff82a6a9afeb6e83fa71a714c3d7d",
+  "model_manifest_sha256": "e61fff32a2c6c228b7bd0b31aa748f7ca2eb4309fe03b85917e4edb2ccb0d277",
+  "bridge_names_equal_to_v2": 330,
+  "filename_component_locations": 47,
+  "type_inferred_components": 74,
+  "unknown_locations": 209,
+  "changed_fields": {
+    "questionCategory": 0,
+    "bridgeName": 330,
+    "defectLocation": 330,
+    "filename": 0,
+    "defectType": 0,
+    "defectDescription": 0,
+    "ratingScale(1-5)": 0
+  },
+  "timing": {
+    "repair_time_seconds": 154.12058997154236,
+    "source_infer_time_seconds": 6568.275286197662,
+    "new_full_inference_time_seconds": null,
+    "说明": "本次仅核验原始输入和旧专家凭证、重放既有评级并重装配两个元数据字段，含恢复核验；没有新的模型推理，不作为完整冷启动耗时。"
+  },
+  "model_policy": "沿用parallel2全部模型，本轮重放已核验评级，无新模型调用",
+  "official_score": null,
+  "formal_submission_ready": false,
+  "formal_result_replaced": false,
+  "github_tag": null,
+  "github_backup_verified": false,
+  "validation_sha256": {
+    "code_validation.json": "4ca742eb593e15a81696868502d3d38759fdda1cfaaf93bc9e06e541dd8407da",
+    "repair_summary.json": "1fb754adfa8870dbc6e8702d409b38c78d4c8290d1565550d31ca3be885e5a4e",
+    "verification_summary.json": "d215459d367e653645876e610ca70d1d401c98cead9c4c4d2af3b20a6cbb1a6e"
+  }
+}

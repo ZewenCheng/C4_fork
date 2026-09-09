@@ -4,6 +4,7 @@
 
 | 版本 | 用户报告分数 | 相对变化 | 固定 GitHub 标签 | 版本说明 |
 | --- | --- | --- | --- | --- |
+| 桥名与结构位置语义修复版 | 未评分 | 330条桥名对齐v2，47条文件名部位；直接封装修复结果，沿用历史6568.275秒并另记154.121秒修复耗时，未完整重跑 | [c4-contract-v2-metadata2-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v2-metadata2-20260909) | [提交包、计时来源与恢复](contract-v2-metadata2-20260909/README.md) |
 | 修复版专家合同 v1 并行与编码复用 | 53.36（用户反馈，按上下文关联） | 比v2低7.49分；330图全新入口6568.275秒，同输入Qwen约1.59倍 | [c4-contract-v1-parallel2-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-parallel2-20260909) | [实测与恢复](contract-v1-parallel2-20260909/README.md)；[成绩来源](score-feedback/20260909-parallel2-53.36.json) |
 | 修复版专家合同 v1 秒单位修正 | 未评分 | 原330条结果保留，计时依用户公式改为秒；新入口计时边界已改，未完整重跑 | [c4-contract-v1-seconds-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-seconds-20260909) | [单位修正与恢复](contract-v1-seconds-20260909/README.md) |
 | 修复版专家合同 v1 | 未评分 | 330图七字段与条件评级全量通过，附真实结果及缓存运行计时 | [c4-contract-v1-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-20260909) | [提交包与恢复](contract-v1-20260909/README.md) |

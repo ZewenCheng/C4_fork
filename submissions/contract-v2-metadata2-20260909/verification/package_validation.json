@@ -1,0 +1,52 @@
+{
+  "状态": "提交压缩包与固定目录独立核验通过",
+  "版本": "contract-v2-metadata2-20260909",
+  "总文件数": 32,
+  "代码文件数": 29,
+  "设计书文件数": 1,
+  "结果文件数": 2,
+  "图片数": 330,
+  "七字段空值数": {
+    "bridgeName": 0,
+    "defectDescription": 0,
+    "defectLocation": 0,
+    "defectType": 0,
+    "filename": 0,
+    "questionCategory": 0,
+    "ratingScale(1-5)": 223
+  },
+  "评级分布": {
+    "": 223,
+    "2": 106,
+    "1": 1
+  },
+  "infer_time": {
+    "infer_time": 6568.275286197662
+  },
+  "计时范围": "按用户明确选择直接封装现有修复结果。infer_time原样沿用parallel2历史完整推理time.time实测秒差；本版未完整重跑。修复及恢复核验154.120590秒单独记录，不相加冒充一次新入口计时。",
+  "压缩包": "/workspace/work/c4-submission-versions/contract-v2-metadata2-20260909/c4-contract-v2-metadata2-20260909.tar.gz",
+  "压缩包SHA": "0060fa4404eae330c35df9a498d924f48a9a7efb13747eebc8dcfc7b59376297",
+  "压缩包字节": 340772,
+  "结果SHA": "ecc86813d9d5c9eeccb1a7942a98e07b717f7e77d9ac5102acd5009e4d7bc1d0",
+  "计时SHA": "de49c91f6dc294f670d23ab4c94bc9b053d060cbf4982a84b68c070658c7702a",
+  "设计书SHA": "673b3adbf5051695435e8c400e3817f1ea9508d27d84999d9700568785743728",
+  "清单SHA": "572b8f1e867d5f0c40d24e286fb36d8547e000944d766592b0ba54512b5b192a",
+  "run可执行": true,
+  "代码无模型及缓存": true,
+  "入口检查": {
+    "check": {
+      "状态": "提交入口自检通过",
+      "源码文件数": 24,
+      "模型执行": false,
+      "说明": "资产大小及Qwen元数据核验；完整资产SHA在封装时独立核验"
+    },
+    "prepared_work_resume_check": true,
+    "full_cold_rerun": false,
+    "new_model_calls": 0,
+    "regressions": 53,
+    "model_manifest_files_sha256_checked": 26,
+    "model_backup_files_sha256_checked": 25,
+    "qwen_metadata_sha256_checked": true
+  },
+  "正式评测": false
+}

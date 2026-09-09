@@ -1,0 +1,48 @@
+{
+  "状态": "桥名与结构位置重装配及完整恢复通过",
+  "图数": 330,
+  "result_sha256": "ecc86813d9d5c9eeccb1a7942a98e07b717f7e77d9ac5102acd5009e4d7bc1d0",
+  "source_result_sha256": "a09293f6fcb9efe043a32ed7feb8924fbcbfc41d03f1dc5be38fecfae3634473",
+  "source_manifest_sha256": "bd7b3ca508aff7e402231f0f0b7d0685f9fff82a6a9afeb6e83fa71a714c3d7d",
+  "输入SHA256": "37e8e9d51b82ca5718881c2af8ad3b017aca87db6d0ff26e7aa5b222dfac6192",
+  "逐字段变化数": {
+    "questionCategory": 0,
+    "bridgeName": 330,
+    "defectLocation": 330,
+    "filename": 0,
+    "defectType": 0,
+    "defectDescription": 0,
+    "ratingScale(1-5)": 0
+  },
+  "桥名来源计数": {
+    "超出公开坐标阈值": 76,
+    "公开坐标近邻": 174,
+    "轨道不适用桥名": 80
+  },
+  "位置来源计数": {
+    "完好预测且缺少构件元数据": 208,
+    "病害类型关联构件": 74,
+    "缺少构件元数据": 1,
+    "文件名结构部位": 47
+  },
+  "位置确定性计数": {
+    "unknown": 209,
+    "type_inference": 74,
+    "filename_metadata": 47
+  },
+  "新模型调用次数": 0,
+  "复用旧病害评级数": 107,
+  "新凭证恢复数": 330,
+  "旧凭证被新协议拒绝数": 330,
+  "计时": {
+    "repair_time_seconds": 154.12058997154236,
+    "source_infer_time_seconds": 6568.275286197662,
+    "new_full_inference_time_seconds": null,
+    "说明": "本次仅核验原始输入和旧专家凭证、重放既有评级并重装配两个元数据字段，含恢复核验；没有新的模型推理，不作为完整冷启动耗时。"
+  },
+  "原始结果路径": "/workspace/work/c4-metadata-semantics2-20260909/assembled/result.json",
+  "逐图凭证": "/workspace/work/c4-metadata-semantics2-20260909/assembled/reports/records",
+  "正式作品目录已替换": false,
+  "比赛提交或评测": false,
+  "正式得分": null
+}
