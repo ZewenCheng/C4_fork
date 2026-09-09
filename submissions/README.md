@@ -4,12 +4,14 @@
 
 | 版本 | 用户报告分数 | 相对变化 | 固定 GitHub 标签 | 版本说明 |
 | --- | --- | --- | --- | --- |
-| 修复版专家合同 v1 并行与编码复用 | 未评分 | 330图全新入口6568.275秒；同输入Qwen约1.59倍、SAM约3倍、Grounding约2.2倍 | [c4-contract-v1-parallel2-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-parallel2-20260909) | [实测与恢复](contract-v1-parallel2-20260909/README.md) |
+| 修复版专家合同 v1 并行与编码复用 | 53.36（用户反馈，按上下文关联） | 比v2低7.49分；330图全新入口6568.275秒，同输入Qwen约1.59倍 | [c4-contract-v1-parallel2-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-parallel2-20260909) | [实测与恢复](contract-v1-parallel2-20260909/README.md)；[成绩来源](score-feedback/20260909-parallel2-53.36.json) |
 | 修复版专家合同 v1 秒单位修正 | 未评分 | 原330条结果保留，计时依用户公式改为秒；新入口计时边界已改，未完整重跑 | [c4-contract-v1-seconds-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-seconds-20260909) | [单位修正与恢复](contract-v1-seconds-20260909/README.md) |
 | 修复版专家合同 v1 | 未评分 | 330图七字段与条件评级全量通过，附真实结果及缓存运行计时 | [c4-contract-v1-20260909](https://github.com/ZewenCheng/C4_fork/tree/c4-contract-v1-20260909) | [提交包与恢复](contract-v1-20260909/README.md) |
 | v2：字段补全 | 60.85 | 相对 v1 的 55.15，仅补齐结果字段；两版权重均未丢失 | [c4-v2-fields-60.85](https://github.com/ZewenCheng/C4_fork/tree/c4-v2-fields-60.85) | [恢复与证据](v2-field-complete/README.md) |
 
 当前已报告最高分版本为 v2，评分可能约 ±1 抖动，分数来源为用户确认。正式分项、评测回执编号和重复评分仍未取得；后续保留所有评分记录，不用一次最高分代替稳定表现。
+
+2026-09-09用户反馈53.36，按紧邻交付消息关联到并行版；精确被评制品尚无回执绑定。该版比v2低7.49分、比v1低1.79分，没有同架构串行版评分可用于归因。成绩独立追加，固定包、标签及其创建时“未评分”记录保留；提速和七字段通过不代表评分提升。
 
 GitHub 保存源码、配置、设计书、模型来源与清单、结果摘要、成绩来源和恢复说明。比赛图片、特征、线上逐图预测、凭证和运行缓存不进入公开仓库；精确结果快照保留在官方 `/workspace/work/c4-submission-versions/`，版本记录提供地址与 SHA-256。
 
