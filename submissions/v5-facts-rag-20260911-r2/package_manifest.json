@@ -1,0 +1,98 @@
+{
+  "version": "v5-facts-rag-20260911-r2",
+  "github_tag": "c4-v5-facts-rag-20260911-r2",
+  "files": [
+    {
+      "path": "code/cv_multiview_classifier.py",
+      "sha256": "fdef44ea828eed51200f65da81562ea969d319ba274e3a637f55488a24b2d406",
+      "bytes": 4505
+    },
+    {
+      "path": "code/fact_grade_predictor.py",
+      "sha256": "9fd22a73f9e2a71b18c9ee79d85b94f7b1e3b635d42d80db9a7e3de31b9a7776",
+      "bytes": 4294
+    },
+    {
+      "path": "code/fact_protocol.py",
+      "sha256": "29ac3f69f8632aed2d0fdddcfb08261ab02e849313381127edc41d9b3dc6f330",
+      "bytes": 15886
+    },
+    {
+      "path": "code/fast_vision_runtime.py",
+      "sha256": "06d15c9d6d2f0f7aa73675a57378b930717479580463634732eee00be3b89864",
+      "bytes": 3306
+    },
+    {
+      "path": "code/grounded_description.py",
+      "sha256": "0803370f98767dfe055bce6d8c7ca461dc6739738ff3c4b31bf68b764c198ed3",
+      "bytes": 6429
+    },
+    {
+      "path": "code/inference_clock.py",
+      "sha256": "18099016c6dcf43148aa540cf876299d6efc4c87eaa9a2a133f2a677f3f5be2f",
+      "bytes": 4232
+    },
+    {
+      "path": "code/metadata_semantics.py",
+      "sha256": "794117abb317be2e1524b79d85f1b6e16dc64dabbe70a1476f0ffec03561caab",
+      "bytes": 8113
+    },
+    {
+      "path": "code/report_contract.py",
+      "sha256": "8fdc79f8461dd7610bccf6614253490118883d04c7b7bdcc1eb78aff8989aa4b",
+      "bytes": 20481
+    },
+    {
+      "path": "code/research_rag_adapter.py",
+      "sha256": "bae6842668f4e0e81f7421b9e0ec6f4b9e789947d8a7899edbfaede076734e0f",
+      "bytes": 6794
+    },
+    {
+      "path": "code/run",
+      "sha256": "cc6eea11aafbac59bbe2c30db6e23a8e896a4153c16b6c6de465ebe2049f7bf7",
+      "bytes": 239
+    },
+    {
+      "path": "code/source_manifest.json",
+      "sha256": "09f976db57691c1c6fdd8628dddfd961d0e4199137653dc4ff1045b430678d92",
+      "bytes": 1020
+    },
+    {
+      "path": "code/v5_entry.py",
+      "sha256": "77758add63c6fd3bf65aade93181e00da5b563877dffca9f2cb299418415def0",
+      "bytes": 10234
+    },
+    {
+      "path": "design/智能体设计方案_v5.pdf",
+      "sha256": "cc65bbe1da30c56607ce6ae81a159e76294e129f9c1d97f35389cc4429ca1783",
+      "bytes": 248131
+    },
+    {
+      "path": "result/infer_time.json",
+      "sha256": "74161902943775882d04dec059638e328c8e4fece26feb6b70fd95b74179904a",
+      "bytes": 37
+    },
+    {
+      "path": "result/result.json",
+      "sha256": "3f5a3de94715769860178c3f4047976fa5222a4214d27d0f48ad626a634262fb",
+      "bytes": 116257
+    }
+  ],
+  "archive": "/workspace/work/c4-submission-versions/v5-facts-rag-20260911-r2/c4-v5-facts-rag-20260911-r2.tar.gz",
+  "archive_sha256": "9a8b0ac492d5df27e6ab8ae69d4b633ab61912edd57371a3f26230a464b2a83f",
+  "run_snapshot": "/workspace/work/c4-submission-versions/v5-facts-rag-20260911-r2/run_snapshot",
+  "run_receipt_sha256": "09a1602b3bb3c56fa5d443ce16b7f234315f60455b8f7d21d028da918cce59b9",
+  "source_manifest_sha256": "09f976db57691c1c6fdd8628dddfd961d0e4199137653dc4ff1045b430678d92",
+  "asset_manifest_sha256": "2a607514be7fb7c01d6379c3d97a138c1d262f076b48c689dc9c7b319a36b04c",
+  "inference_seconds": 7.473578188568354,
+  "end_to_end_seconds": 1157.5804781913757,
+  "timing_mode": "model_inference_only",
+  "timing_transformation": "本次同步模型计算区间并集，单位秒；加载、预处理、传输、事实编码、检索整理、写入不计入，端到端另列。",
+  "score": null,
+  "quality_gain_verified": false,
+  "selection_basis": "用户明确指定轻量事实链加RAG，沿用伙伴版分类，封装为v5。",
+  "run_source_manifest_sha256": "8ada9027fe51e5e89cc336f65b7fa412d14e3b61394dc790a50227aa60cbee39",
+  "entry_fix_validation_sha256": "c851856e7d26672018c01aa5521fa489364d093cb398b3293ead14e9283700da",
+  "parent_version": "v5-facts-rag-20260911",
+  "post_run_change": "仅run包装器和对应源码清单改变；SDK初始化移到nounset启用前。Python推理字节、模型、结果、计时未改，完整330图来自本日首轮新运行，未伪称修复后重新推理。"
+}
