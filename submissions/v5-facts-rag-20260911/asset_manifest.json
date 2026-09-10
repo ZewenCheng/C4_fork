@@ -1,0 +1,1902 @@
+{
+  "version": "v5-facts-rag-20260911",
+  "files": [
+    {
+      "path": "/model/Qwen3.6-27B/merges.txt",
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "bytes": 3353259
+    },
+    {
+      "path": "/model/Qwen3.6-27B/tokenizer.json",
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "bytes": 12807982
+    },
+    {
+      "path": "/model/Qwen3.6-27B/tokenizer_config.json",
+      "sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+      "bytes": 16718
+    },
+    {
+      "path": "/model/Qwen3.6-27B/vocab.json",
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "bytes": 6722759
+    },
+    {
+      "path": "/workspace/work/c4-cv-multiview-final-20260910/manifest.json",
+      "sha256": "d048995a86acc8cabfa7800eca0ff60feedbdae311b29803fc0b7265a2b46dab",
+      "bytes": 3595
+    },
+    {
+      "path": "/workspace/work/c4-cv-multiview-final-20260910/multiview_model.npz",
+      "sha256": "d676b6cb23d85842994c04ab06f7e360620b64671cccf9ddca37b395488367d2",
+      "bytes": 954473
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/config.json",
+      "sha256": "9088751d39abbf86ec3d19ffca92ad62ad19075f7e59712e6c71217fa125d1d3",
+      "bytes": 739
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/model_optimized.onnx",
+      "sha256": "1294ea4b6331115a353d81f96b85e8c8d7fdcc284453d5b2fab5b016230aad38",
+      "bytes": 94781076
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/ort_config.json",
+      "sha256": "97e78d1d21c2eb719e865b018f17915df6a12ed987446eb7f3f3a783a5afb1e1",
+      "bytes": 1234
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/special_tokens_map.json",
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/tokenizer.json",
+      "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26",
+      "bytes": 439125
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/tokenizer_config.json",
+      "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a",
+      "bytes": 367
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/.models/fast-bge-small-zh-v1.5/vocab.txt",
+      "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+      "bytes": 109540
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/chunks.json",
+      "sha256": "3e5e9421e33d6ca26a8b6b145ba575771cb14a324bf3eaeb0c2ac937d84ab08b",
+      "bytes": 1485330
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/embeddings.npy",
+      "sha256": "c17493133f9e0daa0a7d65e4e4827e63f68b08dc6b846439114749fbd0a5a115",
+      "bytes": 2424960
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/lexical.joblib",
+      "sha256": "59bf58bdd6e9c6fbf17bcd5ee63a5b082a28849a79c49f685dc811c73d1ec5ab",
+      "bytes": 2663333
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/lexical.npz",
+      "sha256": "2b87b29d434b94c43d50a407ef87535fb0ac6c1a425ce5c6576d2d33700100d7",
+      "bytes": 1666326
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/manifest.json",
+      "sha256": "5a4676ee7e1b6585c49b94bb7b26a5126368ced2730d1556af1d76aea0fcae96",
+      "bytes": 3338
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0001.json",
+      "sha256": "9cf84a2b0fb515711861d3f0e19465caca6e53289b87c62fec5289c5de78701e",
+      "bytes": 2134
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0002.json",
+      "sha256": "6c8f3e99989b741b4f04dcf49dd3088c79ad0bc587526905cfd36b8553fe9e14",
+      "bytes": 5815
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0003.json",
+      "sha256": "17c0d1072fe6abc6d260a61817e8912d62c22f22743ee478a9a077256cdb2417",
+      "bytes": 2127
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0004.json",
+      "sha256": "191a9a02cff2bb230ff21a34f2401925045ac3c215d4e20b5b4618d99b325654",
+      "bytes": 16906
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0005.json",
+      "sha256": "2d6eca44843c5895491bf9b2a41899138b99c178a803e5837f8d61ea55687dbe",
+      "bytes": 9855
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0006.json",
+      "sha256": "116142d489679d01948bab0fc0400ae4a7416396ee306779113011f762d204ce",
+      "bytes": 32877
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0007.json",
+      "sha256": "f635d03b8c3e14b724fcfc03e6b85fdc242d79a6bb2197fa2237d111ccef5188",
+      "bytes": 20781
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0008.json",
+      "sha256": "da3c410c47c58f4d39656caabfe62f00a6d7f2094df662b46f75e5f95afca8a3",
+      "bytes": 18280
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0009.json",
+      "sha256": "8063347b5860ca3abe50c739d8aad4395a0dfb62f1008dc397f3e78b05b3f4cf",
+      "bytes": 21779
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0010.json",
+      "sha256": "c2b9e59da5b594ce5fb6f45abb3d6ae19da13e0964ae65160756ad9131b31673",
+      "bytes": 14369
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0011.json",
+      "sha256": "344f935a850fa15fde431564593ea377523b46727e2be53acdfdfa6f2e77add6",
+      "bytes": 5534
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0012.json",
+      "sha256": "0547e0798111dca4faedd04d4e786be74b5b62deb165644cb90eb71773e98a3a",
+      "bytes": 7001
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0013.json",
+      "sha256": "6538f5f9a2d21e0296bb6d0723dd971d8b6f15481dcd39d63455cde15f9e4a0e",
+      "bytes": 7758
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0014.json",
+      "sha256": "7e9581a63cb31058aa3075772d2e3f7e898baadb21b6d0f972de74ab1a22dda5",
+      "bytes": 12157
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0015.json",
+      "sha256": "c6074ed66ab1f145da6334875b32ff7a0a14e954ef329750b24abdf72336a446",
+      "bytes": 13099
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0016.json",
+      "sha256": "4eaa4e18dc5bebb6e5dc38e66b24b71bde29c829f3743ff745d7042089db6be3",
+      "bytes": 21621
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0017.json",
+      "sha256": "e41f6a846083bd78193b7763fd3068d6902c69eb1ad914211459a931af0d65fa",
+      "bytes": 20535
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0018.json",
+      "sha256": "8a16937a9e39aff41daa0cd759db6e9569fbd007fcad0e840f255c20eb64cd27",
+      "bytes": 20927
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0019.json",
+      "sha256": "16ac94b1249c4cf386882f7dd337d9bfd08ec76fe623fddd3e67fd5d61b4e752",
+      "bytes": 18402
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0020.json",
+      "sha256": "eca43df14fec2ad8159de7fa151a9d63e02d3ce908d542b2a8c936955ab7bd12",
+      "bytes": 19506
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0021.json",
+      "sha256": "03039c40dde22488c79ca80b08ca7751c09c0c1c81cfd7a1029c6306c8f3ab59",
+      "bytes": 19535
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0022.json",
+      "sha256": "df5345eeb13869762bfe1f6912a208abe9a30ffb43050cdd8a3a9e178a5b90f1",
+      "bytes": 18250
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0023.json",
+      "sha256": "fdad283f2905c0e56916b395d81e80a7b261b5b4b7a1b790f106b3f0ecd637d9",
+      "bytes": 4671
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0024.json",
+      "sha256": "b5ea11e15f190e7cd5231b10e81a46c8fe42ac41ab88d8db79d75d190769e4b6",
+      "bytes": 17213
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0025.json",
+      "sha256": "deade810da263c7fe1ca80585f169e5b89be400c02b48868db01ba3194df17a1",
+      "bytes": 18983
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0026.json",
+      "sha256": "25ff4d4c87f683a9d9398c09de08b8356fe60f217195ee09d9c9e4133bf416ac",
+      "bytes": 20876
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0027.json",
+      "sha256": "2884de4d97aaa2255f4c612414e229639ebb98ff26f8545da7c36f428c3add8f",
+      "bytes": 5861
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0028.json",
+      "sha256": "11fa9d3534c676802bf3cd89fdd2dc48009f3846e938af4b289748b417baab26",
+      "bytes": 21140
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0029.json",
+      "sha256": "acd76f973900ddff6f3c421d9288ace2e0dfc540b827f97eac56aaafc6ef7221",
+      "bytes": 21285
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0030.json",
+      "sha256": "112b9f3123f473a3f3bda4d784aed09e07a495c17a7dcededc02bdc74db93651",
+      "bytes": 13420
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0031.json",
+      "sha256": "4d6420dfc90e2e23ef8bf67892f841baa9901ee494d59838212cf40d8ebaa7f3",
+      "bytes": 15210
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0032.json",
+      "sha256": "32f2d25192962e9afae9a5173d7074458e97d35485524d8cb756b0a400cb03f6",
+      "bytes": 15266
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0033.json",
+      "sha256": "b8385a3da254de473fbed34c45fc2cb032964575b2af3ceaed5ee46d2fb8b0b2",
+      "bytes": 19860
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0034.json",
+      "sha256": "50bea975e74fec6c2a55010230e8630639d0a164474a9a883668330a8d2b19b8",
+      "bytes": 8372
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0035.json",
+      "sha256": "eaf309045dce5a8ddaa851dfc691547c19fc069c5b38f9651c5d02fc126dc343",
+      "bytes": 11091
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0036.json",
+      "sha256": "a8f886c0fa63e9e26de733f49626021b4ddb7e7655c5e160220c72fe8eb3b9f4",
+      "bytes": 19867
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0037.json",
+      "sha256": "8d536da5ae84f9d721463edcae6aa0369b6eba392ef3a12b0d67006a0f2c7379",
+      "bytes": 14705
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0038.json",
+      "sha256": "e4b3a55eadd696d18ba670055b56097a566ba8da2f838a8f244408ac10826717",
+      "bytes": 18664
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0039.json",
+      "sha256": "8058383ef73792af17cd80ea20c3000c192aec9cbf21ff560fd37542a76fafc5",
+      "bytes": 30542
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0040.json",
+      "sha256": "81a707c52f104ec2c0f1f4977dfccf5488727193659f189d147782ce77a7a905",
+      "bytes": 17650
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0041.json",
+      "sha256": "9a695cb309288983a5f8ac2828e8e4de7680cc42fa1960c31c292aa96ca55020",
+      "bytes": 9927
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0042.json",
+      "sha256": "841ad8a06f936e83a308f1c7587f5e2c24e044ce7bbd88f74002ff694ed10d1a",
+      "bytes": 16948
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0043.json",
+      "sha256": "bd04a9cea0d83938efc29daa74b0873cc3a5d462608073becfe3567c185c44f0",
+      "bytes": 14183
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0044.json",
+      "sha256": "6551af91222a7b6ebfbadad62b1ff439c6c69195c2d0494108ea11108ed461da",
+      "bytes": 12571
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0045.json",
+      "sha256": "0800bb81d5402bfcdf95d324030e89f49e10c65644415124e9ebcf5ffd2fa470",
+      "bytes": 14024
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0046.json",
+      "sha256": "59ac7937ed6509c058d34b15aaf637165aac7a518a49a8d90d98dc9c50a3c3fe",
+      "bytes": 18776
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0047.json",
+      "sha256": "870a03d4d1be78fc843a1e3339a497d941c7df79549a84121e9e940c4cdea40e",
+      "bytes": 7150
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0048.json",
+      "sha256": "0a314d95835ab781504f2542ae04a35f3c6e629e0b7b31bd0740f29d645ab5b5",
+      "bytes": 19099
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0049.json",
+      "sha256": "af0edb1068c8e2d4a0298b680e02bce10659858322dad28fffcd68362a38edda",
+      "bytes": 20024
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0050.json",
+      "sha256": "0b4e763a3d49780603a58cd3f4f1df8153a6ddf27ad1e766d97894fa0ff77b9f",
+      "bytes": 20111
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0051.json",
+      "sha256": "65b0ae1e34a969ba491caaab1aced3a572ac904f1928609f4b47719655e79e38",
+      "bytes": 17564
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0052.json",
+      "sha256": "b359841871e2e6cc542c1d50931a6e84172ad78e9e00b405e459355e297961d8",
+      "bytes": 15809
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0053.json",
+      "sha256": "de90852d91c8374b7708e4249f2d3b7929430c6197584a23dfb40b314370aeb2",
+      "bytes": 15323
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0054.json",
+      "sha256": "9a7b85d41fe6d7a71568e45637b0acba57f9f9b4f9b8dafb9ad954d52c72dcfa",
+      "bytes": 17837
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0055.json",
+      "sha256": "3b35b45d62d0c1386efb0b19223ecca04d6256a96636b6f5f4d825cab9bf9446",
+      "bytes": 20105
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0056.json",
+      "sha256": "37d75f631dcf0dfae895471951ea797d1f101196d4077e8b7f3ea252ea77f37b",
+      "bytes": 13956
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0057.json",
+      "sha256": "68d89673f059e45cfb9b06870ad867ff77dd06d1bd72a71b662e695c6f834229",
+      "bytes": 18733
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0058.json",
+      "sha256": "0378938028226425bbb604e88d6270941d0005cf2bedacd20a2145b3f61f33ce",
+      "bytes": 15594
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0059.json",
+      "sha256": "4a21eedff683846ee289e40600efe3ed591d1c51d31e33b87d3c7bf593d13890",
+      "bytes": 18738
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0060.json",
+      "sha256": "f296a90c5d8814d34e9cbb9513cf8c81f14c944d93d7572e6e3b2f3ed31f0711",
+      "bytes": 20592
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0061.json",
+      "sha256": "a9cebe053af2a1123ccc34b65d1afec9145563ec3e6d5220243dd3b11c7d9a2c",
+      "bytes": 23078
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0062.json",
+      "sha256": "c066359f1a5919bad8b3d85f0edc2bd8a228f237c07d2db3cd840d2d6cc0cd7f",
+      "bytes": 19841
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0063.json",
+      "sha256": "a9132351d1c45edb4c9dcf1d5a1535c4a2c03198eebd6276089809b1e0e531a8",
+      "bytes": 19323
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0064.json",
+      "sha256": "f11102a43eaf08322825542419c5b3cff7e3e9be307026ab9394fbcfeb0f936f",
+      "bytes": 17109
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0065.json",
+      "sha256": "747e83685ed3b3c8388d73192cd4ad7ccd108a443a76acf0e7b7b0890abe4ff1",
+      "bytes": 18971
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0066.json",
+      "sha256": "8f4e7ac2a8f2052042f0a478477cfabd3fb5b4a0b5caf4bbe3c01799d33426f0",
+      "bytes": 23818
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0067.json",
+      "sha256": "fa16542d1b0ed9b19acf917c9856703390c2138b8e56fe673f7474135d699aeb",
+      "bytes": 31819
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0068.json",
+      "sha256": "5874e4a7a715207afb3806c766ea64c2b1777131a1d42d33ae41e829271840fc",
+      "bytes": 19874
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0069.json",
+      "sha256": "cfec170757102d771dc73b42b081157bcb217559cd90ef8b55a038b80ba086f7",
+      "bytes": 23046
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0070.json",
+      "sha256": "99bd4c1756d2ae0ef20c694bfcac6e3872546b84354d7166e5c390f265f44f24",
+      "bytes": 23637
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0071.json",
+      "sha256": "1d55b86ed87e492cb2201ff302e32df171dea07e36081031b1a6877f946019c5",
+      "bytes": 17788
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0072.json",
+      "sha256": "d236b44b643811fd809a8f42d9248cad39eb088cd1dd3790822083c56e73734f",
+      "bytes": 34607
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0073.json",
+      "sha256": "25c6b63371eb9d3484de149daece5616017d5220cba7922df74784e85106c9f2",
+      "bytes": 22542
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0074.json",
+      "sha256": "81d9f9695e46ae4ca5b0ce925de0b519e1f19f947d0f298f2c8f00d0651591bd",
+      "bytes": 20549
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0075.json",
+      "sha256": "23cbf3a5526c786984a83bd45bc887533d685c4fd99fa71a3fa7c2dc9b9c0418",
+      "bytes": 23080
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0076.json",
+      "sha256": "bed544283fd4b72450a3c1f04bafc5392f22b170147d323fa86c45dfea3c0781",
+      "bytes": 26951
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0077.json",
+      "sha256": "c104a6bd9f3291e6617cfc1aa309b63629a4d3b0050c4eb0efc216a3239fd789",
+      "bytes": 28236
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0078.json",
+      "sha256": "8f4c6fc060571089dfe34fe943b125b042c2cb07d8e4c9dff12bd616aac17e22",
+      "bytes": 23493
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0079.json",
+      "sha256": "b973a0bda95eab935a1cd6c961a7408ff1af64abde847c02e10f5c94c5c09a30",
+      "bytes": 21310
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0080.json",
+      "sha256": "a2b712d5e09df8c3f59f6551d115d2041985827ee7a689785157d3e357192b73",
+      "bytes": 19841
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0081.json",
+      "sha256": "a3c44bee24c3c485892e3e4fedb8e1691afc0deaa87454db278c63228ce2ae14",
+      "bytes": 10455
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0082.json",
+      "sha256": "33f47828e6191b9fd3aa120b9d0f5569e1267d12f8a9f5faf6652df972eda920",
+      "bytes": 19901
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0083.json",
+      "sha256": "c913913925f0e3e0bded6eb029d6cee12c542a604f7f33f43e776227def39073",
+      "bytes": 22944
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0084.json",
+      "sha256": "384f167ef88648a23e8e04520156911c8a4ae1b69a00640fa0fd6153a5de0dc2",
+      "bytes": 25217
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0085.json",
+      "sha256": "e93dc934b4b678c88ff8a26722c07d4e998fbe5e7e0ed9ace77a2499610bf91c",
+      "bytes": 23663
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0086.json",
+      "sha256": "9aa7c0fc42e16bb381dd8db098be549e7683258f7d8b59fd229bd44f70d53009",
+      "bytes": 128154
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0087.json",
+      "sha256": "9eb35e0b73ea8cabc4bbc31a8ab15c238c18ff5641eaf4f6aa0fbf3034a576bb",
+      "bytes": 22109
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0088.json",
+      "sha256": "900951ddafefdc4d2cdb7adf4e99a3a9041959820f3ab81191aab758dc1016d9",
+      "bytes": 20711
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0089.json",
+      "sha256": "cedb8accaeef0a39e630ab37af70f8045ce658afb597833a473fa20cc7693cc2",
+      "bytes": 30615
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0090.json",
+      "sha256": "2da1113229ca683af935d02d6ad31222feb0d2451ecfc7db6d3306e0895054b1",
+      "bytes": 25190
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0091.json",
+      "sha256": "812de76132d630de8491900ad556f7624bcd88fd2191fe12e28fed012f6c5526",
+      "bytes": 24406
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0092.json",
+      "sha256": "0653d05ffeaecaf09d0d729ca036583f9497450dbdcd5d9bc45e7e978efe5e26",
+      "bytes": 31892
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0093.json",
+      "sha256": "bdb4ab2c3c5d329e0297c7f3c6f5c557549d6734124f402fd6afaf7fa10ca1a0",
+      "bytes": 17071
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0094.json",
+      "sha256": "68fadb13d2fea37666337855f70b9c696a90a11173272e4e054319d57bb7eae1",
+      "bytes": 24254
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0095.json",
+      "sha256": "b24976502273b74b91a8ef1bcddc04a180f20d4fb62868992bdb56ba05f7ce3e",
+      "bytes": 23812
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0096.json",
+      "sha256": "c5a5678ce5391a0a10591ba7d7f75b30e252661e163063619566bf6bdd2dfe27",
+      "bytes": 22164
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0097.json",
+      "sha256": "ce4c01fc7d6e2f4b51fde2defa19dfe3f30e6935e7006ffc18f66676ec6871d1",
+      "bytes": 25815
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0098.json",
+      "sha256": "ca7a0ebf2cdb6403ffdc3bbebc6fb4aa654cecd1b6d46b99002c58c1e44a2453",
+      "bytes": 24577
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0099.json",
+      "sha256": "ed290fb1d27c3650191d82f36078484266fb8460813dc59e0f644128dd285eb3",
+      "bytes": 25944
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0100.json",
+      "sha256": "c6e9d35119e033b3f192e6aeecdff7a434ff0f69f3e2f5d6edd5344b1b34eeaf",
+      "bytes": 19946
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0101.json",
+      "sha256": "7e018f138c2772b2e618c738010ea86fe4879da14030e84da822e32b03c128b3",
+      "bytes": 29591
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0102.json",
+      "sha256": "dee96d126710792a1bcc2c8a86ffb5f0d5e302f3316e02fd4c890bdd54d301eb",
+      "bytes": 29007
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0103.json",
+      "sha256": "b168dce3cf9c3d5c72e34d42e7c08423fc443b47626b66b61d3f3a1cd7669768",
+      "bytes": 31586
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0104.json",
+      "sha256": "477bb6f11db511c531b056d3d6fa3383f3fe429cfe17dc7922c3ecbebd2fff92",
+      "bytes": 19804
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0105.json",
+      "sha256": "230812e78f9deb862ff170242449034adc1f972158c2fcdbb94bf697849dd7b4",
+      "bytes": 22967
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0106.json",
+      "sha256": "56a8e6e4d5a2ebf05614856fd7c180c9a7645cee100d0a339cb6262605f00132",
+      "bytes": 20353
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0107.json",
+      "sha256": "bd2db9bb385d4a080a4da4caf2e1d7a4a309d319213f2451e6cc4744f1b19728",
+      "bytes": 18593
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0108.json",
+      "sha256": "66cbe6cc6aff76a0916a6f463fbb4270663701e309d1dc30bfd55366869c6698",
+      "bytes": 18791
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0109.json",
+      "sha256": "6d9db2694d3df66cfdf17f7598479cf2fbe17d4b8f423397411f64f5610f49c2",
+      "bytes": 18828
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0110.json",
+      "sha256": "121172a1dbb8f2e2ac3f144bc71b3662f01ac4df19759006280898f3cad2c394",
+      "bytes": 21834
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0111.json",
+      "sha256": "c24c3582750a7b2a4a70f5df9e4f287d01cf97db88709273aca3a0b418d72ce5",
+      "bytes": 23055
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0112.json",
+      "sha256": "225fe1c75010b1d8c6b4005b19df1ce4381a729dcee8ef6c2f4bf4b571c46959",
+      "bytes": 6931
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0113.json",
+      "sha256": "380c92ca2d9d256de380b79b982a180f39f87a316679b3cf59bb650d61caca9e",
+      "bytes": 16759
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0114.json",
+      "sha256": "26fa98abf61170fa3e485b2c23d3874f3b7c323f4845d5bec1ca17ba3dc79bdc",
+      "bytes": 17520
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0115.json",
+      "sha256": "8a47aa3a2642e101c26b98dffee6d409fff177e4dc95fbec6ef41bb8c9da2662",
+      "bytes": 18169
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0116.json",
+      "sha256": "a8768273bab31a0aff8c4f3ecb6c63b36555c5cd9be05099f2403f17fc4b8d77",
+      "bytes": 19635
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0117.json",
+      "sha256": "3ef83cd111f31135d25f3d26524b3e29e8610d05773ed6a391720f1f35ff1b4b",
+      "bytes": 18664
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0118.json",
+      "sha256": "0919d03f03d6f306f8ee9b6dc8d76f7800811700d2a51947826e9bda0ecb6bdd",
+      "bytes": 17335
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0119.json",
+      "sha256": "1ae98a6e327bca116ca20c2e4ab25bd43cb608aec73c8ac70ebd02ce80fe1ab0",
+      "bytes": 20639
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0120.json",
+      "sha256": "c2908d44204b7a52e663df0dd6e797d0473c369b3d98888dc441bfb1adad0547",
+      "bytes": 21206
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0121.json",
+      "sha256": "c33ac0d4d885f9995b86ddc163918d47b617fece3cc0e76080ac84c417c58c78",
+      "bytes": 20859
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0122.json",
+      "sha256": "1aa6f785543af900bec5d807c5c8d6cc66b74cc8ee3bc7aadf18d523979d0796",
+      "bytes": 19374
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0123.json",
+      "sha256": "1a0cca6549443edd4c1be77bcece1941832edc1f542a642454c551d3112f362f",
+      "bytes": 21989
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0124.json",
+      "sha256": "e48d9838af10fc0f2e691c4021adbf97ced895b33353dbbf53384e0885899728",
+      "bytes": 18960
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0125.json",
+      "sha256": "c8b923913065d0211b1f4f73c0030350c2558903d3261747211f0240a345a2bc",
+      "bytes": 21765
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0126.json",
+      "sha256": "1a1a56f2e5735324572ffcd6b5bd9f536850715f2334da2d8cb451d471d6ed07",
+      "bytes": 20079
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0127.json",
+      "sha256": "701f5983108500ef4e950d4fc4e12f53c884eda2996800719b9b5fb713598e15",
+      "bytes": 22634
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0128.json",
+      "sha256": "73fd52d6553ce80216092acad8fbac7359e2944b0d14dda43ef485e7e6524c21",
+      "bytes": 21587
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0129.json",
+      "sha256": "bcf16759b94b58e3124268e7916433c7385bd7abb9fe6aaa928dcebd3fde04b1",
+      "bytes": 23439
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0130.json",
+      "sha256": "cfb5bc6997039b8c0486025350ea296d912c70c9c5c5a68256936f32cd31803d",
+      "bytes": 23913
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0131.json",
+      "sha256": "e1f925b628f9beec2996fd4cbfcbbdb981c244acf94d6bb477af93aab258cf2e",
+      "bytes": 19381
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0132.json",
+      "sha256": "fad9505df5955b7ba8390153577a8491f58adbf556ad063448a9e5cc29e8b64c",
+      "bytes": 16610
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0133.json",
+      "sha256": "380700de7b991364331ca164bc0e8377e8356d6b69fb50808edaca30132883c8",
+      "bytes": 20503
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0134.json",
+      "sha256": "d529dc5b8cacbab582fcd1efb5e9c06585af11beed2bd86d0feec6a3c8b46eed",
+      "bytes": 27839
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0135.json",
+      "sha256": "780b1c627436bb5f7dd452b8e0a2509124b3e23eb99e4dd04a6e9645077ac2e8",
+      "bytes": 21112
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0136.json",
+      "sha256": "5decb5a821c60f00fb3d83d7dbc17b4b237ca40a80673b15d1a0fb21cac15ae4",
+      "bytes": 27159
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0137.json",
+      "sha256": "80689cb8cc91e0b02b2d33d4a0a7f9b86151ab2986846607bac0467bae77c7c1",
+      "bytes": 27680
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0138.json",
+      "sha256": "d8357db52914854c6d008f2b4ddb41eebaa510e027a33410b662d8bb57fc20d4",
+      "bytes": 18992
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0139.json",
+      "sha256": "bc039f4ba832086276555c4984a9d9165e7054afbd4e9e15ad2287055f202b55",
+      "bytes": 20785
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0140.json",
+      "sha256": "aa0c43c15a79159c92555657b23d612f217df74a3c974e2d014c035b73706868",
+      "bytes": 30923
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0141.json",
+      "sha256": "bf2702ec8989c1bf822ba99b8ca56ecd61771b1fd1c2faee051e06ea76722b58",
+      "bytes": 21519
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0142.json",
+      "sha256": "205aca8b31789b99dbbca61ffe113ef26815b05d371eed85a8445e2c668e3863",
+      "bytes": 21335
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0143.json",
+      "sha256": "e9946ebd2fc673ce359c9c37e0f6673659d5cb36e8c90554adef7d074b2cfa3f",
+      "bytes": 26679
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0144.json",
+      "sha256": "317b800e19db8c9504697b9347d92740ca38966c69d6c3ac2ecd31d5ddf59340",
+      "bytes": 28155
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0145.json",
+      "sha256": "d5ab0a94fd0030f1c0b3b1a201b5d8547c9e0a5b7fff7ce05ad6db654315d586",
+      "bytes": 22958
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0146.json",
+      "sha256": "823e830d8318df9be3302ccb19f5153969a6500088bbdd44b3a6f7253d82e6e2",
+      "bytes": 24184
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0147.json",
+      "sha256": "38b0a0ef954f720d07476f036662f54b1c64ffb299019e2ce1dc9247f4ff7ab5",
+      "bytes": 29401
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0148.json",
+      "sha256": "0b2d1d8c937977cfd4ac7ef6d4212bf8522cd3498120e4072b160391978237e1",
+      "bytes": 29060
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0149.json",
+      "sha256": "7d021b30617388fac86d71b0c1d5cb914ffc397db240c6484de728acacde19c1",
+      "bytes": 21574
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0150.json",
+      "sha256": "737edcb535e3bded50d59acd7e3fae1601ae9e9146a43f4fba7d6ece8699a1ff",
+      "bytes": 10885
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0151.json",
+      "sha256": "8ce3ad18cb54cc0e04864bf207795a8ecddcbba126f3d8e2e534567281aad557",
+      "bytes": 17595
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0152.json",
+      "sha256": "add785372d7151d014b60750f7a3a888394a7ba9f41209fb4edc5413dc43f3a9",
+      "bytes": 19587
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0153.json",
+      "sha256": "b46e5c661817fc65c9ce0c8f34717446bd78e704b9370733fbc78174b081b2ae",
+      "bytes": 21103
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0154.json",
+      "sha256": "eb49bb360dc19bfbecfea98344f16ece414473b31b88441475469e6144cf89d6",
+      "bytes": 18177
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0155.json",
+      "sha256": "47187fdb1b34b162fc987d9cd785ca5d41ead15f74c760fc161c53048a08ca0f",
+      "bytes": 18944
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0156.json",
+      "sha256": "212c023794bca76566cd058ac5b4349edd420eb59c320e122afa3c3903274f08",
+      "bytes": 30799
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0157.json",
+      "sha256": "526c34b1bfd269845f19d38de2e4dd68cd2da338dfd75d8e01c6141cb0944d2f",
+      "bytes": 20326
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0158.json",
+      "sha256": "52a40b9aba7cd6eca8820d2cfb47cd242be435b0c7f3bf6ebd75e07e2d12ff62",
+      "bytes": 32258
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0159.json",
+      "sha256": "4911b5d48bf55522da604f46db1c3993a5ac4593f5b4286d04fe497d63bbd459",
+      "bytes": 21623
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0160.json",
+      "sha256": "5b5c5b5f06c4dcb2381a316c2e630420c04e0dab629ed1a81cb4cce903622bcc",
+      "bytes": 25727
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0161.json",
+      "sha256": "a7b6ea962891582405ac6780c1da88d1fba1e1ecc6331ad8d357a4ef85935fea",
+      "bytes": 14107
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0162.json",
+      "sha256": "f6a025d544faf7dfb161c6658239331989c5a2b5eac9b44256e0d823acc61dab",
+      "bytes": 24706
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0163.json",
+      "sha256": "affac0417c243ece811400470816445c636d60e4a11b8b5827c73943b913f5c2",
+      "bytes": 21418
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0164.json",
+      "sha256": "75fe874f0ca4fe380cc5bd4441e7207d23dafa5ecf9434551dd94e245dfb4f54",
+      "bytes": 41450
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0165.json",
+      "sha256": "6bd38aef84fc3e44a2d4161a58bd7c538b1fb9fc72702eac80d2fd4cfbcfda50",
+      "bytes": 25933
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0166.json",
+      "sha256": "506677f962d669d5a9686d34c8cf68e85d5040ebf41a17b06e9b51b43a587eaf",
+      "bytes": 19047
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0167.json",
+      "sha256": "4e367d16c371da6ba5f18de106135ebe2da7041301f38a78be7b3af611a6fd2b",
+      "bytes": 20466
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0168.json",
+      "sha256": "a0133feb9872f4bec0cddceb4c441b0b6b228fbcf83887d44dd8dca0e0bf045d",
+      "bytes": 23276
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0169.json",
+      "sha256": "943477c4949573f63292275be76de6234f526b90b45ecc0347afdb7ad77d7658",
+      "bytes": 20092
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0170.json",
+      "sha256": "cd3b85e15082480bfc514fc99d14ce0f23c673f7de3a82b6a8f63b5add924762",
+      "bytes": 20083
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0171.json",
+      "sha256": "f7d6296d4ce7b7129362e3b2434b933994c4a204b8a3d79081d107d2c2f626f3",
+      "bytes": 22498
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0172.json",
+      "sha256": "55f51176ec32e680f8a2d65d998d355073d1a245300665588dcb5688f56f4446",
+      "bytes": 20580
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0173.json",
+      "sha256": "4d611c0e455aabd69f27eeb12aa982619ff8c670b93e70b288c42d7daba18b41",
+      "bytes": 24400
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0174.json",
+      "sha256": "d82746c56cf9d9815abf3464f51171fd14e27b39a15f7f89853d20f7561c8bc0",
+      "bytes": 19890
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0175.json",
+      "sha256": "d8b490356cf877dce9ef3380aaa5def4f54570a2ecbe642e4a1713b38030dfef",
+      "bytes": 19316
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0176.json",
+      "sha256": "4a3a023b94a00dd10cf680ce7a4b431d8e686e8558e9be4430336b6118dc1f12",
+      "bytes": 19025
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0177.json",
+      "sha256": "f132c3c013402d971f50b972287bba3c8789dc6f8184418e187a01bde0f2124a",
+      "bytes": 19719
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0178.json",
+      "sha256": "e19c7486aeeb417f2308a1f37204db5b03cbd054c3c94c105d89b41523c1407b",
+      "bytes": 43407
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0179.json",
+      "sha256": "9f2c29f33f6bc2f9d5a90bf730eac7f3a876e8cbe1c29fd32e9e3dc7cf696da6",
+      "bytes": 19836
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0180.json",
+      "sha256": "eb9227c7da0d05ff5d06a38c9dc516cda56b814438ef2f98892d3200459c6856",
+      "bytes": 21750
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0181.json",
+      "sha256": "8f8aaaa4d323d7c81288f5e0b4e42536d9e9d1e775ada016eab64c2fa2dfb4f1",
+      "bytes": 19936
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0182.json",
+      "sha256": "1f92005bc99dd738cb20ba975b23318b0be43866059fd5e95d60ac78f82d50f5",
+      "bytes": 21297
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0183.json",
+      "sha256": "f9175477013b2f0e4cf65821b300e1b17bdd8d4bb05757c5a65e523320c60114",
+      "bytes": 19084
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0184.json",
+      "sha256": "e80136e7682b3806404e1545603d8a135a8004182bef3437f4ffafc7a70b20f2",
+      "bytes": 20388
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0185.json",
+      "sha256": "a0d21c185f46df092c12bb7c582f6235ce9d696a33c004f28ab06648ce6fd499",
+      "bytes": 21693
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0186.json",
+      "sha256": "53237536b3a985274f1d112d4aa3f2e7b9f706949990b76535f402272a1fb5c8",
+      "bytes": 20464
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0187.json",
+      "sha256": "e03bf7aa289cad44c174318e9bfc3b9fc15351013f2c4fccfe8cdf51cfeac16c",
+      "bytes": 15848
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0188.json",
+      "sha256": "28b29b2efc1e4e4f3d469b0b83a6bca472b4221eb2e86a3c621e9293cbec2e56",
+      "bytes": 18053
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0189.json",
+      "sha256": "cdb4fb9d25423dc20f0187b215f356b157752971aa4a6cae559f0ed9a1d52a15",
+      "bytes": 20325
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0190.json",
+      "sha256": "c158a3d7a43a40ea75fff14e5147ca7ac971c16b97ffd12b09a012e42b5ebe9f",
+      "bytes": 20325
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0191.json",
+      "sha256": "7c6978af539b7b344df7b3dff8538f921e7fc13094646ba18b97ee164d43d0b7",
+      "bytes": 24560
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0192.json",
+      "sha256": "e2517f8308bb66e6eca01d6356f52ff4a7dabf6c48cad9dff5fad6231871f785",
+      "bytes": 21886
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0193.json",
+      "sha256": "8ef59325a2abcb3967077e5094aa5ce866d22bf78b5928349ae38ed8b006a126",
+      "bytes": 77519
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0194.json",
+      "sha256": "b7f11f40c980b016685a9602ec2af4469e9a4c51a11064d34167866a8994b44a",
+      "bytes": 54454
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0195.json",
+      "sha256": "b652bbf6516db98200e0fd2ea527b068eca1b1e2f36ac86094a1448b95645e49",
+      "bytes": 47982
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0196.json",
+      "sha256": "f7fc9a60ada50250a48c4debcbb9349d1a68a26d4c3a584865561fc7663cf95c",
+      "bytes": 69870
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0197.json",
+      "sha256": "16b3cc2b1b387bcce08acda92303615ad9cc95776be3dcfbfec33e6152a6303b",
+      "bytes": 71686
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0198.json",
+      "sha256": "8a08618c1a1db7193fbd4dd3d64b3b8e92dfd0eccdabbedd5fe995fcc3624cbc",
+      "bytes": 38182
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0199.json",
+      "sha256": "fe12c1353871aeb2d33cf5fd9a2062022ece99bba15d775baec0030a3c414e37",
+      "bytes": 55340
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0200.json",
+      "sha256": "563191ff3af25782a45c5916617db71922bdab42845214e6de9b84ca6b2ad591",
+      "bytes": 62365
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0201.json",
+      "sha256": "a6b559a27c12f930fb42d94a32f2ff76d19374fc610bdf09e7f5bfc14ea53a3c",
+      "bytes": 51258
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0202.json",
+      "sha256": "a225b84dd3bb97380f166afcf411f0bffc856227ffca7fc8cc50d45d39c6fe27",
+      "bytes": 23286
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0203.json",
+      "sha256": "e02fee4c7db31faa8fbf09daaaac51151f10e28634350abdd62cabc1d43cc2ac",
+      "bytes": 20945
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0204.json",
+      "sha256": "b6f2e03d09bc536106b83efc4f40472ff4a889afe9d37a411fc364eda60001d3",
+      "bytes": 12007
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0205.json",
+      "sha256": "edd4b0693f4dd2a82731addad4db2c825fb53c9791f50e0084f6586ebfc1f970",
+      "bytes": 38152
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0206.json",
+      "sha256": "1a61e261f33be69b3b06e3b88d61ba3b6cb157490113fc48dfddea33a0bd3f81",
+      "bytes": 58973
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0207.json",
+      "sha256": "65b8ba93f183ed376d0d41f7fe65f9084670f79b7b2d42f552e7378d9fda8a64",
+      "bytes": 32141
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0208.json",
+      "sha256": "edce0348c4f0c9a371685000ed599c36ba4a1fb143dde722032bd5e435da7dca",
+      "bytes": 38534
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0209.json",
+      "sha256": "f8a7a1f32fd9d4e591c2caa7b06550d5000eff62d04e6b26b6eee81f4c86b844",
+      "bytes": 95701
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0210.json",
+      "sha256": "c7d573726a2a960bdc5f3e7a52329a9911d99fed47821840009b089ca7b83a0f",
+      "bytes": 101370
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0211.json",
+      "sha256": "2f82179f98c2d9f39bc1581f8b7c9490b1ce82480f17df6c8330cf9e8f1478fb",
+      "bytes": 13699
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0212.json",
+      "sha256": "036a36f365b55b2c30416ddb53144074828a577dd2e4744ccd1d538e87568c95",
+      "bytes": 98719
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0213.json",
+      "sha256": "814416e4997d657eea88f172371ed1911484410d6537c09831905a0a76319d75",
+      "bytes": 88444
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0214.json",
+      "sha256": "1cdab5da19407705cd67b89d95e1f33fd500f67e72ac1327ef98106feef55cf4",
+      "bytes": 92510
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0215.json",
+      "sha256": "176f04619db1a12f9ffb4acf9c788607b55c69397a58d6257cb38da86ab4609b",
+      "bytes": 91140
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0216.json",
+      "sha256": "b014dd4d7e60d46d566eeadc2540070dc92af1a7469ffca25ad1ea78c1c373dd",
+      "bytes": 94471
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0217.json",
+      "sha256": "15384f5c2015ad5604290e0463218eb50a629f2232f2a041361bbb2afb5e655f",
+      "bytes": 20968
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0218.json",
+      "sha256": "ac29e0d2c2cfbcab25b08a364b05225db4905909d2963b7bd6d5ff831c502289",
+      "bytes": 28825
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0219.json",
+      "sha256": "76a1b648e27d878af8ebba9669b7bd9ad50a9bae4c9e47e41fbf7e4739961e5a",
+      "bytes": 17773
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0220.json",
+      "sha256": "78675df0e4b5cb0319cfbc57d0848aa9932f837809dbcc9f9cf972b6e5fe90d6",
+      "bytes": 3331
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0221.json",
+      "sha256": "f389e1460f8f008c96c609c6a98c96d77320b13c8adb3de0e184540330b40a51",
+      "bytes": 3730
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0222.json",
+      "sha256": "fc087d9f14e6b6eae4c965727c9eda20547a37267300f0594993c7ae050f50da",
+      "bytes": 54022
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0223.json",
+      "sha256": "5cb0c0cc104c117186d33b0b87a1d0c4ca3a6066cb7fb31994443da63ca1d2a1",
+      "bytes": 40877
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0224.json",
+      "sha256": "3aabdb367a632d2887f69669e7325bd17169c281c31310452200116495d01523",
+      "bytes": 17381
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/3bdc4ec41025a978/0225.json",
+      "sha256": "12bf915c407bfa148980c5078c9fe0235f7e1118457f0be71aebc538230814bf",
+      "bytes": 1455
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0001.json",
+      "sha256": "4b98a488251d3b05726360d32f8be8084deb1ec5d58baed82ab7d9583aa12095",
+      "bytes": 3600
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0002.json",
+      "sha256": "ff7a0a60c50cdd118056cb2236e28dc05c99d571b177938e51551b74532154f5",
+      "bytes": 463
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0003.json",
+      "sha256": "66760f30e64b1b837f4bd1ffc25cf98d31b8582728416f793997514cb7d431b1",
+      "bytes": 3752
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0004.json",
+      "sha256": "c98923d1ca765bfdd96a8ecb4596b776a94cb164d24e2907d2ac48c012b78bcb",
+      "bytes": 8492
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0005.json",
+      "sha256": "a37341fb9aa5c7fd057914197ced3be40a15efb0f5b54949218291aa5a19285d",
+      "bytes": 9875
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0006.json",
+      "sha256": "55ddd55d5c2e8efff7403875b8b87212abf10d00b8790bd06828e36f38a6f0db",
+      "bytes": 27986
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0007.json",
+      "sha256": "8b1997c2c908b0a50ad3539ee92a56fb2a64d64ad8a0024fd758a3dcae5cbe36",
+      "bytes": 33611
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0008.json",
+      "sha256": "1c0789599f1393a966809680e8036034934c4e13b336b9e24885656959be80af",
+      "bytes": 5372
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0009.json",
+      "sha256": "b4220a8d06e4da98c31778c9b0eddd2896ecf04ee9aedcbf19f3a1102ada7b67",
+      "bytes": 10572
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0010.json",
+      "sha256": "a2d74423bc8ff6dead18c1450f845e7c108f68fbd47fbe8100060a6f183054ed",
+      "bytes": 11485
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0011.json",
+      "sha256": "c3bfa51174b7e4fa07790845f6b71577b409606e9f83728a44299d3db278cf5c",
+      "bytes": 15458
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0012.json",
+      "sha256": "6625f02065a90eddd9236bfed5a83bccca54a959a8663565f8980247a0560ad5",
+      "bytes": 24926
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0013.json",
+      "sha256": "d9d4e173d453c5ad5687700dd6545beb50ec6123b89623053b41e4ee58725731",
+      "bytes": 13463
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0014.json",
+      "sha256": "54702818adcf4d1ebfa48aa3e9d9f8eb680f16122eeb6a1d08c73f1d48db8e33",
+      "bytes": 25275
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0015.json",
+      "sha256": "df35dc095b2afaa816623c1939a1ee0473537978b71e131974fccb8a204bf2ac",
+      "bytes": 39393
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0016.json",
+      "sha256": "81283cc63a3d3b3813d21436abcf75503cb7e9b27f1dbd57bc0b82ee1ece8e18",
+      "bytes": 20518
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0017.json",
+      "sha256": "ae53303268e9c0ed1057fd24f2b3440938f2b02261fd2a69df4553fdcaf2dba7",
+      "bytes": 41941
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0018.json",
+      "sha256": "760234df3f570e7c64fc0627ddccc51f40600de5b78c2841b782a7986055ff00",
+      "bytes": 38158
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0019.json",
+      "sha256": "60b90f38ee8095e6b51468cd94f926f9a1500dd54e79129498c37b814caa7590",
+      "bytes": 33297
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0020.json",
+      "sha256": "095cddec496699cd38b39d4fd7edcbb2b66446665aaf00aec162b00fa956e25f",
+      "bytes": 30422
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0021.json",
+      "sha256": "f2d2fae5ab8f7d89ddc6fc61e07ba5339908af8da199b7eaef006e9fa0322e33",
+      "bytes": 9964
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0022.json",
+      "sha256": "5f5a264c3c57ff756424952e1084e8b790a912b4b4155db2f2e3cdc7abf9abdd",
+      "bytes": 23260
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0023.json",
+      "sha256": "891fd20b609299e603f471b0e7420058f9577f0d9130feb1ff6bbb2303f25b48",
+      "bytes": 29880
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0024.json",
+      "sha256": "7efdf4a722705817fa8f80fc3c78f93c1800349d8ddb27d698e040c47323d68e",
+      "bytes": 29118
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0025.json",
+      "sha256": "af50b1ec2fc2b4723e405f49205e54c6602d79749e4efc29902ee274f4d4129d",
+      "bytes": 31505
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0026.json",
+      "sha256": "636cfffaf98530c991bb3a635d1ab28046d76ef8c47f5e97d5b228dcd65e5c98",
+      "bytes": 26618
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0027.json",
+      "sha256": "56635ad4ec6557896397fe6a432498602ff08080ef27022248f3ffa36f5333c5",
+      "bytes": 33728
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0028.json",
+      "sha256": "e4a9e2a2ff83caaccbb87834fc58eb26e06131a7fa2947c6a3276f6df324bd67",
+      "bytes": 26008
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0029.json",
+      "sha256": "13330d270cea87aa7ff551f54b33cc36c24baad03a9fe418177672091308808c",
+      "bytes": 27671
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0030.json",
+      "sha256": "47bc717d0ab16378c38f7864a3debbddd43523d1b1aa61483c895f9dacfc279f",
+      "bytes": 28222
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0031.json",
+      "sha256": "8f37128c9c3dab74607f09bce572592415a553a17ce0a7ae6412adf02a45d504",
+      "bytes": 26145
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0032.json",
+      "sha256": "c86209b14414bc3502138d2ce2da8f6a3d48a2376384e0a54242e7b87487adf2",
+      "bytes": 27337
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0033.json",
+      "sha256": "6eca4472f1d7c505286241fdb73fdc88b466b0a528906e7304e8c4e3735f6b47",
+      "bytes": 28745
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0034.json",
+      "sha256": "35023570814bf99a24a1e8fd3d7fc72e87034f358e26a66c6c77d6c634fc4256",
+      "bytes": 22694
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0035.json",
+      "sha256": "0243ac8da5fafd09239dbbd2c980eb7905f8f015639b5ffeca86ab3f4ebb1eae",
+      "bytes": 24839
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0036.json",
+      "sha256": "e221a2ab2e3107443dec4249419e9c32884a28aaebb64083d4bdd4af534e4838",
+      "bytes": 22496
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0037.json",
+      "sha256": "d5015d4bbc04c8112222941b7bf51afc96cf12c64b48dc42828d53036bc05285",
+      "bytes": 25623
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0038.json",
+      "sha256": "c7e5fb92180cf6bd898f5e4a234e65e7a0960f06a8f1720fdf29e857d36c6d2f",
+      "bytes": 25782
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0039.json",
+      "sha256": "48cd51911f5f581a65232fdc493c57651a65fcd8e636ae3e6d1c6e84c339a90b",
+      "bytes": 25264
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0040.json",
+      "sha256": "6571e23971778f143526941526bb8a8e48a18df2a8811dca7ca818bdb03371b6",
+      "bytes": 23614
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0041.json",
+      "sha256": "74474d2bf92d5428f089c21a3d141c0486037b08d75f70f08dc1808b94882219",
+      "bytes": 22505
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0042.json",
+      "sha256": "6f196b0a68b3b59fb8ed36580d133096dfbafc2319ef883ba4ee8821bc0a3de6",
+      "bytes": 27158
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0043.json",
+      "sha256": "f2ad8443cebcc897b49f199ffea782955f0b87d8316f9635f1577d07fb0feaf1",
+      "bytes": 26914
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0044.json",
+      "sha256": "0b446dbd203a9e3b007693552a37861ca3b7c475783b0cbb096684855a14b0c2",
+      "bytes": 30366
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0045.json",
+      "sha256": "4938a4c72cc75763fcced2fffc3f79ace324983578493b870029dc4caaacd6ca",
+      "bytes": 27826
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0046.json",
+      "sha256": "e3e554652f3123f1a1c0010039f5120ff8f3c8f0cf3afe2d80bb01969be874f0",
+      "bytes": 25992
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0047.json",
+      "sha256": "cc69fad42e88f7be0481ff9ef9422d4fbb2ce30cbf9e509ebfc831ee2be2a30e",
+      "bytes": 27309
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0048.json",
+      "sha256": "f651304681d1c76fe67730625469eadfd308dae6f87c37f8d251dc8ac7896c2d",
+      "bytes": 28753
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0049.json",
+      "sha256": "63246f53723500237a8f8af28f2881bdb490c2b20f9030957574d3d4f2cdce80",
+      "bytes": 26521
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0050.json",
+      "sha256": "a9ead47d6e5072b35357cb030f2531b4ef817c299e202eb1bc7633a45e0752a7",
+      "bytes": 25500
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0051.json",
+      "sha256": "0a3f53aba7cecca4a98e6afbe6317dcd65b45b7ac4686df7f4fbc44e326680b6",
+      "bytes": 29208
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0052.json",
+      "sha256": "7e5f52d4808259678f9a4683ff514dcd1c9b570ee659d6b557d6fcb9efdc0202",
+      "bytes": 25266
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0053.json",
+      "sha256": "91c605974f516b135dc486f70494b2c4e9e44208e454690ed9793678a7010732",
+      "bytes": 26070
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0054.json",
+      "sha256": "1a94c9e1dc01efabcb699cd00060858315b52c769d8fe3d44727939ea3ca214f",
+      "bytes": 30317
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0055.json",
+      "sha256": "08b95ebc12b6be84cb8696e74576cce43933c2c6a4e8dc433da4db7a8d1010b3",
+      "bytes": 24639
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0056.json",
+      "sha256": "0209cd2c8ddcdf482730b90372baa49ed83ffda3fd1e7885fc0d70244a446d04",
+      "bytes": 22844
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0057.json",
+      "sha256": "74be9ae1496ed176800d005491fa914c0c3b2f8d8cd56a2282963331a52928e3",
+      "bytes": 24060
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0058.json",
+      "sha256": "a00d3852941407823bc3f3dcfc8fc52277a1b2de62cc075ff0e6452c9f8aae0a",
+      "bytes": 20878
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0059.json",
+      "sha256": "313f239a77d2357d1a8c245607e829893cd9409434a71df51b4a09f80cd26de7",
+      "bytes": 26239
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0060.json",
+      "sha256": "83efb9285c32e3886792905b0ad5c900a5cc493829da778d58cb79e4901ef51a",
+      "bytes": 27008
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0061.json",
+      "sha256": "8bbb8a3f870c2876226cda134537ff6119cb2b57badd638e7e0e01f36fb8c0e9",
+      "bytes": 25704
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0062.json",
+      "sha256": "e770344b78d178197ce5b8304f5ed9e688b77013762ed20ae1af53b7668715b8",
+      "bytes": 28414
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0063.json",
+      "sha256": "57c605be134257a2071b3ea40b471ba0d03c84bc2273a4d623b9a89646293b2c",
+      "bytes": 28672
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0064.json",
+      "sha256": "babe628a2b3e99b2f171dfe549380fb57576dcbecef56732252a17fde40471a4",
+      "bytes": 27029
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0065.json",
+      "sha256": "c920b8bf9e13245906b9c2eb761976c3ab1c4968a43618161d432bc98616cca5",
+      "bytes": 27610
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0066.json",
+      "sha256": "612b26871ac9dd1f845ea986f388fd2d8ab7c7a2e54969ac2b6b36dd0eb8fd05",
+      "bytes": 27628
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0067.json",
+      "sha256": "0b68cc2aabc53eb9605fc1c7447de95d04f287722c9702cb32641a9fed246a3f",
+      "bytes": 29390
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0068.json",
+      "sha256": "75593a30736e9993f4396077a7c598b54c7be39e6ba9bc42a1e8acd722da060c",
+      "bytes": 31060
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0069.json",
+      "sha256": "2081168e5765906ce8b5305c38cd9fcd2b5e7b6a38e6bc9bc0d07285e421960e",
+      "bytes": 21623
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0070.json",
+      "sha256": "4ae96d3e7014c8432bac88539a4687d4a59603875eb918342e62a8bc98ab3f97",
+      "bytes": 21896
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0071.json",
+      "sha256": "684a01150a4100427e539d3f6b742d3a1f0456e9705888b345280ad93c0c03c6",
+      "bytes": 26464
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0072.json",
+      "sha256": "06165064c6c323d10a2ece245daaa0f154b92915e117d91fd183a36879b45365",
+      "bytes": 24826
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0073.json",
+      "sha256": "f61b57086b7fd4148717fc83cce4cfbbbb061474dd8d9e9ecb8d5b7e5dd3ad90",
+      "bytes": 18228
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0074.json",
+      "sha256": "e083045989f86764e40ac574932e0106be237582bb619449d666e662039f9750",
+      "bytes": 24927
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0075.json",
+      "sha256": "5419ee6e2a77d6e62503902427b1ed5ed4c9fd61822e1b445eba5e0bf634d3f6",
+      "bytes": 27536
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0076.json",
+      "sha256": "40bcf3d3e2a170205f7acf510b3e4d19a53a6cb402b8640639887ecddb4a6c54",
+      "bytes": 21087
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0077.json",
+      "sha256": "db7cb2f3c6cf36b2387031b7172c5b14c8a99e5c325430229fb4a439d7957c21",
+      "bytes": 25915
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0078.json",
+      "sha256": "0920b1ba1f439861c4d263b2be568c09747b8403e3ad30d4d8496ec2980db166",
+      "bytes": 23636
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0079.json",
+      "sha256": "ecb6186c76d474ce434a5784d58a2f78b711a7f8018a30a5b86eaa1f89bb24a4",
+      "bytes": 6031
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0080.json",
+      "sha256": "7c9916a40e655610ee9f5a32ac3262f39387aa25ce7ff6b7c7652f60f860ddcb",
+      "bytes": 20458
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0081.json",
+      "sha256": "8d79e6788446793b4b1af9d2f7a69c7ca70931b724c091716346737baf4e19df",
+      "bytes": 26385
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0082.json",
+      "sha256": "b6d4f07e3c0fd11b5773059bd56a390abf8abaabfd8af6f97ad6e2d3f20298bc",
+      "bytes": 26451
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0083.json",
+      "sha256": "eb928038465fa93f89750c3fcfa28ced98ea53cbb5dd12738ac460b04d46e189",
+      "bytes": 27395
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0084.json",
+      "sha256": "10f73350688667167e1df02e9c5c50e9a93c63aaef2aa9e0b4f64943d0225dd9",
+      "bytes": 27031
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0085.json",
+      "sha256": "fa35182cd5fb686ae58ae5ea1ef3831c7d7c63a48f2395e2ecf378f2ed6f145a",
+      "bytes": 26150
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0086.json",
+      "sha256": "527ed94b01f2a1079a74c5b2194a95bf0c5669c4bf1e751252deee9966f86d3d",
+      "bytes": 28072
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0087.json",
+      "sha256": "aa35b442938ae84f22e1dc367ceb86c9e9d3ea7934639f2c74eeeeca79372fa4",
+      "bytes": 27127
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0088.json",
+      "sha256": "f236ea9321573d88c6a8fb829711eb86c214df5562de7f0bf4df3943150e0469",
+      "bytes": 23986
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0089.json",
+      "sha256": "f8109d33ccb598ef3717a9dd89813cd8d9dbe7139f89a09b945da6566286aabe",
+      "bytes": 31981
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0090.json",
+      "sha256": "58e58309c2705024d0a2d2a5689cc70e16dd1d1fea5e43e30dc30f59e1454b80",
+      "bytes": 27775
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0091.json",
+      "sha256": "c31a0e70cea939553d37f830a073b1083588ec470af237ec235310cab70136db",
+      "bytes": 27730
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0092.json",
+      "sha256": "4201d7e213de0bb95d927ffc9d83bfbd22c9ac188693202a6cfa54d27ba1b6b4",
+      "bytes": 22860
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0093.json",
+      "sha256": "8744d9af5ee5ae7e7d53d86d6a9e70e68e42d920312974e63c47cdcfca03a674",
+      "bytes": 21288
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0094.json",
+      "sha256": "7cccfaf8bea1c6b7f5aaa0cf00e4aaa383d1b4e99a72497d1fea64d64d11c5c4",
+      "bytes": 23193
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0095.json",
+      "sha256": "436c432b74daca154604d028b709eed4a7399bec0d0441f315d679ed9f069d3c",
+      "bytes": 28003
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0096.json",
+      "sha256": "7b23c0589b7bd64ed1e70a2ad54c8089819cfa85de1536492c0f1735db4e2d66",
+      "bytes": 32733
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0097.json",
+      "sha256": "e8a144ae6a128be713cfa9c6306547a188329de244a99f2414fa862bd53e7519",
+      "bytes": 26472
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0098.json",
+      "sha256": "96ddc9ac45254d2f7acd33c24ad958e04a46808fbba3ce421ec3471bfed34d16",
+      "bytes": 28680
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0099.json",
+      "sha256": "96116ceb87435cac059295ac06631d9251232f7017e1eccca44dd9836e36768f",
+      "bytes": 22558
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0100.json",
+      "sha256": "094e49a5223ff18f75c25ee7afa9a02f022a4845c5d9abf151c9718b771008ea",
+      "bytes": 28887
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0101.json",
+      "sha256": "e115142d7dd3cc53076457e33a9815472447046aa877827fc605b6f587209f15",
+      "bytes": 20841
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0102.json",
+      "sha256": "2c452c0f210e0936c481f41ccc4a470d7c8a8b6e60931088a80cf1ae9144ee37",
+      "bytes": 6356
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0103.json",
+      "sha256": "2302653031600d317d6537285873aa35ed45868290b719e0da2739aa4f6d5444",
+      "bytes": 26823
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0104.json",
+      "sha256": "8ce03d4bc686db82927dd7d7446cb77be4d07d5eeb9ed67e54dba6a166d34db0",
+      "bytes": 26487
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0105.json",
+      "sha256": "faf43b58351a91574ce68bf909a2faa8e590c38412a784093ccd8758993c6479",
+      "bytes": 26879
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0106.json",
+      "sha256": "9f4347059695ed7fc682ede48c7e0d6eabeed57db74ea29b8bb13134520bbebb",
+      "bytes": 29938
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0107.json",
+      "sha256": "ef9beaf6f757aa5345f8436f2e4994e5555f7ace10ad5d08f59b646cfebb537e",
+      "bytes": 28857
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0108.json",
+      "sha256": "a3e3292e1fad8f02ec50999533289905760dec475a023d10d81e88c3a33e7839",
+      "bytes": 28561
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0109.json",
+      "sha256": "b48ab5b4017b1dad371defd3f42df7f80f0b65fafdec0178290db19374145dad",
+      "bytes": 5649
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0110.json",
+      "sha256": "ac22deac86a63f47e0b20ca3d7d187a436e3784feb8f452a58b660e330f27708",
+      "bytes": 1950
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0111.json",
+      "sha256": "f508749680c159f3ee44c07b70c34715b41c658f0abb0c091c6aa2fab28ebe57",
+      "bytes": 465
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0112.json",
+      "sha256": "0a4da41b41f09049f47128efcc406cec96243f9a575feb460c7ecf7ed748c89a",
+      "bytes": 12212
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0113.json",
+      "sha256": "86d57d6290c2a71322640629d3e74784f7a294259ab5faf23342eba004fc590c",
+      "bytes": 11953
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0114.json",
+      "sha256": "f6bb4a109a23073c72008d55855e6167954530a67a1f016c9491f71ccfbd11fd",
+      "bytes": 3208
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0115.json",
+      "sha256": "c112b3076401881b45f7ce65f6b92a9b3ca5dbf69a061eb4dc90f406adf6507c",
+      "bytes": 19918
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0116.json",
+      "sha256": "45939879d6df6c9752cb8cf686e42d5bce0ba66031b173c7907d55767caba32e",
+      "bytes": 40097
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0117.json",
+      "sha256": "587781dc9008f228d394f6e58690379ef22f07d6d5dd5425fe576698c5524ab9",
+      "bytes": 9913
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0118.json",
+      "sha256": "549435b39da60a3905b0cca85cb45a50b3fe40115b2f096c9df23b380131e45e",
+      "bytes": 13998
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0119.json",
+      "sha256": "c076d1814ebe4866285f6500b3491e213a4ef23a2d9ce3aa4a2382d5eb2a31bd",
+      "bytes": 5720
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0120.json",
+      "sha256": "6b984382000de665ae9b8b36a1a5ae6f55e32093c80c829b1d7544d137403539",
+      "bytes": 13576
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0121.json",
+      "sha256": "1b0720fa5ef68623ca24c878d22b30a5d0867a867ce51398af5b7d009a63606f",
+      "bytes": 11972
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0122.json",
+      "sha256": "228300fee057f20e57ae44907e4310c038abdbb59b9987a1d027731f892589d2",
+      "bytes": 11348
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0123.json",
+      "sha256": "14029c8fd7f7bf2ea10a7af376402e46eeef4aeedbb7c3db26348a2bfc03782b",
+      "bytes": 4950
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0124.json",
+      "sha256": "773d9559a8f7c2d33379d68c519462c2e6a512e63e9417458ce3d5b701965651",
+      "bytes": 14174
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0125.json",
+      "sha256": "73e984831978d50411e962acb95466bf50d17b031044253ac2ac0ba125d7c6d5",
+      "bytes": 6569
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0126.json",
+      "sha256": "2e21b8252ee40eaf6ae4f6741b7cda983dcbda55051a25304906d40eea8fe81d",
+      "bytes": 10168
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/bridge_knowledge_v1/pages/456d6a5c35d50152/0127.json",
+      "sha256": "f77c5e480052c1927f88ef8f46ce1942bd8aa2bf65dc71a8dac71fec39f2c5c0",
+      "bytes": 1764
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/knowledge_retriever.py",
+      "sha256": "71d061977a663cbd3f10c8e1d506bc2d99aed16cdd58ff5f6cc82a977c830019",
+      "bytes": 14029
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/rag_local.py",
+      "sha256": "2e5212d0cdfb6971513ecb068442dcd02200f313812a616fcd81b5e20c4eb37e",
+      "bytes": 13396
+    },
+    {
+      "path": "/workspace/work/c4-facts-rag-20260910-v1/rag/source_receipt.json",
+      "sha256": "9d87527f9b1658538bb5b21068e6e218acb7b86717e2a07c4a83448b46d28aad",
+      "bytes": 372
+    },
+    {
+      "path": "/workspace/work/c4-final-fact-grade-20260910-v1/grade_model.joblib",
+      "sha256": "213b9885b49bfe28a4efe4bde06e6dd95c97dd047f485f1e0c5b9bc55a12a4b1",
+      "bytes": 8497
+    },
+    {
+      "path": "/workspace/work/c4-final-fact-grade-20260910-v1/manifest.json",
+      "sha256": "a41100cfca5dd9650f777589d512ae906e94b241ca4c597c59cab153464b0f60",
+      "bytes": 6223
+    },
+    {
+      "path": "/workspace/work/road-infrastructure-finals-cloud/models/transformers/convnextv2_large/config.json",
+      "sha256": "befd4da5fe7bfbd9858b8441cbb12ac681c19856910b6e4edbac3fa9a863facf",
+      "bytes": 69727
+    },
+    {
+      "path": "/workspace/work/road-infrastructure-finals-cloud/models/transformers/convnextv2_large/model.safetensors",
+      "sha256": "5d797e01f9710e8c088137ceba47c9d634d129278f570c608e7f22d3a2d36521",
+      "bytes": 791873696
+    },
+    {
+      "path": "/workspace/work/road-infrastructure-finals-cloud/models/transformers/convnextv2_large/preprocessor_config.json",
+      "sha256": "9ef34d18dbf7909143a91f05ad23457180fcfed05034bf94843f300e32a9b968",
+      "bytes": 352
+    }
+  ],
+  "dependencies_root": "/workspace/work/c4-facts-rag-20260910-v1/deps",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-5.10.134-17.2.al8.x86_64-x86_64-with-glibc2.39"
+  },
+  "runtime_requirement": "平台PPU SDK、PyTorch及RAG隔离依赖；使用code/run进入既有SDK环境。",
+  "restore_policy": "按精确路径和SHA校验既有外置资产；缺失时停止，不联网自动换模型。原始模型与索引保留官方工作区。"
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euo pipefail
+source /usr/local/PPU_SDK/envsetup.sh >/dev/null
+export PYTHONDONTWRITEBYTECODE=1
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+exec python -B "$(dirname "$(readlink -f "$0")")/v5_entry.py" "$@"

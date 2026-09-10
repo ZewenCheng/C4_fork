@@ -1,0 +1,13 @@
+{
+  "cv_multiview_classifier.py": "fdef44ea828eed51200f65da81562ea969d319ba274e3a637f55488a24b2d406",
+  "fact_grade_predictor.py": "9fd22a73f9e2a71b18c9ee79d85b94f7b1e3b635d42d80db9a7e3de31b9a7776",
+  "fact_protocol.py": "29ac3f69f8632aed2d0fdddcfb08261ab02e849313381127edc41d9b3dc6f330",
+  "fast_vision_runtime.py": "06d15c9d6d2f0f7aa73675a57378b930717479580463634732eee00be3b89864",
+  "grounded_description.py": "0803370f98767dfe055bce6d8c7ca461dc6739738ff3c4b31bf68b764c198ed3",
+  "inference_clock.py": "18099016c6dcf43148aa540cf876299d6efc4c87eaa9a2a133f2a677f3f5be2f",
+  "metadata_semantics.py": "794117abb317be2e1524b79d85f1b6e16dc64dabbe70a1476f0ffec03561caab",
+  "report_contract.py": "8fdc79f8461dd7610bccf6614253490118883d04c7b7bdcc1eb78aff8989aa4b",
+  "research_rag_adapter.py": "bae6842668f4e0e81f7421b9e0ec6f4b9e789947d8a7899edbfaede076734e0f",
+  "run": "38202a145728cf7bc0f08abfb1ace436dca1c4865850941cb950bd4bc6d869a0",
+  "v5_entry.py": "77758add63c6fd3bf65aade93181e00da5b563877dffca9f2cb299418415def0"
+}
