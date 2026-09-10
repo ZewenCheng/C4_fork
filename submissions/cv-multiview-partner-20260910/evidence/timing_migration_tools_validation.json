@@ -1,0 +1,15 @@
+{
+  "状态": "计时封装CPU测试通过",
+  "退出码": 0,
+  "工具目录": "/workspace/work/c4-cv-partner-release-20260910-v2/release-tools-v3",
+  "源码摘要": {
+    "build_cv_partner_release.py": "d6346d3f30a25129968f563a9c51813e5054faf28632daa095f1164ff8acf8d7",
+    "publish_cv_submission.py": "fef97b6e7c23e56df2e3a93b6c37e2e8b13332e6060004bd5e952497b4619ed0",
+    "verify_cv_timing.py": "6dac5831b20c81bc218f2264a81db11bf23764834f3b04085bdf6d71d5df0f3f",
+    "verify_cv_migration.py": "6c188d71c3a6f949ba8701bf225025c2fd790cfce98b8c5f8f50cf618e723968",
+    "archive_cv_attempt.py": "15a222671cb3987486f5b6969a73cb840204222ce02f099f8ccc5bd9e025487e",
+    "build_cv_timing_ledger.py": "7d5db779327155b4e44c97c78e5ee13d01557babc5b8a1bf056b9116be5d8b13",
+    "tests/test_cv_release_timing.py": "4f5eac3fdc2d562c18f4ed6882a5d765672f2820a47b399f90c0a0d9972c358f"
+  },
+  "输出": "test_changed_failure_rejected (test_cv_release_timing.TimingFixture.test_changed_failure_rejected) ... ok\ntest_cumulative_package_recomputes_two_receipts (test_cv_release_timing.TimingFixture.test_cumulative_package_recomputes_two_receipts) ... ok\ntest_duplicate_interval_rejected (test_cv_release_timing.TimingFixture.test_duplicate_interval_rejected) ... ok\ntest_explicit_migration_keeps_three_attempt_seconds (test_cv_release_timing.TimingFixture.test_explicit_migration_keeps_three_attempt_seconds) ... ok\ntest_migration_input_change_rejected (test_cv_release_timing.TimingFixture.test_migration_input_change_rejected) ... ok\ntest_migration_model_change_rejected (test_cv_release_timing.TimingFixture.test_migration_model_change_rejected) ... ok\ntest_native_package_keeps_last_timer (test_cv_release_timing.TimingFixture.test_native_package_keeps_last_timer) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 13.314s\n\nOK\n"
+}

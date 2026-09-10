@@ -1,0 +1,28 @@
+{
+  "状态": "完整七字段与恢复独立验收通过",
+  "条数": 330,
+  "桥名与metadata2一致": 330,
+  "新分类来源覆盖": 330,
+  "infer_time": 10588.798108577728,
+  "单位": "秒",
+  "result_sha256": "082b51c3a25db5bfda519fbccbe6bd56ea88d613430c33dac2faff237c6e5cd0",
+  "infer_time_sha256": "076d63c3064602fdd54b932fa8bb27397827b7ff7be1a87baf1530dceb794502",
+  "恢复校验秒": 22.991346836090088,
+  "新模型摘要": "d676b6cb23d85842994c04ab06f7e360620b64671cccf9ddca37b395488367d2",
+  "伙伴动作统计": {
+    "maintain": 282,
+    "propose": 48
+  },
+  "伙伴过程错误统计": {},
+  "伙伴调用次数": 330,
+  "正式评分": null,
+  "相对metadata2字段变化数": {
+    "questionCategory": 0,
+    "bridgeName": 0,
+    "defectLocation": 31,
+    "filename": 0,
+    "defectType": 54,
+    "defectDescription": 57,
+    "ratingScale(1-5)": 39
+  }
+}

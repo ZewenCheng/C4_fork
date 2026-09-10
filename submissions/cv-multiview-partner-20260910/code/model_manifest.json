@@ -1,0 +1,405 @@
+{
+  "version": "contract-v1-20260909",
+  "asset_root": "/workspace/work/c4-experiments/expert-autotrain-20260906",
+  "files": [
+    {
+      "name": "anomaly_training_novelty",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/anomaly_banks/training_novelty.npz",
+      "sha256": "919e4883ab29e4d7b7520a44b75a0d0037f4efd3b843dfb2dc5df4746ac42d1c",
+      "bytes": 5854925,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/919e4883ab29e4d7b7520a44b75a0d0037f4efd3b843dfb2dc5df4746ac42d1c/training_novelty.npz",
+      "backup_verified": true
+    },
+    {
+      "name": "anomaly_weak_normal_reference",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/anomaly_banks/weak_normal_reference.npz",
+      "sha256": "534326a6cd69d85f41e9d079098e41619dd8226e17820703d5c1e454339bc67b",
+      "bytes": 5852413,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/534326a6cd69d85f41e9d079098e41619dd8226e17820703d5c1e454339bc67b/weak_normal_reference.npz",
+      "backup_verified": true
+    },
+    {
+      "name": "catboost_6",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/tabular_history/catboost_depth6.cbm",
+      "sha256": "abc9c98a9b30bc5f9f36ed9b958f7b3871af5d32f1e4a49e8ae4247c7995357b",
+      "bytes": 1758748,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/abc9c98a9b30bc5f9f36ed9b958f7b3871af5d32f1e4a49e8ae4247c7995357b/catboost_depth6.cbm",
+      "backup_verified": true
+    },
+    {
+      "name": "catboost_8",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/tabular_history/catboost_depth8.cbm",
+      "sha256": "0d83c6ebc16302681d64cdd44ab85cc1492f7f69149441bc2c157a7ea6f30904",
+      "bytes": 6369436,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/0d83c6ebc16302681d64cdd44ab85cc1492f7f69149441bc2c157a7ea6f30904/catboost_depth8.cbm",
+      "backup_verified": true
+    },
+    {
+      "name": "convnext_base",
+      "path": "/workspace/work/road-infrastructure-finals-cloud/models/transformers/convnextv2_large/model.safetensors",
+      "sha256": "5d797e01f9710e8c088137ceba47c9d634d129278f570c608e7f22d3a2d36521",
+      "bytes": 791873696,
+      "backup_scope": "沿用原基底已核验部署及既有公开基底备份"
+    },
+    {
+      "name": "dinov3_hplus_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/dinov3_hplus_adamw/last.pt",
+      "sha256": "4c1cfdd508109d4d9956ffadc9e7df26880e096ae3dfe4fef9748b4f3c826d3a",
+      "bytes": 63662539,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/4c1cfdd508109d4d9956ffadc9e7df26880e096ae3dfe4fef9748b4f3c826d3a/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "dinov3_hplus_distilled_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/dinov3_hplus_distilled_adamw/last.pt",
+      "sha256": "dc798eb6e4c5aa7e6dadd8259e3be51b5e5161293123d96879e41b05d18e2f75",
+      "bytes": 63662539,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/dc798eb6e4c5aa7e6dadd8259e3be51b5e5161293123d96879e41b05d18e2f75/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "dinov3_hplus_distilled_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/dinov3_hplus_distilled_sgd_momentum/last.pt",
+      "sha256": "07b7bf32e699bd9aee94a2f00547a164f8b05a112c13280949fc6fecf3b7a776",
+      "bytes": 42417571,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/07b7bf32e699bd9aee94a2f00547a164f8b05a112c13280949fc6fecf3b7a776/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "dinov3_hplus_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/dinov3_hplus_sgd_momentum/last.pt",
+      "sha256": "b4e22109291afeddba83ca7b20f6cc1d11ed17b61e92d2b2916500d792e5d93e",
+      "bytes": 42417571,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/b4e22109291afeddba83ca7b20f6cc1d11ed17b61e92d2b2916500d792e5d93e/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "fusion_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/semantic_fusion/adamw/last.pt",
+      "sha256": "d1fcf02d0612306df4cb7086343bbc25dc15c2d7127b9fd014961ba718597321",
+      "bytes": 25647496,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/d1fcf02d0612306df4cb7086343bbc25dc15c2d7127b9fd014961ba718597321/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "fusion_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/semantic_fusion/sgd_momentum/last.pt",
+      "sha256": "66ee63238388dc7fafc2b2bdb06fc2d9f52f9813522eadf672cb869ee4c7a3a0",
+      "bytes": 17097716,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/66ee63238388dc7fafc2b2bdb06fc2d9f52f9813522eadf672cb869ee4c7a3a0/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "grounding_dino_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/grounding_dino_adamw/last.pt",
+      "sha256": "8b8dc709da2518dddc0efe5e2544d44732b1bbfb437733714b9eb4a9724c50d7",
+      "bytes": 56282701,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/8b8dc709da2518dddc0efe5e2544d44732b1bbfb437733714b9eb4a9724c50d7/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "grounding_dino_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/grounding_dino_sgd_momentum/last.pt",
+      "sha256": "7e153abcb4b9ef55b76397f7b96cd252c61c746d7a1ffa20f9bfb788f97e38f8",
+      "bytes": 37427789,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/7e153abcb4b9ef55b76397f7b96cd252c61c746d7a1ffa20f9bfb788f97e38f8/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "legacy_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/legacy_convnext_head/adamw/last.pt",
+      "sha256": "9c7bc5e84b7703d87aee64982d38484c5989fb2b1f623d86582ef5e19fd92125",
+      "bytes": 9923992,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/9c7bc5e84b7703d87aee64982d38484c5989fb2b1f623d86582ef5e19fd92125/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "legacy_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/legacy_convnext_head/sgd_momentum/last.pt",
+      "sha256": "2bf874593cf52331c0e4eabad94c32ddbdfe555150f0d399c62716c61c5d3ac6",
+      "bytes": 6617276,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/2bf874593cf52331c0e4eabad94c32ddbdfe555150f0d399c62716c61c5d3ac6/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "normative_area",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/normative_area_v1/model.cbm",
+      "sha256": "bf4e2afaa08b65a5198298b31751020e539f34916d815e565b3b2c795a0fca12",
+      "bytes": 11531544,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/bf4e2afaa08b65a5198298b31751020e539f34916d815e565b3b2c795a0fca12/model.cbm",
+      "backup_verified": true
+    },
+    {
+      "name": "ordinal_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/ordinal_history/adamw/last.pt",
+      "sha256": "ac2897c990de5887de723938328df11024de19332e0c315ec4266afbeca678de",
+      "bytes": 153756,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/ac2897c990de5887de723938328df11024de19332e0c315ec4266afbeca678de/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "ordinal_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/ordinal_history/sgd_momentum/last.pt",
+      "sha256": "8f28e62c0884e173b45bcca4e5827f37c8e5e283c37238159021eed0e6741b7c",
+      "bytes": 103006,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/8f28e62c0884e173b45bcca4e5827f37c8e5e283c37238159021eed0e6741b7c/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "rtdetr_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/rtdetr_adamw/last.pt",
+      "sha256": "6038f61df5e2084c68610cce48a74f049b0df41dc652ab52ec43a8f49d96d19c",
+      "bytes": 6112001,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/6038f61df5e2084c68610cce48a74f049b0df41dc652ab52ec43a8f49d96d19c/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "rtdetr_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/rtdetr_sgd_momentum/last.pt",
+      "sha256": "e59174c55e026501f624607998606deab721fc643883b50a88f44bd741e043ce",
+      "bytes": 4085393,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/e59174c55e026501f624607998606deab721fc643883b50a88f44bd741e043ce/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "sam3_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/sam3_adamw/last.pt",
+      "sha256": "3338fe02499ff6d663accfd9cfe11210db204743d9e25a156266e69664c65fb2",
+      "bytes": 13325307,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/3338fe02499ff6d663accfd9cfe11210db204743d9e25a156266e69664c65fb2/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "sam3_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/sam3_sgd_momentum/last.pt",
+      "sha256": "72a08c15cd7ae98dd1f57faf95333393e50021383b739e501422539d60097339",
+      "bytes": 9141343,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/72a08c15cd7ae98dd1f57faf95333393e50021383b739e501422539d60097339/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "tabpfn_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/TabPFN_adapter/adamw/fitted_adapter.cloud_only.joblib",
+      "sha256": "1f1adc7ada3afa633f6030e1636bbe82723f9b6be782c3b5cbeeee1012607218",
+      "bytes": 29227577,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/1f1adc7ada3afa633f6030e1636bbe82723f9b6be782c3b5cbeeee1012607218/fitted_adapter.cloud_only.joblib",
+      "backup_verified": true
+    },
+    {
+      "name": "tabpfn_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/TabPFN_adapter/sgd_momentum/fitted_adapter.cloud_only.joblib",
+      "sha256": "a81d311a0e0383a35ba937e902d60f25244cae89f401ccbd37e29c89ef33a78e",
+      "bytes": 29227577,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/a81d311a0e0383a35ba937e902d60f25244cae89f401ccbd37e29c89ef33a78e/fitted_adapter.cloud_only.joblib",
+      "backup_verified": true
+    },
+    {
+      "name": "wemm9b_adamw",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/wemm9b_adamw/last.pt",
+      "sha256": "45033381b551d120a96275eda9f822b030dfa7ce59292042d86459ac9b42ddd0",
+      "bytes": 48102587,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/45033381b551d120a96275eda9f822b030dfa7ce59292042d86459ac9b42ddd0/last.pt",
+      "backup_verified": true
+    },
+    {
+      "name": "wemm9b_sgd_momentum",
+      "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/checkpoints/wemm9b_sgd_momentum/last.pt",
+      "sha256": "115fa4f5ee893b35152087ca0f8b83b7184fed081f6c39a8fc4cc8ac6e16acb4",
+      "bytes": 32059643,
+      "backup": "/workspace/work/c4-experiments/expert-autotrain-20260906/backups/completed_models/115fa4f5ee893b35152087ca0f8b83b7184fed081f6c39a8fc4cc8ac6e16acb4/last.pt",
+      "backup_verified": true
+    },
+    {
+      "path": "/workspace/work/c4-cv-multiview-final-20260910/multiview_model.npz",
+      "bytes": 954473,
+      "sha256": "d676b6cb23d85842994c04ab06f7e360620b64671cccf9ddca37b395488367d2"
+    },
+    {
+      "path": "/workspace/work/c4-cv-multiview-final-20260910/manifest.json",
+      "bytes": 3595,
+      "sha256": "d048995a86acc8cabfa7800eca0ff60feedbdae311b29803fc0b7265a2b46dab"
+    }
+  ],
+  "base_models": [
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/TabPFN-v2",
+      "repository": "Prior-Labs/TabPFN-v2-clf",
+      "source_manifest_sha256": "5804521e3bafa49880e0cc052d564079a86cf01a8ffef14007681c2689ebb5f2",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/TabPFN-v2/source.json",
+      "upstream_revisions": [
+        "f851f2a3c941544733b712d8c0f96dfae9b28862"
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/TabPFN-v2/source.json",
+          "sha256": "5804521e3bafa49880e0cc052d564079a86cf01a8ffef14007681c2689ebb5f2",
+          "bytes": 328
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    },
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/WeMM-Embedding-9B",
+      "repository": null,
+      "source_manifest_sha256": "4eea03d5e92c1c8d2effc3e01fc4ea2e42eaf6a62d90fd423bbe7d786ca19127",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/WeMM-Embedding-9B/source_manifest.json",
+      "upstream_revisions": [
+        null
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/WeMM-Embedding-9B/config.json",
+          "sha256": "34abd67be4bab3d749ba7b3ad2daa5fc0a09ab12064a64f053fa244fa26c6004",
+          "bytes": 3068
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/WeMM-Embedding-9B/processor_config.json",
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "bytes": 1191
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    },
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vit7b16-bf16",
+      "repository": "facebook/dinov3-vit7b16-pretrain-lvd1689m",
+      "source_manifest_sha256": "2c6ef3ff3f14829b5625c16386d2107098ce1ceed0cedd2e3a1dfa97b4b7de45",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vit7b16-bf16/source_manifest.json",
+      "upstream_revisions": [
+        "5251e00b307184bb247d076713375235d554fefb",
+        "a3dce4cfdf78b181694f3869a9a27844b262de25",
+        "ce15ff16bf64d9726f10b1d1daed53a11fa135c7"
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vit7b16-bf16/config.json",
+          "sha256": "b317786dd342ad8f51ce8246f39754ba648c7d375ad75d7b415507fe58d74ce6",
+          "bytes": 746
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vit7b16-bf16/preprocessor_config.json",
+          "sha256": "960c41d1f3a7778b936365769a2d90550b318a6c0a53a0296957adacfe5e0dd7",
+          "bytes": 585
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vit7b16-bf16/model.safetensors.index.json",
+          "sha256": "bc135781613c49f985a4596bc68b1386d505060429c330985bccfaf381dd797a",
+          "bytes": 48722
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    },
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vith16plus-pretrain-lvd1689m",
+      "repository": "facebook/dinov3-vith16plus-pretrain-lvd1689m",
+      "source_manifest_sha256": "1f31bbe5101a35ccd73d6b603388a3c1357992d1d34c3e862b5a45a27727c003",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vith16plus-pretrain-lvd1689m/source_manifest.json",
+      "upstream_revisions": [
+        "98b7096b2938406ade58801a0bf75eca3198b5bd",
+        "a7e110a46be5aab90d0d369a986728826fec06ee",
+        "b9b800e3218a3ae46bc4adeabd7b733f47d1332d"
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vith16plus-pretrain-lvd1689m/config.json",
+          "sha256": "35770e98e425c9383534bcbfa7f3b7a3cb1d943f6d26a37d7d19fea0735eab57",
+          "bytes": 744
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/dinov3-vith16plus-pretrain-lvd1689m/preprocessor_config.json",
+          "sha256": "960c41d1f3a7778b936365769a2d90550b318a6c0a53a0296957adacfe5e0dd7",
+          "bytes": 585
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    },
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/grounding-dino-base",
+      "repository": "IDEA-Research/grounding-dino-base",
+      "source_manifest_sha256": "5619501dc3b3844db7c3d1ff288b7feff5b3a76a8a59e6fd337bea022cf4f456",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/grounding-dino-base/source_manifest.json",
+      "upstream_revisions": [
+        "d06985a44c66b6133c131bd273293be8649cfe3a"
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/grounding-dino-base/config.json",
+          "sha256": "eda416dae6f49419ff831b1c190ec430a060b19aae688dbaf2425a075b650608",
+          "bytes": 1737
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/grounding-dino-base/preprocessor_config.json",
+          "sha256": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+          "bytes": 457
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    },
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/rtdetr_v2_r101vd",
+      "repository": null,
+      "source_manifest_sha256": "fca9d4a2895d9689e0eb54dd4e78d5170f424fc6e7eac5ea1eeb5932fa27fc09",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/rtdetr_v2_r101vd/source_manifest.json",
+      "upstream_revisions": [
+        null
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/rtdetr_v2_r101vd/config.json",
+          "sha256": "6d2fe3e6b5160a044d68a12435a4deac3ef7b0bebaca65a5beb1da10ddae377f",
+          "bytes": 5342
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/rtdetr_v2_r101vd/preprocessor_config.json",
+          "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+          "bytes": 444
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    },
+    {
+      "directory": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/sam3",
+      "repository": "facebook/sam3",
+      "source_manifest_sha256": "4466358c4f67da7597c76b7ab0c6cab1995f16f7698beb5f372a3e7391c4a6d1",
+      "source_manifest_path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/sam3/source_manifest.json",
+      "upstream_revisions": [
+        "96f3e1b404ba14f2cfac60ee6ae87c269a7b7923",
+        "f8ee5d16d5c30d0e87b1d22cbd358ce97761df56"
+      ],
+      "metadata": [
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/sam3/config.json",
+          "sha256": "4616385e4b21f2e5e22c875b65679185cbccfa95de42542b9166f7dc3d57160f",
+          "bytes": 25843
+        },
+        {
+          "path": "/workspace/work/c4-experiments/expert-autotrain-20260906/models/sam3/processor_config.json",
+          "sha256": "6420cf2671fa9309ea95bc0144a8b9861666d1c5f43c8db09e410dacda974fce",
+          "bytes": 1712
+        }
+      ],
+      "full_weight_rehash_this_packaging": false,
+      "boundary": "本轮保留来源清单和元数据摘要；公开基底全量备份核验沿用已有记录，未将上游摘要冒充转换后权重摘要。"
+    }
+  ],
+  "qwen_metadata": {
+    "model": "/model/Qwen3.6-27B",
+    "metadata_sha256": {
+      "config.json": "69db4eb7196bc8190813231b3018ca05d8c2e3abc7b1af19d55c157af44a9d9c",
+      "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+      "tokenizer_config.json": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+      "model.safetensors.index.json": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+    },
+    "weight_boundary": "平台/model只读挂载；本凭证固定配置及分片索引，不冒充全量权重SHA"
+  },
+  "source_asset_usage_sha256": "a263ee2b656e2bdee2e925a4b47980d580f0c898b03a78972fadc5e00d643f39",
+  "new_official_backup_bytes": 11707338,
+  "restrictions": "只公开版本、路径及摘要；训练事实拟合状态和异常库载荷不导出。",
+  "runtime_note": "Built with PriorLabs-TabPFN；规范面积模型缺少测量及构件范围，不输出规范等级。"
+}

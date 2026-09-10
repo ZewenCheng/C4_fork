@@ -1,0 +1,18 @@
+{
+  "状态": "资产绑定修复平台验证通过",
+  "单元测试": 4,
+  "实际输入数": 330,
+  "实际融合头数": 2,
+  "实际单案重算": "两套融合头输出有效",
+  "权重摘要": {
+    "adamw": "d1fcf02d0612306df4cb7086343bbc25dc15c2d7127b9fd014961ba718597321",
+    "sgd_momentum": "66ee63238388dc7fafc2b2bdb06fc2d9f52f9813522eadf672cb869ee4c7a3a0"
+  },
+  "源码摘要": {
+    "partner_semantic_tool.py": "b3dab4d12147a875c0eb4a7fdfe038c5ef5b2e7d155bfafe5dc3c078aac24f93",
+    "tests/test_partner_semantic_sources.py": "728694ec4299cf134e0a402d494809a055b1817368429922b5deb93277b54aa1"
+  },
+  "验证秒": 11.337855100631714,
+  "输出": "test_accepts_exact_bound_external_source_and_plain_source (test_partner_semantic_sources.SemanticSourceTest.test_accepts_exact_bound_external_source_and_plain_source) ... ok\ntest_rejects_escape_via_nested_symlink_or_relative_path (test_partner_semantic_sources.SemanticSourceTest.test_rejects_escape_via_nested_symlink_or_relative_path) ... ok\ntest_rejects_missing_or_changed_mapping (test_partner_semantic_sources.SemanticSourceTest.test_rejects_missing_or_changed_mapping) ... ok\ntest_rejects_modified_source_even_with_valid_mapping (test_partner_semantic_sources.SemanticSourceTest.test_rejects_modified_source_even_with_valid_mapping) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.008s\n\nOK\n",
+  "主链结果修改": false
+}

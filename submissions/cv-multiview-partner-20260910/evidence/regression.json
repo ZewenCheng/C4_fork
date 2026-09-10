@@ -1,0 +1,56 @@
+[
+  {
+    "test": "test_cv_multiview_classifier.py",
+    "exit_code": 0,
+    "seconds": 0.6658914089202881,
+    "tail": "test_bad_features_and_stable_ties (test_cv_multiview_classifier.ClassifierTest.test_bad_features_and_stable_ties) ... ok\ntest_matches_training_transform_and_constant_scores (test_cv_multiview_classifier.ClassifierTest.test_matches_training_transform_and_constant_scores) ... ok\ntest_rejects_fold_head_and_changed_source (test_cv_multiview_classifier.ClassifierTest.test_rejects_fold_head_and_changed_source) ... ok\ntest_rejects_wrong_model_or_training_identity (test_cv_multiview_classifier.ClassifierTest.test_rejects_wrong_model_or_training_identity) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.165s\n\nOK\n"
+  },
+  {
+    "test": "test_cv_report_source.py",
+    "exit_code": 0,
+    "seconds": 0.48740553855895996,
+    "tail": "test_source_and_intact_reference (test_cv_report_source.SourceTests.test_source_and_intact_reference) ... ok\ntest_wrong_primary_label_rejected (test_cv_report_source.SourceTests.test_wrong_primary_label_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.092s\n\nOK\n"
+  },
+  {
+    "test": "test_full_partner_entry.py",
+    "exit_code": 0,
+    "seconds": 1.7389233112335205,
+    "tail": "test_input_content_changed_at_same_path (test_full_partner_entry.EntryTests.test_input_content_changed_at_same_path) ... ok\ntest_receipt_binds_pair_and_config (test_full_partner_entry.EntryTests.test_receipt_binds_pair_and_config) ... ok\ntest_regions_reject_unknown_query_and_duplicate (test_full_partner_entry.EntryTests.test_regions_reject_unknown_query_and_duplicate) ... ok\ntest_timeout_kills_detached_descendant (test_full_partner_entry.EntryTests.test_timeout_kills_detached_descendant) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.286s\n\nOK\n"
+  },
+  {
+    "test": "test_parallel_reports.py",
+    "exit_code": 0,
+    "seconds": 8.192078351974487,
+    "tail": "rsion_change_requires_new_directory (test_parallel_reports.ParallelProtocolTests.test_packet_version_change_requires_new_directory) ... ok\ntest_query_budget_preserves_relevant_lower_ranked_candidate (test_parallel_reports.ParallelProtocolTests.test_query_budget_preserves_relevant_lower_ranked_candidate) ... ok\ntest_semantically_wrong_final_rejected_even_when_identity_agrees (test_parallel_reports.ParallelProtocolTests.test_semantically_wrong_final_rejected_even_when_identity_agrees) ... ok\ntest_success_receipt_does_not_accept_tampered_final (test_parallel_reports.ParallelProtocolTests.test_success_receipt_does_not_accept_tampered_final) ... ok\ntest_template_uses_locked_facts_not_model_prose (test_parallel_reports.ParallelProtocolTests.test_template_uses_locked_facts_not_model_prose) ... ok\ntest_unknown_reference_rejected (test_parallel_reports.ParallelProtocolTests.test_unknown_reference_rejected) ... ok\ntest_untrusted_candidate_cannot_override_evidence_kind (test_parallel_reports.ParallelProtocolTests.test_untrusted_candidate_cannot_override_evidence_kind) ... ok\ntest_wrong_expert_identity_and_invalid_geometry_rejected (test_parallel_reports.ParallelProtocolTests.test_wrong_expert_identity_and_invalid_geometry_rejected) ... ok\ntest_wrong_image_bytes_rejected_before_generation (test_parallel_reports.ParallelProtocolTests.test_wrong_image_bytes_rejected_before_generation) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 7.641s\n\nOK\n"
+  },
+  {
+    "test": "test_partner_dependency_refresh.py",
+    "exit_code": 0,
+    "seconds": 1.300525188446045,
+    "tail": "test_corrupt_dependency_causes_whole_case_rollback (test_partner_dependency_refresh.DependencyRefreshTests.test_corrupt_dependency_causes_whole_case_rollback) ... ok\ntest_intact_grade_points_to_new_decision (test_partner_dependency_refresh.DependencyRefreshTests.test_intact_grade_points_to_new_decision) ... ok\ntest_missing_extent_and_standard_are_explicit_unknown (test_partner_dependency_refresh.DependencyRefreshTests.test_missing_extent_and_standard_are_explicit_unknown) ... ok\ntest_new_type_reselects_low_score_query_and_removes_history (test_partner_dependency_refresh.DependencyRefreshTests.test_new_type_reselects_low_score_query_and_removes_history) ... ok\ntest_real_refresh_transaction_disease_to_intact (test_partner_dependency_refresh.DependencyRefreshTests.test_real_refresh_transaction_disease_to_intact) ... ok\ntest_real_refresh_transaction_intact_to_disease (test_partner_dependency_refresh.DependencyRefreshTests.test_real_refresh_transaction_intact_to_disease) ... ok\ntest_stale_diagnosis_and_wrong_sample_are_rejected (test_partner_dependency_refresh.DependencyRefreshTests.test_stale_diagnosis_and_wrong_sample_are_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.842s\n\nOK\n"
+  },
+  {
+    "test": "test_partner_r4.py",
+    "exit_code": 0,
+    "seconds": 7.317981719970703,
+    "tail": "test_changed_input_rejected (test_partner_r4.PartnerTests.test_changed_input_rejected) ... ok\ntest_crop_mapping_and_extent_unknown (test_partner_r4.PartnerTests.test_crop_mapping_and_extent_unknown) ... ok\ntest_cross_case_and_bad_score_rejected (test_partner_r4.PartnerTests.test_cross_case_and_bad_score_rejected) ... ok\ntest_exif_orientation_before_crop (test_partner_r4.PartnerTests.test_exif_orientation_before_crop) ... ok\ntest_hplus_list_partial_and_stable_identity (test_partner_r4.PartnerTests.test_hplus_list_partial_and_stable_identity) ... ok\ntest_persisted_failure_budget_and_idempotency (test_partner_r4.PartnerTests.test_persisted_failure_budget_and_idempotency) ... ok\ntest_resume_preserves_first_runtime (test_partner_r4.PartnerTests.test_resume_preserves_first_runtime) ... ok\ntest_selection_duplicate_trace (test_partner_r4.PartnerTests.test_selection_duplicate_trace) ... ok\ntest_shadow_serial_parallel_and_resume (test_partner_r4.PartnerTests.test_shadow_serial_parallel_and_resume) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 6.872s\n\nOK\n"
+  },
+  {
+    "test": "test_partner_review.py",
+    "exit_code": 0,
+    "seconds": 1.5851764678955078,
+    "tail": "test_candidate_cannot_self_validate (test_partner_review.ReviewTests.test_candidate_cannot_self_validate) ... ok\ntest_complete_revision (test_partner_review.ReviewTests.test_complete_revision) ... ok\ntest_gate_closed_and_failed_refresh (test_partner_review.ReviewTests.test_gate_closed_and_failed_refresh) ... ok\ntest_invalid_reference (test_partner_review.ReviewTests.test_invalid_reference) ... ok\ntest_one_owner_batches_concurrent_cases (test_partner_review.ReviewTests.test_one_owner_batches_concurrent_cases) ... ok\ntest_real_callback_request_and_resume (test_partner_review.ReviewTests.test_real_callback_request_and_resume) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.178s\n\nOK\n"
+  },
+  {
+    "test": "test_partner_revision_budget.py",
+    "exit_code": 0,
+    "seconds": 2.7366042137145996,
+    "tail": "test_exhausted_shared_budget_rolls_back_without_fifth_call (test_partner_revision_budget.RevisionBudgetTests.test_exhausted_shared_budget_rolls_back_without_fifth_call) ... ok\ntest_interrupted_grade_consumes_budget_and_resume_does_not_repeat_review (test_partner_revision_budget.RevisionBudgetTests.test_interrupted_grade_consumes_budget_and_resume_does_not_repeat_review) ... ok\ntest_missing_refresh_or_grader_rolls_back_without_extra_model_call (test_partner_revision_budget.RevisionBudgetTests.test_missing_refresh_or_grader_rolls_back_without_extra_model_call) ... ok\ntest_saved_grade_survives_final_write_interruption_and_resumes_zero_calls (test_partner_revision_budget.RevisionBudgetTests.test_saved_grade_survives_final_write_interruption_and_resumes_zero_calls) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 2.248s\n\nOK\n"
+  },
+  {
+    "test": "test_report_contract.py",
+    "exit_code": 0,
+    "seconds": 5.757073879241943,
+    "tail": "t_receipt_cannot_restore_category_bridge_or_image_position) ... ok\ntest_packet_version_change_requires_new_directory (test_report_contract.ProtocolTests.test_packet_version_change_requires_new_directory) ... ok\ntest_query_budget_preserves_relevant_lower_ranked_candidate (test_report_contract.ProtocolTests.test_query_budget_preserves_relevant_lower_ranked_candidate) ... ok\ntest_semantically_wrong_final_rejected_even_when_identity_agrees (test_report_contract.ProtocolTests.test_semantically_wrong_final_rejected_even_when_identity_agrees) ... ok\ntest_success_receipt_does_not_accept_tampered_final (test_report_contract.ProtocolTests.test_success_receipt_does_not_accept_tampered_final) ... ok\ntest_template_uses_locked_facts_not_model_prose (test_report_contract.ProtocolTests.test_template_uses_locked_facts_not_model_prose) ... ok\ntest_unknown_reference_rejected (test_report_contract.ProtocolTests.test_unknown_reference_rejected) ... ok\ntest_untrusted_candidate_cannot_override_evidence_kind (test_report_contract.ProtocolTests.test_untrusted_candidate_cannot_override_evidence_kind) ... ok\ntest_wrong_expert_identity_and_invalid_geometry_rejected (test_report_contract.ProtocolTests.test_wrong_expert_identity_and_invalid_geometry_rejected) ... ok\ntest_wrong_image_bytes_rejected_before_generation (test_report_contract.ProtocolTests.test_wrong_image_bytes_rejected_before_generation) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 5.402s\n\nOK\n"
+  }
+]

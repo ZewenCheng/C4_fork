@@ -1,0 +1,36 @@
+{
+  "版本": "cv-multiview-partner-20260910",
+  "状态": "平台完整推理与固定包独立验收通过",
+  "图片数": 330,
+  "提交文件数": 54,
+  "代码文件数": 51,
+  "累计推理秒": 24650.22799181938,
+  "累计推理分钟": 410.83713319698967,
+  "末次调用秒": 10588.798108577728,
+  "计时口径": "各次完整入口 time.time 差之和；包含各次加载、校验、必要重算，不含调用间停机；不叠加内部阶段时间。",
+  "版本口径": "经过已核验兼容迁移的累计执行时间；不是全程同一冻结源码",
+  "伙伴动作统计": {
+    "maintain": 282,
+    "propose": 48
+  },
+  "伙伴过程错误统计": {},
+  "相对metadata2字段变化数": {
+    "questionCategory": 0,
+    "bridgeName": 0,
+    "defectLocation": 31,
+    "filename": 0,
+    "defectType": 54,
+    "defectDescription": 57,
+    "ratingScale(1-5)": 39
+  },
+  "结果SHA256": "082b51c3a25db5bfda519fbccbe6bd56ea88d613430c33dac2faff237c6e5cd0",
+  "压缩包SHA256": "a464362abc02789ec7adfedf92d3a228ec979c12b47c2ce84a44487f8b5e5f96",
+  "清单SHA256": "152b90b157ba99d841cce4319a69dd664e97bdc2d4f4a1b99ed25bbe8899a5f4",
+  "平台压缩包": "/workspace/work/c4-submission-versions/cv-multiview-partner-20260910/c4-cv-multiview-partner-20260910.tar.gz",
+  "恢复入口": "code/run --work <原工作目录> --output <原结果目录> --resume",
+  "GitHub固定标签": "c4-cv-multiview-partner-20260910",
+  "GitHub核验依据": "标签对应提交及所有本目录新增文件须在发布前通过独立API字节核验；核验凭证保留项目tmp及平台发布凭证。",
+  "正式评分": null,
+  "比赛提交或评测": false,
+  "限制": "五折净增5为分类头对照观测；伙伴改判未采用，未证明七字段赛事提分。原始结果及模型仅留官方平台。"
+}

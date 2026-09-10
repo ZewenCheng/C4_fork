@@ -1,0 +1,12 @@
+{
+  "状态": "计时封装CPU测试通过",
+  "退出码": 0,
+  "工具目录": "/workspace/work/c4-cv-partner-release-20260910-v2/release-tools-v2",
+  "源码摘要": {
+    "build_cv_partner_release.py": "d6346d3f30a25129968f563a9c51813e5054faf28632daa095f1164ff8acf8d7",
+    "publish_cv_submission.py": "fef97b6e7c23e56df2e3a93b6c37e2e8b13332e6060004bd5e952497b4619ed0",
+    "verify_cv_timing.py": "f7c9b729bbee5a67abe39843e4871bdba8887d58aca7d24d2d5160fe2d2d3d9d",
+    "tests/test_cv_release_timing.py": "ed09f44ed7131b70fc73f507c5886db8d6aba415d990b40821a716cf34b71d09"
+  },
+  "输出": "test_changed_failure_rejected (test_cv_release_timing.TimingFixture.test_changed_failure_rejected) ... ok\ntest_cumulative_package_recomputes_two_receipts (test_cv_release_timing.TimingFixture.test_cumulative_package_recomputes_two_receipts) ... ok\ntest_duplicate_interval_rejected (test_cv_release_timing.TimingFixture.test_duplicate_interval_rejected) ... ok\ntest_native_package_keeps_last_timer (test_cv_release_timing.TimingFixture.test_native_package_keeps_last_timer) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 5.663s\n\nOK\n"
+}

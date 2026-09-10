@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+CODE_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+export PYTHONDONTWRITEBYTECODE=1
+export TABPFN_DISABLE_TELEMETRY=1
+source /usr/local/PPU_SDK/envsetup.sh >/dev/null
+exec python -B "$CODE_DIR/partner_submission_entry.py" "$@"
