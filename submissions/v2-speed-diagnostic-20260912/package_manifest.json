@@ -1,0 +1,95 @@
+{
+  "version": "v2-speed-diagnostic-20260912",
+  "github_tag": "c4-v2-speed-diagnostic-20260912",
+  "files": [
+    {
+      "path": "code/common.py",
+      "sha256": "f02790048f732a1c33fe0841cedaf355e22181b5ce7993c0133764b0860cf89e",
+      "bytes": 1498
+    },
+    {
+      "path": "code/entry.py",
+      "sha256": "841ef95aac30ac6130897badb541534a8b0cd78c99a0da13991cadc0a3b7b603",
+      "bytes": 6732
+    },
+    {
+      "path": "code/metadata_semantics.py",
+      "sha256": "794117abb317be2e1524b79d85f1b6e16dc64dabbe70a1476f0ffec03561caab",
+      "bytes": 8113
+    },
+    {
+      "path": "code/report_contract.py",
+      "sha256": "8fdc79f8461dd7610bccf6614253490118883d04c7b7bdcc1eb78aff8989aa4b",
+      "bytes": 20481
+    },
+    {
+      "path": "code/retrieval.py",
+      "sha256": "0309278dd4aca83ac519ebf7fec69a4961758a3a8e5d64fda417745f7918ea98",
+      "bytes": 2914
+    },
+    {
+      "path": "code/run",
+      "sha256": "ec41f444881da080e347e62c176fb75d8e86696d40525cf479194927a32b614a",
+      "bytes": 236
+    },
+    {
+      "path": "code/runner.py",
+      "sha256": "e9fca59f54ff1edb9f2a68117a7c68ee9c008e050ab31482372d453b4c6df60e",
+      "bytes": 7126
+    },
+    {
+      "path": "code/source_manifest.json",
+      "sha256": "7601af6ab041a59ae9062a2948ca1f587f031ac7dde6eeb3cbaec52d69206b6e",
+      "bytes": 954
+    },
+    {
+      "path": "code/speed_prompts.py",
+      "sha256": "72c14c1a9a124cd6de05e8c38c13e5b59503d7d3fc8c0dc87e18a9f45ae53a27",
+      "bytes": 1988
+    },
+    {
+      "path": "code/type_prompts.py",
+      "sha256": "a63c944262e2ab49091b7167d4f3cc24ec6be7f22571224f6e26bfd74c436315",
+      "bytes": 2556
+    },
+    {
+      "path": "code/v2_rail_partner.py",
+      "sha256": "3d43bdd0ef1c0a980bddb5b0e2ea8e2fb66143280777daf53e8c15f6202fe03a",
+      "bytes": 7519
+    },
+    {
+      "path": "code/vision.py",
+      "sha256": "1b21e2d1e377c88d8c47cebca6b3958f3cb20d33cd1d1c555b2f10df7af93359",
+      "bytes": 3321
+    },
+    {
+      "path": "design/智能体设计方案_v2提速版.pdf",
+      "sha256": "52e058a540bca73c7cdef448317ce0b776cbe30154a13dd921fbd3efc91a21a6",
+      "bytes": 234581
+    },
+    {
+      "path": "result/infer_time.json",
+      "sha256": "e598f1f59daa2fbb99e3b463ab541308eefdc88ea8d7be412839ad5beb50fd7a",
+      "bytes": 37
+    },
+    {
+      "path": "result/result.json",
+      "sha256": "49e0c0cdb9e0e5db8f512b4cdf4b41709b0ad91868fae50055e423c7119e84a3",
+      "bytes": 129417
+    }
+  ],
+  "archive": "/workspace/work/c4-submission-versions/v2-speed-diagnostic-20260912/c4-v2-speed-diagnostic-20260912.tar.gz",
+  "archive_sha256": "5daf92af1a9fa4d30cb2116a078a7dae4a04a6728c7b5698919aff8e2a484b20",
+  "run_snapshot": "/workspace/work/c4-submission-versions/v2-speed-diagnostic-20260912/run_snapshot",
+  "external_asset_snapshot": "/workspace/work/c4-submission-versions/v2-speed-diagnostic-20260912/external_asset_snapshot",
+  "asset_restore_target": "/workspace/work/c4-v2-speed-release-20260912-r1/assets",
+  "source_manifest_sha256": "7601af6ab041a59ae9062a2948ca1f587f031ac7dde6eeb3cbaec52d69206b6e",
+  "asset_manifest_sha256": "fd6318321e50fb728aadf52b5363a1399e5742236891851760009a6af2ffd790",
+  "run_receipt_sha256": "4e231c63734d2da67d724bb6ec435348556e1f9fae5a9ddd4506d8f50a8287b2",
+  "inference_seconds": 4734.337030410767,
+  "timing_mode": "Python_entry_end_to_end_seconds",
+  "score": null,
+  "selection_basis": "用户明确指定v2提速版开发评级162/195；保留类型及评级退化事实",
+  "official_v5_unchanged": true,
+  "raw_predictions_exported": false
+}
